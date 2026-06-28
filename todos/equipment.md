@@ -7,3 +7,9 @@
 | EQ-03 | Document the antenna plan for each band (type, height, orientation) | | Medium | ⬜ Open |
 | EQ-04 | Identify/resolve any RFI issues from 2026 station co-location | | Medium | ⬜ Open |
 | EQ-05 | Confirm backup radio availability for each operating position | | Low | ⬜ Open |
+
+## Wish List
+
+| ID | Item | Notes | Status |
+|----|------|-------|--------|
+| WL-01 | Cot for digital station | Operator runs 24h; a cot at the station would allow rest without leaving | ⬜ Open |
