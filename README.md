@@ -1,4 +1,4 @@
-# Field Day 2027 Planning — M&K Amateur Radio Club
+# Field Day 2027 Planning — Mike & Key Amateur Radio Club (K7LED)
 
 This repository captures lessons learned, action items, debrief notes, and
 planning materials from **ARRL Field Day 2026** to drive a better operation
@@ -8,20 +8,31 @@ in **2027**.
 
 | Item | Detail |
 |------|--------|
-| **Club** | M&K Amateur Radio Club |
+| **Club** | Mike & Key Amateur Radio Club |
+| **Callsign** | K7LED |
 | **Class** | 6A |
-| **Site** | Fort Flagler State Park |
-| **Period** | ARRL Field Day (last full weekend of June) |
+| **Site** | Fort Flagler State Park, Marrowstone Island, WA |
+| **Period** | ARRL Field Day (last full weekend of June, 11am–11am) |
+| **History** | 50+ consecutive years at Ft. Flagler |
+| **Track record** | Historically #1 in class, top 20 nationally |
 
-### 2026 Stations
+### 2026 Stations (8 total)
 
-| Station | Bands / Mode |
-|---------|-------------|
-| Station 1 | 15m — Phone & CW |
-| Station 2 | 20m — Phone & CW |
-| Station 3 | 40m — Phone & CW |
-| Station 4 | Digital (any band) |
-| Station 5 | GOTA (Get On The Air) |
+| Station | Band / Mode | Notes |
+|---------|-------------|-------|
+| 1 | 15m — Phone | |
+| 2 | 15m — CW | |
+| 3 | 20m — Phone | |
+| 4 | 20m — CW | |
+| 5 | 40m — Phone | |
+| 6 | 40m — CW | |
+| 7 | Digital (any band) | |
+| 8 | GOTA — Get On The Air | Open to public visitors |
+
+### Logging Software (2026)
+
+- **N1MM+** (free) — https://n1mmwp.hamdocs.com/
+- **N3FJP** ($9) — https://www.n3fjp.com/
 
 ## Repository Layout
 
@@ -61,10 +72,17 @@ field-day-2027/
 
 ## Key Contacts
 
+| Role | Name | Callsign | Contact |
+|------|------|----------|---------|
+| Club info | | | info@mikeandkey.org |
+
 _Add station captains and key volunteers here._
 
 ## Useful Links
 
 - [ARRL Field Day Rules](https://www.arrl.org/field-day)
-- [Fort Flagler State Park](https://parks.wa.gov/fort-flagler)
-- [M&K Club Website](#) _(update link)_
+- [ARRL Field Day Locator](http://www.arrl.org/field-day-locator)
+- [Fort Flagler State Park](https://parks.wa.gov/find-parks/state-parks/fort-flagler-historical-state-park)
+- [M&K Club Website](https://mikeandkey.org)
+- [M&K Field Day Page](https://mikeandkey.org/fday1.php)
+- [Site Map — Battery Gratten](https://maps.app.goo.gl/UbZ4qKZAgaVeCazFA)
