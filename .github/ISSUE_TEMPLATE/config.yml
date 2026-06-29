@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: M&K Club Website
+    url: https://mikeandkey.org
+    about: General club information and announcements.
+  - name: M&K Field Day Page
+    url: https://mikeandkey.org/fday1.php
+    about: Mike & Key Field Day history and results.
+  - name: ARRL Field Day Rules
+    url: https://www.arrl.org/field-day
+    about: Official ARRL Field Day rules and resources.

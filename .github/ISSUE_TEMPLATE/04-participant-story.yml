@@ -1,0 +1,75 @@
+name: "04 · Participant Story"
+description: >
+  Share a memorable moment, visitor experience, or public outreach story from Field Day.
+title: "[Story]: "
+labels: ["participant-story"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## When to use this template
+        Use this template to capture a **participant or visitor story** from Field Day — a memorable interaction, a first contact, an inspiring moment with a young person, or a meaningful public outreach exchange.
+
+        Focus on **what happened** and **how it affected the experience** — not on identifying individuals by name.
+        These stories help document the human side of Field Day and are valuable for club newsletters, ARRL reporting, and future recruitment.
+
+        ### Good examples
+        *(No participant stories yet — be the first to add one!
+        Link good examples here as the backlog grows.)*
+
+  - type: textarea
+    id: story
+    attributes:
+      label: The Story
+      description: >
+        Tell us what happened. Focus on the experience and impact, not on
+        personal identification. Use general descriptions rather than full names.
+      placeholder: >
+        Describe the event, interaction, or moment in enough detail that
+        someone who wasn't there can picture it.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Story Category
+      description: What type of story is this?
+      options:
+        - Public outreach / visitor interaction
+        - First-time operator or first contact
+        - Youth involvement
+        - Notable or memorable QSO
+        - Behind-the-scenes moment
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: location
+    attributes:
+      label: Location
+      description: Where did this story take place?
+      options:
+        - Wagon Wheel
+        - Bluff
+        - CW Beach
+        - General / Multiple Locations
+        - Club Meeting
+        - Mailing List
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: share-permission
+    attributes:
+      label: Sharing
+      description: >
+        May this story be shared in the club newsletter, social media, or ARRL Field Day report?
+      options:
+        - "Yes — share freely"
+        - "Yes — with light editing for anonymity"
+        - "No — internal use only"
+    validations:
+      required: true

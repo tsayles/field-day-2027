@@ -1,0 +1,80 @@
+name: "03 · Improvement Idea"
+description: >
+  Propose a change to how we operate, organize, or run Field Day.
+title: "[Improvement]: "
+labels: ["improvement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## When to use this template
+        Use this template to propose an **improvement** to our Field Day operation — changes to operating procedures, station layout, scheduling, scoring strategies, training, volunteer coordination, or anything else that could make the event better.
+
+        Focus on **what** the change is and **how** it improves things — not on who should implement it or who caused the problem.
+        Concrete, actionable ideas are easiest to act on.
+
+        ### Good examples from this backlog
+        - [#1 — add QR code to visitor table](https://github.com/tsayles/field-day-2027/issues/1)
+        - [#4 — fuel whiteboard chart for trailer door](https://github.com/tsayles/field-day-2027/issues/4)
+        - [#8 — increase bus factor on tower climbers](https://github.com/tsayles/field-day-2027/issues/8)
+        - [#11 — sign up system well ahead of time](https://github.com/tsayles/field-day-2027/issues/11)
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Idea Summary
+      description: Briefly describe the improvement in one or two sentences.
+      placeholder: "Short, specific description of the proposed change."
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Opportunity
+      description: >
+        What current problem or missed opportunity does this address?
+        What happened (or didn't happen) that prompted this idea?
+      placeholder: >
+        Describe what isn't working well, what was observed during or after
+        Field Day, or what opportunity we're currently missing.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Change
+      description: >
+        How would this work in practice?
+        What would be different from how we do it today?
+      placeholder: >
+        Describe the change in concrete, actionable terms. Include enough
+        detail for someone to pick this up and run with it.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: location
+    attributes:
+      label: Station / Location
+      description: Which area of the operation or site does this primarily affect?
+      options:
+        - General / All Stations
+        - Wagon Wheel
+        - Bluff
+        - CW Beach
+        - Club Meeting
+        - Mailing List
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: links
+    attributes:
+      label: Links / References
+      description: Related issues, articles, examples from other clubs, or other references (optional).
+      placeholder: "https://..."
+    validations:
+      required: false

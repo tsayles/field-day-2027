@@ -1,0 +1,74 @@
+name: "01 · Equipment Wish List"
+description: >
+  Propose new gear or an upgrade to existing equipment for Field Day 2027.
+title: "[Equipment]: "
+labels: ["equipment"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## When to use this template
+        Use this template when you want to propose acquiring **new equipment** or upgrading existing gear for Field Day 2027.
+
+        Focus on **what** the equipment is and **how** it will improve the operation — not on who should buy or own it.
+        Describe the use case clearly so anyone reading the issue can evaluate the request.
+
+        ### Good examples from this backlog
+        - [#13 — second gin pole](https://github.com/tsayles/field-day-2027/issues/13)
+        - [#14 — towing straps for water anchors](https://github.com/tsayles/field-day-2027/issues/14)
+
+  - type: input
+    id: equipment-name
+    attributes:
+      label: Equipment Name / Model
+      description: What is the piece of equipment or upgrade?
+      placeholder: "e.g., Icom IC-7300, MFJ-993B auto-tuner, second gin pole"
+    validations:
+      required: true
+
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose and Benefit
+      description: >
+        How will this equipment improve the operation?
+        What problem does it solve or what capability does it add?
+      placeholder: >
+        Describe the specific use case and the expected improvement to our
+        Field Day score, safety, efficiency, or visitor experience.
+    validations:
+      required: true
+
+  - type: input
+    id: estimated-cost
+    attributes:
+      label: Estimated Cost
+      description: Ballpark cost if known (leave blank if unknown).
+      placeholder: "e.g., ~$150, $50–$100, unknown"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: location
+    attributes:
+      label: Station / Location
+      description: Which station or area of the site would benefit from this equipment?
+      options:
+        - General / All Stations
+        - Wagon Wheel
+        - Bluff
+        - CW Beach
+        - Club Meeting
+        - Mailing List
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: links
+    attributes:
+      label: Links / References
+      description: Product pages, specs, reviews, or other useful references (optional).
+      placeholder: "https://..."
+    validations:
+      required: false

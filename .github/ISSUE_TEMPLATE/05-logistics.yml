@@ -1,0 +1,95 @@
+name: "05 · Logistics"
+description: >
+  Track planning, setup, teardown, power, shelter, food, permits, and other site logistics.
+title: "[Logistics]: "
+labels: ["logistics"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## When to use this template
+        Use this template for **logistics items** — anything related to the physical and organizational execution of Field Day.
+        This includes site setup and teardown, power distribution, shelter, food, transportation, permits, and event coordination.
+
+        Focus on **what** needs to happen and **how** it should be accomplished — not on who is responsible.
+        A well-written logistics issue is specific enough that any available volunteer can act on it.
+
+        ### Good examples from this backlog
+        - [#15 — placement chart / instructions for Tower trailer](https://github.com/tsayles/field-day-2027/issues/15)
+        - [#17 — slides for July members meeting](https://github.com/tsayles/field-day-2027/issues/17)
+
+  - type: input
+    id: task-title
+    attributes:
+      label: Task or Item
+      description: What is the logistics task or item?
+      placeholder: "e.g., Reserve generator fuel, File park permit, Plan setup schedule"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Logistics Category
+      description: What area of logistics does this fall under?
+      options:
+        - Setup
+        - Teardown
+        - Power / Fuel
+        - Shelter / Shade / Comfort
+        - Food / Water
+        - Transportation / Vehicles
+        - Permits / Park Coordination
+        - Communication / Scheduling
+        - Safety
+        - Documentation / Reporting
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: >
+        What needs to be done and how should it be accomplished?
+        What does "done" look like?
+      placeholder: >
+        Provide enough detail for any volunteer to pick this up and work on it.
+        Include acceptance criteria or a clear definition of done.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: location
+    attributes:
+      label: Location
+      description: Which area of the site does this logistics item primarily affect?
+      options:
+        - General / Site-Wide
+        - Wagon Wheel
+        - Bluff
+        - CW Beach
+        - Club Meeting
+        - Mailing List
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: deadline
+    attributes:
+      label: Target Date / Deadline
+      description: When does this need to be completed? (optional)
+      placeholder: "e.g., March 2027, 2 weeks before FD, Before first club meeting of 2027"
+    validations:
+      required: false
+
+  - type: textarea
+    id: links
+    attributes:
+      label: Links / References
+      description: Related issues, vendor contacts, park reservation pages, or other references (optional).
+      placeholder: "https://..."
+    validations:
+      required: false

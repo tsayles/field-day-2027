@@ -1,0 +1,46 @@
+name: "06 · Blank"
+description: >
+  Open a free-form issue that doesn't fit the other templates.
+title: ""
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## When to use this template
+        Use this template only when your issue genuinely doesn't fit one of the other templates:
+
+        | # | Template | Use for |
+        |---|----------|---------|
+        | 01 | Equipment Wish List | New gear, upgrades, acquisitions |
+        | 02 | Maintenance Task | Repairs, inspections, upkeep |
+        | 03 | Improvement Idea | Process or operational changes |
+        | 04 | Participant Story | Memorable moments, visitor interactions |
+        | 05 | Logistics | Setup, teardown, power, permits, scheduling |
+
+        If your issue fits one of the above, please go back and use that template instead — it helps keep things organized and searchable.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the issue, idea, or item you want to track.
+      placeholder: "What is this issue about? Include as much context as helpful."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: location
+    attributes:
+      label: Location
+      description: Which area of the operation or site does this relate to? (optional)
+      options:
+        - General / Not Location-Specific
+        - Wagon Wheel
+        - Bluff
+        - CW Beach
+        - Club Meeting
+        - Mailing List
+        - Other
+    validations:
+      required: false
