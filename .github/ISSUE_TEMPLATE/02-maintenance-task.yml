@@ -1,0 +1,79 @@
+name: "02 · Maintenance Task"
+description: >
+  Track repair, inspection, testing, or upkeep of existing equipment or infrastructure.
+title: "[Maintenance]: "
+labels: ["maintenance"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## When to use this template
+        Use this template to track a **maintenance task** — repairing, inspecting, testing, or servicing existing equipment, cables, antennas, structures, or other infrastructure.
+
+        Focus on **what** needs to be done and **how** completion will be verified — not on who is responsible.
+        A well-written maintenance issue can be picked up by any volunteer.
+
+        ### Good examples from this backlog
+        - [#5 — epoxy spacers in place on 20 m beam](https://github.com/tsayles/field-day-2027/issues/5)
+        - [#6 — comprehensive off-season rotor rehab program](https://github.com/tsayles/field-day-2027/issues/6)
+        - [#7 — repaint/rebuild generator box](https://github.com/tsayles/field-day-2027/issues/7)
+        - [#12 — 20 m beam needs new parts bin](https://github.com/tsayles/field-day-2027/issues/12)
+
+  - type: input
+    id: item
+    attributes:
+      label: Item / System to Maintain
+      description: What piece of equipment, cable, antenna, or structure needs maintenance?
+      placeholder: "e.g., 40m dipole, generator, RG-8 feed line, rotor controller"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of Issue or Task
+      description: >
+        What is the current problem, failure mode, or scheduled maintenance needed?
+        How will you know it has been completed successfully?
+      placeholder: >
+        Describe the symptom or task in concrete terms. Include steps to
+        reproduce any failure and the acceptance criteria for "done."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How urgent is this maintenance before Field Day?
+      options:
+        - "High — must be fixed before Field Day"
+        - "Medium — should be fixed; workaround exists"
+        - "Low — nice to have; can wait"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: location
+    attributes:
+      label: Station / Location
+      description: Where is this item located or used?
+      options:
+        - General / All Stations
+        - Wagon Wheel
+        - Bluff
+        - CW Beach
+        - Club Meeting
+        - Mailing List
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: links
+    attributes:
+      label: Links / References
+      description: Manuals, previous repair notes, parts sources, or other useful references (optional).
+      placeholder: "https://..."
+    validations:
+      required: false

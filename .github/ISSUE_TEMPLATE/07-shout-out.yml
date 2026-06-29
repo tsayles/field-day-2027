@@ -1,0 +1,61 @@
+name: "07 · Shout Out / Kudos"
+description: >
+  Recognize a volunteer, operator, or visitor who made a difference at Field Day.
+title: "[Kudos]: "
+labels: ["kudos"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## When to use this template
+        Use this template to **recognize someone** who went above and beyond during Field Day — whether it's a volunteer who kept things running, an operator who put up an outstanding rate, a visitor who spread the word, or anyone else who deserves a shout out.
+
+        Be specific about **what they did** and **how it helped** — concrete details make recognition meaningful.
+
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: First name, nickname, or however this person is known at Field Day.
+      placeholder: "e.g., Jane, Big Mike, the breakfast crew"
+    validations:
+      required: true
+
+  - type: input
+    id: callsign
+    attributes:
+      label: Callsign
+      description: Amateur radio callsign, if applicable.
+      placeholder: "e.g., W7XYZ"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: location
+    attributes:
+      label: Location
+      description: Where did this person make their contribution?
+      options:
+        - General / Multiple Locations
+        - Wagon Wheel
+        - Bluff
+        - CW Beach
+        - Club Meeting
+        - Mailing List
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: commendation
+    attributes:
+      label: Reason for Commendation
+      description: >
+        What did this person do, and how did it help the operation or
+        the visitor/participant experience? Be as specific as you can.
+      placeholder: >
+        Describe what they did and the impact it had. Specific details —
+        what happened, when, what the result was — make this recognition
+        more meaningful and useful for the end-of-year debrief.
+    validations:
+      required: true
