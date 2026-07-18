@@ -72,7 +72,7 @@ nationally**.
 | 2 | CW Beach — all CW bands | Hal (N7NW) | CW Beach |
 | 3 | 20m — Phone | Robert (KD7WNV) | Bluff (Battery Grattan) |
 | 4 | 40m — Phone | Dean (N7XS) | Bluff (Battery Grattan) |
-| 5 | Digital (any band) | | Bluff (Battery Grattan) |
+| 5 | Digital (any band) | Bruce (KK7MEH), Tom (KE4HET) | Bluff (Battery Grattan) |
 | 6 | GOTA — Get On The Air | George (AE7G) — open to visitors & new hams | Bluff (Battery Grattan) |
 | 7 | Satellite | Steven (KD7IQL) | Bluff (Battery Grattan) |
 
