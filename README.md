@@ -39,8 +39,8 @@ nationally**.
 
 | Site | Description |
 |------|-------------|
-| **Wagon Wheel** | Group campsite — base of operations, GOTA station ([map](https://maps.app.goo.gl/UbZ4qKZAgaVeCazFA)) |
-| **Bluff (Battery Grattan)** | Phone and Digital station operations ([map](https://maps.app.goo.gl/2QXSzBwhhuBESVjVA)) |
+| **Wagon Wheel** | Group campsite — base of operations ([map](https://maps.app.goo.gl/UbZ4qKZAgaVeCazFA)) |
+| **Bluff (Battery Grattan)** | Phone, Digital, and GOTA station operations ([map](https://maps.app.goo.gl/2QXSzBwhhuBESVjVA)) |
 | **CW Beach** | CW station operations, located below the Bluff ([map](https://maps.app.goo.gl/nfHUSvY7pNe7W8JQ9)) |
 
 ### 2026 Stations
@@ -52,7 +52,7 @@ nationally**.
 | 3 | 20m — Phone | Robert (KD7WNV) | Bluff (Battery Grattan) |
 | 4 | 40m — Phone | Dean (N7XS) | Bluff (Battery Grattan) |
 | 5 | Digital (any band) | | Bluff (Battery Grattan) |
-| 6 | GOTA — Get On The Air | George (AE7G) — open to visitors & new hams | Wagon Wheel |
+| 6 | GOTA — Get On The Air | George (AE7G) — open to visitors & new hams | Bluff (Battery Grattan) |
 
 ---
 
