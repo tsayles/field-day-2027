@@ -19,6 +19,27 @@ and tell us what you'd like to see improved.
 
 ---
 
+## How to Get Involved
+
+You don't need to be a developer to contribute here — just a club member with ideas.
+
+### 🗳️ Share an idea or report an issue
+[Open a new issue](https://github.com/tsayles/field-day-2027/issues/new) — describe
+what worked, what didn't, or what you'd like to see next year. Short or long, all
+ideas welcome.
+
+### 📋 See what's already being worked on
+Check the [project board](https://github.com/users/tsayles/projects/5) or
+[issues list](https://github.com/tsayles/field-day-2027/issues) — there are already
+27 improvement ideas tracked from the FD 2026 debrief.
+
+### 🙋 Sign up to help
+We need operators, setup crew, teardown crew, and everything in between. Watch for
+sign-up links on the [club website](https://mikeandkey.org) as they become available,
+or reach out to your band chair directly (see contacts below).
+
+---
+
 ## About Our Operation
 
 M&K has run Field Day at **Fort Flagler State Park** for over **50 consecutive years**
@@ -53,27 +74,6 @@ nationally**.
 | 4 | 40m — Phone | Dean (N7XS) | Bluff (Battery Grattan) |
 | 5 | Digital (any band) | | Bluff (Battery Grattan) |
 | 6 | GOTA — Get On The Air | George (AE7G) — open to visitors & new hams | Bluff (Battery Grattan) |
-
----
-
-## How to Get Involved
-
-You don't need to be a developer to contribute here — just a club member with ideas.
-
-### 🗳️ Share an idea or report an issue
-[Open a new issue](https://github.com/tsayles/field-day-2027/issues/new) — describe
-what worked, what didn't, or what you'd like to see next year. Short or long, all
-ideas welcome.
-
-### 📋 See what's already being worked on
-Check the [project board](https://github.com/users/tsayles/projects/5) or
-[issues list](https://github.com/tsayles/field-day-2027/issues) — there are already
-27 improvement ideas tracked from the FD 2026 debrief.
-
-### 🙋 Sign up to help
-We need operators, setup crew, teardown crew, and everything in between. Watch for
-sign-up links on the [club website](https://mikeandkey.org) as they become available,
-or reach out to your band chair directly (see contacts below).
 
 ---
 
