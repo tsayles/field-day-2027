@@ -8,7 +8,13 @@ Fort Flagler in June 2026.
 
 **Scope:** This repo covers the full Field Day event week — from **Radio Camp**
 (starting the Monday before Field Day) through setup, the 24-hour operating period,
-and teardown. It also includes activities at the **Wagon Wheel** site.
+and teardown. It covers all three sites at Fort Flagler:
+
+| Site | Description |
+|------|-------------|
+| **Wagon Wheel** | Group campsite — base of operations, GOTA station ([map](https://maps.app.goo.gl/UbZ4qKZAgaVeCazFA)) |
+| **Bluff (Battery Grattan)** | Phone and Digital station operations ([map](https://maps.app.goo.gl/2QXSzBwhhuBESVjVA)) |
+| **CW Beach** | CW station operations, located below the Bluff ([map](https://maps.app.goo.gl/nfHUSvY7pNe7W8JQ9)) |
 
 ## 👉 [View the Field Day 2027 Project Board](https://github.com/users/tsayles/projects/5)
 
@@ -37,14 +43,14 @@ nationally**.
 
 ### 2026 Stations
 
-| Station | Band / Mode | Chair / Lead |
-|---------|-------------|--------------|
-| 1 | 15m — Phone | Phil (K7PIA) |
-| 2 | CW Beach — all CW bands | Hal (N7NW) |
-| 3 | 20m — Phone | Robert (KD7WNV) |
-| 4 | 40m — Phone | Dean (N7XS) |
-| 5 | Digital (any band) | |
-| 6 | GOTA — Get On The Air | George (AE7G) — open to visitors & new hams |
+| Station | Band / Mode | Chair / Lead | Location |
+|---------|-------------|--------------|----------|
+| 1 | 15m — Phone | Phil (K7PIA) | Bluff (Battery Grattan) |
+| 2 | CW Beach — all CW bands | Hal (N7NW) | CW Beach |
+| 3 | 20m — Phone | Robert (KD7WNV) | Bluff (Battery Grattan) |
+| 4 | 40m — Phone | Dean (N7XS) | Bluff (Battery Grattan) |
+| 5 | Digital (any band) | | Bluff (Battery Grattan) |
+| 6 | GOTA — Get On The Air | George (AE7G) — open to visitors & new hams | Wagon Wheel |
 
 ---
 
@@ -88,7 +94,9 @@ or reach out to your band chair directly (see contacts below).
 - [ARRL Field Day Rules](https://www.arrl.org/field-day)
 - [ARRL Field Day Locator](http://www.arrl.org/field-day-locator)
 - [Fort Flagler State Park](https://parks.wa.gov/find-parks/state-parks/fort-flagler-historical-state-park)
-- [Site Map — Battery Gratten](https://maps.app.goo.gl/UbZ4qKZAgaVeCazFA)
+- [Site Map — Wagon Wheel campsite](https://maps.app.goo.gl/UbZ4qKZAgaVeCazFA)
+- [Site Map — Bluff / Battery Grattan](https://maps.app.goo.gl/2QXSzBwhhuBESVjVA)
+- [Site Map — CW Beach](https://maps.app.goo.gl/nfHUSvY7pNe7W8JQ9)
 
 ---
 
