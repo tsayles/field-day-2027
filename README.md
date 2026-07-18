@@ -6,6 +6,10 @@ This is the planning hub for M&K's Field Day 2027 operation. It's where we're
 collecting ideas, tracking action items, and building on everything we learned at
 Fort Flagler in June 2026.
 
+**Scope:** This repo covers the full Field Day event week — from **Radio Camp**
+(starting the Monday before Field Day) through setup, the 24-hour operating period,
+and teardown. It also includes activities at the **Wagon Wheel** site.
+
 ## 👉 [View the Field Day 2027 Project Board](https://github.com/users/tsayles/projects/5)
 
 Browse open issues, see what's in progress, and pick something to work on. Whether
@@ -28,7 +32,7 @@ nationally**.
 | **Callsign** | K7LED |
 | **Class** | 6A |
 | **Site** | Fort Flagler State Park, Marrowstone Island, WA |
-| **When** | June 26, 11:00 AM – June 27, 11:00 AM PDT (4th full weekend of June) |
+| **When** | Radio Camp: June 21 (Mon) — Field Day: June 26, 11:00 AM – June 27, 11:00 AM PDT |
 | **Website** | [mikeandkey.org](https://mikeandkey.org) · [Field Day page](https://mikeandkey.org/fday1.php) |
 
 ### 2026 Stations
