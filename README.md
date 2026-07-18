@@ -8,13 +8,7 @@ Fort Flagler in June 2026.
 
 **Scope:** This repo covers the full Field Day event week — from **Radio Camp**
 (starting the Monday before Field Day) through setup, the 24-hour operating period,
-and teardown. It covers all three sites at Fort Flagler:
-
-| Site | Description |
-|------|-------------|
-| **Wagon Wheel** | Group campsite — base of operations, GOTA station ([map](https://maps.app.goo.gl/UbZ4qKZAgaVeCazFA)) |
-| **Bluff (Battery Grattan)** | Phone and Digital station operations ([map](https://maps.app.goo.gl/2QXSzBwhhuBESVjVA)) |
-| **CW Beach** | CW station operations, located below the Bluff ([map](https://maps.app.goo.gl/nfHUSvY7pNe7W8JQ9)) |
+and teardown.
 
 ## 👉 [View the Field Day 2027 Project Board](https://github.com/users/tsayles/projects/5)
 
@@ -40,6 +34,14 @@ nationally**.
 | **Site** | Fort Flagler State Park, Marrowstone Island, WA |
 | **When** | Radio Camp: June 21 (Mon) — Field Day: June 26, 11:00 AM – June 27, 11:00 AM PDT |
 | **Website** | [mikeandkey.org](https://mikeandkey.org) · [Field Day page](https://mikeandkey.org/fday1.php) |
+
+### Sites
+
+| Site | Description |
+|------|-------------|
+| **Wagon Wheel** | Group campsite — base of operations, GOTA station ([map](https://maps.app.goo.gl/UbZ4qKZAgaVeCazFA)) |
+| **Bluff (Battery Grattan)** | Phone and Digital station operations ([map](https://maps.app.goo.gl/2QXSzBwhhuBESVjVA)) |
+| **CW Beach** | CW station operations, located below the Bluff ([map](https://maps.app.goo.gl/nfHUSvY7pNe7W8JQ9)) |
 
 ### 2026 Stations
 
