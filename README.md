@@ -41,7 +41,7 @@ nationally**.
 |------|-------------|
 | **Bluff (Battery Grattan)** | Base of operations; Phone, Digital, GOTA, and visitor's tent ([map](https://maps.app.goo.gl/2QXSzBwhhuBESVjVA)) |
 | **CW Beach** | CW station operations, located below the Bluff ([map](https://maps.app.goo.gl/nfHUSvY7pNe7W8JQ9)) |
-| **Wagon Wheel** | Group campsite ([map](https://maps.app.goo.gl/UbZ4qKZAgaVeCazFA)) |
+| **Wagon Wheel** | Group campsite; Radio Camp base, Friday potluck ([map](https://maps.app.goo.gl/UbZ4qKZAgaVeCazFA)) |
 
 ### 2026 Stations
 
