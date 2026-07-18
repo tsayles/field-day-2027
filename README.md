@@ -28,7 +28,7 @@ nationally**.
 | **Callsign** | K7LED |
 | **Class** | 6A |
 | **Site** | Fort Flagler State Park, Marrowstone Island, WA |
-| **When** | Last full weekend of June, 11am Saturday – 11am Sunday |
+| **When** | June 26, 11:00 AM – June 27, 11:00 AM PDT (4th full weekend of June) |
 | **Website** | [mikeandkey.org](https://mikeandkey.org) · [Field Day page](https://mikeandkey.org/fday1.php) |
 
 ### 2026 Stations
