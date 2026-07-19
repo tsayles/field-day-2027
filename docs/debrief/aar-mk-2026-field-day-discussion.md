@@ -11,11 +11,10 @@
 | Tom Sayles | **KE4HET** | Self-identified at 10:46:22 |
 | Greger | **NW7GO** | Self-identified at 10:47:18 / 10:48:04 |
 | Daniel | **KL7WM** | Self-identified at 10:50:08 |
-| David | **W7DAO** | Self-identified at 10:50:17 / 10:51:21 |
+| David | **W7DAO** | Self-identified at 10:50:17 / 10:51:21; membership concern comment (~10:53:06) attributed in follow-up email (2026-07-18) |
 | Robert | **KJ7CBO** | Meeting moderator |
 | Robert | **KD7WNV** | 20-meter band chair; discussed staffing concern |
 | Scott | **KC7SAG** | Club webmaster; referenced by name, responds directly |
-| *(unknown)* | *(not given)* | Membership concern comment (~10:53:06) |
 | Hal | **N7NW** | CW Beach model recommendation (~10:55:23) |
 
 ---
@@ -120,8 +119,9 @@ Tom reported on the trailer transport incident that occurred on the way to Fort 
 - Noted that **3 out of 3 rotators failed** at the tower sites.
 - **GOTA station report:** George (AE7G) and Gary Bryant ran the GOTA station; it achieved **684 contacts** (720 the prior year).
   - George (AE7G) brought a Yaesu K4, stereo speakers, and a Hustler Stepper antenna on a 30-ft mast — went up easily and came down easily.
-  - Brought two members from the Anna Quarters ARC, including a newly licensed General who thoroughly enjoyed the experience.
+  - Barb and Rick came from the Anacortes club as friends of George; one was a newly licensed General who thoroughly enjoyed the experience.
   - Noted that George's (AE7G) setup is exceptional compared to typical GOTA stations that use mobile radios with poor sensitivity.
+  - David (W7DAO) later clarified he was also part of the GOTA team, helping with assembly, teardown, and operator coaching.
 - **20-meter station:** Credited Robert (KD7WNV) with **716 contacts** despite the 20-meter rotator being non-functional (crew threw a rope over the top to rotate the antenna by hand).
 
 > *"We improvise — this is a temporary setup, and we've done very well with the situation."*
@@ -162,10 +162,11 @@ Proposed bringing trailers up **a couple of days earlier** before Field Day to p
 
 ---
 
-### *(unknown speaker)* — Membership Engagement — `10:53:06`
+### David — W7DAO — Membership Engagement — `10:53:06`
 
 - Observed **fewer attendees this year** compared to prior years.
 - Urged the club to investigate why 300 members are not filling Field Day positions.
+- Later noted he had already suggested one or two plans to the board, but there was no interest at the time.
 
 > *"Just because you join and all of a sudden you disappear — I have no idea why people are here."*
 
@@ -232,11 +233,15 @@ Ideas raised during this discussion for making Field Day 2027 better:
 
 6. **Designate a Field Day second-in-command** — A deputy to the overall Field Day organizer to ensure continuity and share load. *(raised by Hal, N7NW)* → [Issue #9](https://github.com/tsayles/field-day-2027/issues/9)
 
-7. **Investigate membership participation decline** — Fewer attendees in 2026 than prior years despite ~300 members. Club should actively determine why members join and then disengage. *(raised by unknown speaker)* → [Issue #10](https://github.com/tsayles/field-day-2027/issues/10)
+7. **Investigate membership participation decline** — Fewer attendees in 2026 than prior years despite ~300 members. Club should actively determine why members join and then disengage; David noted he has already proposed plans to the board. *(raised by David, W7DAO)* → [Issue #10](https://github.com/tsayles/field-day-2027/issues/10)
 
 8. **Use GitHub repo for ongoing idea collection** — Public repo already set up by Tom (KE4HET) with 18 issues logged. Club members with a free GitHub account can submit additional improvement ideas. *(raised by Tom, KE4HET)* → [tsayles/field-day-2027](https://github.com/tsayles/field-day-2027)
 
 9. **Board to define Field Day leadership structure and band captain best practices** — Already in progress at board level. *(raised by Greger, NW7GO)* → [Issue #27](https://github.com/tsayles/field-day-2027/issues/27)
+
+10. **Create a succession plan for the public point-of-contact booth** — Toku wants to retire from this role, so the club needs a replacement chair and a schedule for staffing the booth; scope and materials can likely be reduced from current levels. *(raised by David, W7DAO via follow-up email)*
+
+11. **Pilot a pre-Field Day Tech/General training pipeline** — Run a Tech/General class in April with a hands-on practical in early May and include participation in Thursday setup plus Field Day operation, targeting additional volunteer/operators. *(raised by David, W7DAO via follow-up email)*
 
 ---
 
@@ -254,3 +259,5 @@ Ideas raised during this discussion for making Field Day 2027 better:
 | 8 | Band chairs to begin recruiting operators and crew for FD 2027 | Phil (K7PIA) — 15m, Robert (KD7WNV) — 20m, Dean (N7XS) — 40m, George (AE7G) — GOTA | Start months in advance; do not wait until Field Day week | [#11](https://github.com/tsayles/field-day-2027/issues/11) |
 | 9 | Investigate and address membership participation decline | Board / club leadership | Attendance notably lower in 2026; root cause unknown | [#10](https://github.com/tsayles/field-day-2027/issues/10) |
 | 10 | Board to formalize Field Day leadership structure and band captain responsibilities | Board | In progress per Greger (NW7GO) | [#27](https://github.com/tsayles/field-day-2027/issues/27) |
+| 11 | Assign a new public point-of-contact booth chair and staffing schedule | Board / volunteer coordinator | Toku plans to retire from this role; likely can scale booth materials down | |
+| 12 | Evaluate and plan April Tech/General class plus pre-FD practical | Training lead / board / David (W7DAO) | Candidate pipeline to add setup/operators for FD weekend | |
