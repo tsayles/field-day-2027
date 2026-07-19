@@ -239,9 +239,9 @@ Ideas raised during this discussion for making Field Day 2027 better:
 
 9. **Board to define Field Day leadership structure and band captain best practices** — Already in progress at board level. *(raised by Greger, NW7GO)* → [Issue #27](https://github.com/tsayles/field-day-2027/issues/27)
 
-10. **Create a succession plan for the public point-of-contact booth** — Toku wants to retire from this role, so the club needs a replacement chair and a schedule for staffing the booth; scope and materials can likely be reduced from current levels. *(raised by David, W7DAO via follow-up email)*
+10. **Create a succession plan for the public point-of-contact booth** — Toku wants to retire from this role, so the club needs a replacement chair and a schedule for staffing the booth; scope and materials can likely be reduced from current levels. *(raised by David, W7DAO via follow-up email)* → [Issue #34](https://github.com/tsayles/field-day-2027/issues/34)
 
-11. **Pilot a pre-Field Day Tech/General training pipeline** — Run a Tech/General class in April with a hands-on practical in early May and include participation in Thursday setup plus Field Day operation, targeting additional volunteer/operators. *(raised by David, W7DAO via follow-up email)*
+11. **Pilot a pre-Field Day Tech/General training pipeline** — Run a Tech/General class in April with a hands-on practical in early May and include participation in Thursday setup plus Field Day operation, targeting additional volunteer/operators. *(raised by David, W7DAO via follow-up email)* → [Issue #35](https://github.com/tsayles/field-day-2027/issues/35)
 
 ---
 
@@ -259,5 +259,5 @@ Ideas raised during this discussion for making Field Day 2027 better:
 | 8 | Band chairs to begin recruiting operators and crew for FD 2027 | Phil (K7PIA) — 15m, Robert (KD7WNV) — 20m, Dean (N7XS) — 40m, George (AE7G) — GOTA | Start months in advance; do not wait until Field Day week | [#11](https://github.com/tsayles/field-day-2027/issues/11) |
 | 9 | Investigate and address membership participation decline | Board / club leadership | Attendance notably lower in 2026; root cause unknown | [#10](https://github.com/tsayles/field-day-2027/issues/10) |
 | 10 | Board to formalize Field Day leadership structure and band captain responsibilities | Board | In progress per Greger (NW7GO) | [#27](https://github.com/tsayles/field-day-2027/issues/27) |
-| 11 | Assign a new public point-of-contact booth chair and staffing schedule | Board / volunteer coordinator | Toku plans to retire from this role; likely can scale booth materials down | |
-| 12 | Evaluate and plan April Tech/General class plus pre-FD practical | Training lead / board / David (W7DAO) | Candidate pipeline to add setup/operators for FD weekend | |
+| 11 | Assign a new public point-of-contact booth chair and staffing schedule | Board / volunteer coordinator | Toku plans to retire from this role; likely can scale booth materials down | [#34](https://github.com/tsayles/field-day-2027/issues/34) |
+| 12 | Evaluate and plan April Tech/General class plus pre-FD practical | Training lead / board / David (W7DAO) | Candidate pipeline to add setup/operators for FD weekend | [#35](https://github.com/tsayles/field-day-2027/issues/35) |
