@@ -58,7 +58,7 @@ body:
         Provide enough detail for any volunteer to pick this up and work on it.
         Include acceptance criteria or a clear definition of done.
     validations:
-      required: true
+      required: false
 
   - type: dropdown
     id: location

@@ -37,7 +37,7 @@ body:
         Describe the specific use case and the expected improvement to our
         Field Day score, safety, efficiency, or visitor experience.
     validations:
-      required: true
+      required: false
 
   - type: input
     id: estimated-cost

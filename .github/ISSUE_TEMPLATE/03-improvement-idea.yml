@@ -52,7 +52,7 @@ body:
         Describe the change in concrete, actionable terms. Include enough
         detail for someone to pick this up and run with it.
     validations:
-      required: true
+      required: false
 
   - type: dropdown
     id: location
