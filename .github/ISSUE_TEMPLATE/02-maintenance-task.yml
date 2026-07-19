@@ -51,7 +51,7 @@ body:
         - "Medium — should be fixed; workaround exists"
         - "Low — nice to have; can wait"
     validations:
-      required: true
+      required: false
 
   - type: dropdown
     id: location
@@ -67,7 +67,7 @@ body:
         - Mailing List
         - Other
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: links

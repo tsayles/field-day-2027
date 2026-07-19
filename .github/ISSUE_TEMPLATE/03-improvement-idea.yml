@@ -39,7 +39,7 @@ body:
         Describe what isn't working well, what was observed during or after
         Field Day, or what opportunity we're currently missing.
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: proposal
@@ -52,7 +52,7 @@ body:
         Describe the change in concrete, actionable terms. Include enough
         detail for someone to pick this up and run with it.
     validations:
-      required: true
+      required: false
 
   - type: dropdown
     id: location
@@ -68,7 +68,7 @@ body:
         - Mailing List
         - Other
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: links
