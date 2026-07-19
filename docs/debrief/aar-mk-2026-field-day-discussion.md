@@ -56,6 +56,41 @@ Tom reported on the trailer transport incident that occurred on the way to Fort 
 - The spring fitment should be **inspected and corrected**.
 - Deferred final decisions on trailer remediation to the board.
 
+#### Trailer Photos
+
+*Photo credit: Robert (KJ7CBO).*
+
+<a href="./images/aar-mk-2026-field-day-discussion/damaged_hitch_left.jpeg">
+  <img src="./images/aar-mk-2026-field-day-discussion/damaged_hitch_left.jpeg" alt="Damaged hitch (left view)" width="280">
+</a>
+<a href="./images/aar-mk-2026-field-day-discussion/damaged_hitch_right.jpeg">
+  <img src="./images/aar-mk-2026-field-day-discussion/damaged_hitch_right.jpeg" alt="Damaged hitch (right view)" width="280">
+</a>
+<a href="./images/aar-mk-2026-field-day-discussion/damaged_hitch_back.jpeg">
+  <img src="./images/aar-mk-2026-field-day-discussion/damaged_hitch_back.jpeg" alt="Damaged hitch (rear view)" width="280">
+</a>
+<a href="./images/aar-mk-2026-field-day-discussion/damaged_hitch_top.jpeg">
+  <img src="./images/aar-mk-2026-field-day-discussion/damaged_hitch_top.jpeg" alt="Damaged hitch (top view)" width="280">
+</a>
+<a href="./images/aar-mk-2026-field-day-discussion/trailer_hitch_with_new_jack.jpeg">
+  <img src="./images/aar-mk-2026-field-day-discussion/trailer_hitch_with_new_jack.jpeg" alt="Trailer hitch with new jack installed" width="280">
+</a>
+<a href="./images/aar-mk-2026-field-day-discussion/Old_Spring_left.jpeg">
+  <img src="./images/aar-mk-2026-field-day-discussion/Old_Spring_left.jpeg" alt="Old spring (left side)" width="280">
+</a>
+<a href="./images/aar-mk-2026-field-day-discussion/Old_Spring_left_rear_view.jpeg">
+  <img src="./images/aar-mk-2026-field-day-discussion/Old_Spring_left_rear_view.jpeg" alt="Old spring (left rear view)" width="280">
+</a>
+<a href="./images/aar-mk-2026-field-day-discussion/New_Spring_right.jpeg">
+  <img src="./images/aar-mk-2026-field-day-discussion/New_Spring_right.jpeg" alt="Replacement spring (right side)" width="280">
+</a>
+<a href="./images/aar-mk-2026-field-day-discussion/trailer_interior_during_deployment.jpeg">
+  <img src="./images/aar-mk-2026-field-day-discussion/trailer_interior_during_deployment.jpeg" alt="Trailer interior during deployment" width="280">
+</a>
+<a href="./images/aar-mk-2026-field-day-discussion/IMG_2119.jpeg">
+  <img src="./images/aar-mk-2026-field-day-discussion/IMG_2119.jpeg" alt="Additional trailer photo" width="280">
+</a>
+
 #### GitHub Repository for Field Day 2027 Planning
 
 - Tom set up a **public GitHub repository** to collect improvement ideas and share materials.
