@@ -45,7 +45,7 @@ body:
         - Documentation / Reporting
         - Other
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: description
@@ -74,7 +74,7 @@ body:
         - Mailing List
         - Other
     validations:
-      required: true
+      required: false
 
   - type: input
     id: deadline

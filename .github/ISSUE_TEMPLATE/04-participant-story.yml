@@ -43,7 +43,7 @@ body:
         - Behind-the-scenes moment
         - Other
     validations:
-      required: true
+      required: false
 
   - type: dropdown
     id: location
@@ -59,7 +59,7 @@ body:
         - Mailing List
         - Other
     validations:
-      required: true
+      required: false
 
   - type: dropdown
     id: share-permission

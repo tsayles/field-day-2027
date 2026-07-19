@@ -62,7 +62,7 @@ body:
         - Mailing List
         - Other
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: links
