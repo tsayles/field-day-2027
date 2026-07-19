@@ -88,7 +88,7 @@ Tom reported on the trailer transport incident that occurred on the way to Fort 
   <img src="./images/aar-mk-2026-field-day-discussion/trailer_interior_during_deployment.jpeg" alt="Trailer interior during deployment" width="280">
 </a>
 <a href="./images/aar-mk-2026-field-day-discussion/IMG_2119.jpeg">
-  <img src="./images/aar-mk-2026-field-day-discussion/IMG_2119.jpeg" alt="Additional trailer photo" width="280">
+  <img src="./images/aar-mk-2026-field-day-discussion/IMG_2119.jpeg" alt="Additional trailer detail" width="280">
 </a>
 
 #### GitHub Repository for Field Day 2027 Planning
