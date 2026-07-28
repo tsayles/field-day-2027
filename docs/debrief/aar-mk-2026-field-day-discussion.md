@@ -46,7 +46,7 @@ Tom reported on the equipment trailer transport incident that occurred on the wa
 > *"The crew out at Fort Flagler jumped in like a NASCAR pit crew"* — installed a bolt-on replacement jack (~~$75~~ $50 from Walmart in Federal Way).
 
 - Dean (N7XS) later removed the broken jack and pounded the hitch plate back to a more normal configuration.
-- Upon opening the trailer Friday, it was discovered **all cargo weight was sitting on or behind the axle** — this explains the bounciness.
+- Upon opening the trailer Friday, it was discovered **all cargo weight was sitting on or behind the axle** — this explains the squirrellyness.
 - A spring was replaced last year after rusting through; there is **uncertainty whether the replacement spring is the correct spec**, which may also be contributing to handling problems.
 - On Sunday pack-out, Tom personally re-loaded the trailer with weight shifted **well forward of the axle**. Handling improved but remained bouncy.
 
