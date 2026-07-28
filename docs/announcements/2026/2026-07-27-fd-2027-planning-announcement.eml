@@ -1,0 +1,139 @@
+From: Tom Sayles <tsayles@soot-n-smoke.com>
+To: Gregor Harrison <gregorh@hotmail.com>, Daniel Stevens <kl7wm@arrl.net>, David Okrent <dokrent@usa.net>, Robert Christian <robertchristianshow@gmail.com>, Robert Grinnell <r-grinnell@comcast.net>, Scott Gilyeat <kc7sag@gmail.com>, Hal Goodell <n7nw.hal@comcast.net>
+Cc: Phillip Pia <k7pia@yahoo.com>, Steven Cook <kd7iql@gmail.com>
+Subject: Field Day 2027 Planning — AAR is live & we want your ideas on GitHub
+Date: Sun, 27 Jul 2026 21:15:00 -0700
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+X-Unsent: 1
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <style>body {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      color: #222;
+      max-width: 640px;
+      line-height: 1.6;
+    }h2 {
+      color: #1a4a8a;
+      border-bottom: 2px solid #1a4a8a;
+      padding-bottom: 6px;
+    }a {
+      color: #1a4a8a;
+    }.callout {
+      background: #f0f4fa;
+      border-left: 4px solid #1a4a8a;
+      padding: 10px 16px;
+      margin: 16px 0;
+      border-radius: 0 4px 4px 0;
+    }ul {
+      margin: 8px 0;
+      padding-left: 20px;
+    }li {
+      margin-bottom: 4px;
+    }.link-block {
+      margin: 8px 0 8px 0;
+    }.label {
+      font-weight: bold;
+      margin-right: 6px;
+    }.note {
+      background: #fff8e1;
+      border-left: 4px solid #f0a500;
+      padding: 10px 16px;
+      margin: 16px 0;
+      border-radius: 0 4px 4px 0;
+    }.sig {
+      margin-top: 24px;
+      color: #444;
+      font-size: 13px;
+      border-top: 1px solid #ddd;
+      padding-top: 12px;
+    }</style>
+    <title>Field Day 2027 Planning — AAR is live &amp; we want your ideas on GitHub</title>
+  </head>
+  <body>
+    <p>M&amp;K Field Day Team —</p>
+    <p>Thanks again to everyone who participated in our Field Day 2026 debrief meeting and contributed to what turned out to be a strong operation — over 50 years at Fort Flagler and still going strong. We learned a lot this year and captured some great ideas for 2027.</p>
+    
+    <p>The <strong>After Action Review (AAR)</strong> is now live and captures everything from our debrief discussion: speaker contributions, improvement ideas, and action items — all linked to tracked issues in our planning repository.</p>
+
+    <h2>📄 Field Day 2026 After Action Review</h2>
+    <div class="callout">
+      <div class="link-block">
+        <span class="label">AAR Document:</span><br>
+        <a href="https://github.com/tsayles/field-day-2027/blob/main/docs/debrief/aar-mk-2026-field-day-discussion.md">M&amp;K Field Day 2026 — AAR Discussion (GitHub)</a>
+      </div>
+      <div class="link-block" style="margin-top:10px;">
+        <span class="label">Pull Request (merged):</span><br>
+        <a href="https://github.com/tsayles/field-day-2027/pull/29">PR #29 — Add M&amp;K Field Day 2026 After Action Review</a>
+      </div>
+    </div>
+
+    <p>The AAR covers the debrief discussion with summaries of each speaker's contributions, equipment issues (trailer damage, rotor failures), staffing challenges, and 9+ improvement ideas already converted to tracked issues.</p>
+
+    <h2>🎯 Field Day 2027 Planning Project</h2>
+    <p>We've launched a <strong>public GitHub project</strong> to coordinate planning for Field Day 2027. This is where we're tracking all improvement ideas, equipment repairs, logistics changes, and action items for next year's operation.</p>
+
+    <div class="callout">
+      <div class="link-block">
+        <span class="label">Field Day 2027 Project Board (public):</span><br>
+        <a href="https://github.com/users/tsayles/projects/5">https://github.com/users/tsayles/projects/5</a>
+      </div>
+      <div class="link-block" style="margin-top:10px;">
+        <span class="label">GitHub Repository:</span><br>
+        <a href="https://github.com/tsayles/field-day-2027">https://github.com/tsayles/field-day-2027</a>
+      </div>
+      <div class="link-block" style="margin-top:10px;">
+        <span class="label">Issues (ideas &amp; action items):</span><br>
+        <a href="https://github.com/tsayles/field-day-2027/issues">https://github.com/tsayles/field-day-2027/issues</a>
+      </div>
+    </div>
+
+    <p>Current tracked items include trailer repairs, antenna and rotor replacements, GOTA station improvements, staffing coordination, and more. There are already <strong>27+ improvement ideas</strong> from the FD 2026 debrief.</p>
+
+    <h2>🙋 Get Involved — We Need Your Input</h2>
+    <p>You don't need to be a developer to contribute — just a club member with ideas. Here's how you can help make Field Day 2027 even better:</p>
+
+    <ul>
+      <li><strong>Open an issue</strong> — share what worked, what didn't, or what you'd like to see next year. Short or long, all ideas welcome.</li>
+      <li><strong>Comment on existing issues</strong> — add your thoughts, experiences, or suggestions to issues already being tracked.</li>
+      <li><strong>Submit a pull request</strong> — got documentation, station notes, or procedural improvements? PRs welcome!</li>
+      <li><strong>Browse the project board</strong> — see what's already being worked on and pick something to help with.</li>
+    </ul>
+
+    <p>If you're not already on GitHub, it's <strong>free to sign up</strong> and takes just a minute. Once you have an account you can comment on issues, open new ones, and help shape what we do differently next year.</p>
+
+    <div class="note">
+      <strong>New to GitHub?</strong> No problem. You can also <strong>reply directly to this email</strong> with your feedback, suggestions, or questions and I'll make sure they get captured in the project.
+    </div>
+
+    <h2>📋 What We're Working On</h2>
+    <p>Some of the key areas for Field Day 2027 planning include:</p>
+    <ul>
+      <li>Trailer damage assessment and repairs (<a href="https://github.com/tsayles/field-day-2027/issues/25">#25</a>, <a href="https://github.com/tsayles/field-day-2027/issues/26">#26</a>)</li>
+      <li>Antenna and rotor maintenance/replacement</li>
+      <li>GOTA station improvements and operator recruitment</li>
+      <li>Station staffing coordination and volunteer sign-ups</li>
+      <li>Digital station band planning and equipment configuration</li>
+      <li>Radio Camp and pre-event training opportunities</li>
+      <li>Procedural documentation and knowledge transfer</li>
+    </ul>
+
+    <p>Check the <a href="https://github.com/tsayles/field-day-2027/issues">issues list</a> for the full inventory of ideas and action items.</p>
+
+    <h2>🗓️ Looking Ahead</h2>
+    <p>Field Day 2027 will be held <strong>June 26–27, 2027</strong> (11:00 AM Saturday through 11:00 AM Sunday PDT), with Radio Camp starting Monday, June 21. We'll be back at Fort Flagler State Park continuing our 50+ year tradition.</p>
+
+    <p>Thanks for everything you contributed to make Field Day 2026 a great event. With your continued input and involvement, we'll make 2027 even better!</p>
+
+    <div class="sig">
+      73,<br>
+      <strong>Tom Sayles, KE4HET</strong><br>
+      <a href="mailto:tsayles@soot-n-smoke.com">tsayles@soot-n-smoke.com</a>
+    </div>
+  </body>
+</html>
