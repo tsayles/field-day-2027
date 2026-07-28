@@ -82,7 +82,7 @@ style="display:inline-block;background-color:#1a3a5c;
                         Day 2026 After Action Review</a> </p>
                     <p>The AAR covers the debrief discussion with
                       summaries of each speaker's contributions,
-                      equipment issues (trailer damage, rotor failures),
+                      equipment issues (equipment trailer damage, rotor failures),
                       staffing challenges, and 9+ improvement ideas
                       already converted to tracked issues.</p>
                     <h3 style="color:#1a3a5c;margin:24px 0 8px;"> 🎯
@@ -132,7 +132,7 @@ href="https://github.com/tsayles/field-day-2027/issues"
                         </tr>
                       </tbody>
                     </table>
-                    <p>Current tracked items include trailer repairs,
+                    <p>Current tracked items include equipment trailer repairs,
                       antenna and rotor maintenance, GOTA station
                       improvements, staffing coordination, and more.
                       There are already <strong>35+ improvement ideas</strong>
@@ -179,7 +179,7 @@ style="background:#fff8e1;border-left:4px solid #f0a500;
                     <p>Some of the key areas for Field Day 2027 planning
                       include:</p>
                     <ul style="margin:8px 0;padding-left:20px;">
-                      <li style="margin-bottom:4px;">Trailer damage
+                      <li style="margin-bottom:4px;">Equipment trailer damage
                         assessment and repairs (<a
                           href="https://github.com/tsayles/field-day-2027/issues/25"
                           style="color:#1a3a5c;">#25</a>, <a
