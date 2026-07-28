@@ -31,9 +31,9 @@
 
 ### Tom Sayles — KE4HET — `10:35:32 – 10:46:30`
 
-#### Trailer Incident on SR-167
+#### Equipment Trailer Incident on SR-167
 
-Tom reported on the trailer transport incident that occurred on the way to Fort Flagler:
+Tom reported on the equipment trailer transport incident that occurred on the way to Fort Flagler:
 
 - Departed from Toku's (AD7JA) Skyway Radio & TV Service shop Thursday morning of Field Day week.
 - On State Route 167 through Kent, hit a large bump; the trailer was already bouncy and squirrelly (swaying).
@@ -55,7 +55,7 @@ Tom reported on the trailer transport incident that occurred on the way to Fort 
 - The spring fitment should be **inspected and corrected**.
 - Deferred final decisions on trailer remediation to the board.
 
-#### Trailer Photos
+#### Equipment Trailer Photos
 
 *Photo credit: Robert (KJ7CBO).*
 
@@ -249,9 +249,9 @@ Ideas raised during this discussion for making Field Day 2027 better:
 
 | # | Action | Owner | Notes | Issue |
 |---|--------|-------|-------|-------|
-| 1 | Inspect trailer hitch plate — grind off damaged plate and weld in a new one | Board / trailer maintenance team | Hitch was pounded back into shape as a field repair; needs proper remediation | [#25](https://github.com/tsayles/field-day-2027/issues/25) |
-| 2 | Verify trailer spring is correct spec — replace if mismatched | Board / trailer maintenance team | Wrong spring suspected as cause of bouncy/squirrelly handling | [#26](https://github.com/tsayles/field-day-2027/issues/26) |
-| 3 | Post trailer damage photos to GitHub repo | Robert (KJ7CBO) or Scott (KC7SAG) | Robert took photos at FD; to be shared via the repo | |
+| 1 | Inspect equipment trailer hitch plate — grind off damaged plate and weld in a new one | Board / trailer maintenance team | Hitch was pounded back into shape as a field repair; needs proper remediation | [#25](https://github.com/tsayles/field-day-2027/issues/25) |
+| 2 | Verify equipment trailer spring is correct spec — replace if mismatched | Board / trailer maintenance team | Wrong spring suspected as cause of bouncy/squirrelly handling | [#26](https://github.com/tsayles/field-day-2027/issues/26) |
+| 3 | Post equipment trailer damage photos to GitHub repo | Robert (KJ7CBO) or Scott (KC7SAG) | Robert took photos at FD; to be shared via the repo | |
 | 4 | Conduct rotor rehab session — inspect, re-terminate, and test all rotor cables and pigtails | Band chairs / equipment team | All 3 rotators failed at FD 2026; do before FD 2027 | [#6](https://github.com/tsayles/field-day-2027/issues/6) |
 | 5 | Plan early trailer arrival (Wed/Thu before FD) for antenna maintenance workday | Field Day organizer (Tom, KE4HET) | Disassemble, clean, re-lube, and test antennas as a group | [#23](https://github.com/tsayles/field-day-2027/issues/23) |
 | 6 | Document 20-meter (and other) antenna construction with photos and measurements | Radio officer / W7DAO | W7DAO already sent FD photos to radio officer as a starting point | [#24](https://github.com/tsayles/field-day-2027/issues/24) |
