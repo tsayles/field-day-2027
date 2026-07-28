@@ -231,7 +231,7 @@ Ideas raised during this discussion for making Field Day 2027 better:
 
 5. **Band chairs recruit their crews months in advance** — Each band chairperson should take personal responsibility for assembling operators, not waiting for walk-up volunteers. Modeled on how CW Beach is run — pre-committed crews enable 2pm teardown completion. *(raised by Hal, N7NW)* → [Issue #11](https://github.com/tsayles/field-day-2027/issues/11)
 
-6. **Designate a Field Day second-in-command** — A deputy to the overall Field Day organizer to ensure continuity and share load. *(raised by Hal, N7NW)* → [Issue #9](https://github.com/tsayles/field-day-2027/issues/9)
+6. **Designate a Field Day second-in-command** — A deputy to the Field Day Chair to ensure continuity and share load. *(raised by Hal, N7NW)* → [Issue #9](https://github.com/tsayles/field-day-2027/issues/9)
 
 7. **Investigate membership participation decline** — Fewer attendees in 2026 than prior years despite ~300 members. Club should actively determine why members join and then disengage; David noted he has already proposed plans to the board. *(raised by David, W7DAO)* → [Issue #10](https://github.com/tsayles/field-day-2027/issues/10)
 
@@ -253,7 +253,7 @@ Ideas raised during this discussion for making Field Day 2027 better:
 | 2 | Verify equipment trailer spring is correct spec — replace if mismatched | Board / trailer maintenance team | Wrong spring suspected as cause of bouncy/squirrelly handling | [#26](https://github.com/tsayles/field-day-2027/issues/26) |
 | 3 | Post equipment trailer damage photos to GitHub repo | Robert (KJ7CBO) or Scott (KC7SAG) | Robert took photos at FD; to be shared via the repo | |
 | 4 | Conduct rotor rehab session — inspect, re-terminate, and test all rotor cables and pigtails | Band chairs / equipment team | All 3 rotators failed at FD 2026; do before FD 2027 | [#6](https://github.com/tsayles/field-day-2027/issues/6) |
-| 5 | Plan early trailer arrival (Wed/Thu before FD) for antenna maintenance workday | Field Day organizer (Tom, KE4HET) | Disassemble, clean, re-lube, and test antennas as a group | [#23](https://github.com/tsayles/field-day-2027/issues/23) |
+| 5 | Plan early trailer arrival (Wed/Thu before FD) for antenna maintenance workday | Field Day Chair (unfilled for 2027) | Disassemble, clean, re-lube, and test antennas as a group | [#23](https://github.com/tsayles/field-day-2027/issues/23) |
 | 6 | Document 20-meter (and other) antenna construction with photos and measurements | Radio officer / W7DAO | W7DAO already sent FD photos to radio officer as a starting point | [#24](https://github.com/tsayles/field-day-2027/issues/24) |
 | 7 | Build volunteer sign-up system on club website | Scott, KC7SAG | Modeled on swap meet signup; estimated a couple of weeks to build | [#20](https://github.com/tsayles/field-day-2027/issues/20) · [#21](https://github.com/tsayles/field-day-2027/issues/21) · [#22](https://github.com/tsayles/field-day-2027/issues/22) |
 | 8 | Band chairs to begin recruiting operators and crew for FD 2027 | Phil (K7PIA) — 15m, Robert (KD7WNV) — 20m, Dean (N7XS) — 40m, George (AE7G) — GOTA | Start months in advance; do not wait until Field Day week | [#11](https://github.com/tsayles/field-day-2027/issues/11) |
