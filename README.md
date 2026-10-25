@@ -81,12 +81,18 @@ committee meeting dates, and leadership roles.
 
 **Supporting Roles:**
 
-| Role | Status |
-|------|--------|
-| Wagon Wheel Host | 🟡 TBD |
-| Potluck Manager | 🟡 TBD |
-| Band Chairs (15m, 20m, 40m, CW) | 🟡 TBD |
-| Non-Member Volunteer Coordinator | 🔴 OPEN |
+| Role | 2026 | Status |
+|------|------|--------|
+| Wagon Wheel Host | — | 🟡 TBD |
+| Potluck Manager | — | 🟡 TBD |
+| 15m Band Chair | Phil (K7PIA) | 🟡 TBD |
+| 20m Band Chair | Robert (KD7WNV) | 🟡 TBD |
+| 40m Band Chair | Dean (N7XS) | 🟡 TBD |
+| CW Band Chair | Hal (N7NW) | 🟡 TBD |
+| Digital Station Lead | Bruce (KK7MEH), Tom (KE4HET) | 🟡 TBD |
+| GOTA Lead | George (AE7G) | 🟡 TBD |
+| Satellite | Steven (KD7IQL) | 🟡 TBD |
+| Non-Member Volunteer Coordinator | — | 🔴 OPEN |
 
 See [October 17 membership meeting notes](docs/meetings/2026-10-17-membership-meeting-fd-leadership-notes.md)
 for leadership discussion and role descriptions.
