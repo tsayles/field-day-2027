@@ -2,7 +2,20 @@
 
 **Station:** 4  
 **Band/Mode:** 40m — Phone  
-**Location:** Bluff (Battery Grattan)
+**Location:** Bluff (Battery Grattan)  
+**Band Chair:** Dean (N7XS)
+
+## Antenna System
+
+### Inverted V Antenna
+- **Type:** Inverted V (suspended between trees)
+- **Elements:** Approximately 6 (element count TBD)
+- **Support:** Suspended between trees at site
+- **Guy Lines:** Small stakes in the ground
+- **Ownership:** Provided and owned by Dean (N7XS)
+
+### Anchor System Status
+⚠️ **Planned Change (2027):** Small ground stakes may need to be replaced with other types of anchors starting in 2027. To be determined.
 
 ## Shared Equipment
 
