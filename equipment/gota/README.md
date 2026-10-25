@@ -2,7 +2,16 @@
 
 **Station:** 6  
 **Band/Mode:** GOTA — Get On The Air  
-**Location:** Bluff (Battery Grattan)
+**Location:** Bluff (Battery Grattan)  
+**Lead:** George (AE7G)
+
+## GOTA-Specific Equipment
+
+### 3-Element Step IR Antenna
+Tri-band antenna with 3 elements, mounted on Rohn tower for multi-band operation.
+
+### Tilt-Up Base
+Tilt-up base system for the antenna/tower assembly, allowing for efficient setup and takedown.
 
 ## Shared Equipment
 
@@ -12,8 +21,14 @@ This station uses shared equipment from across Field Day operations:
 - 🪑 [Tables](../shared/tables.md)
 - 🪑 [Chairs](../shared/chairs.md)
 - ⚡ [Power & Connectivity](../shared/power-connectivity.md)
+- 🗼 [Rohn Tower Segments](../shared/rohn-tower.md)
+- 🔄 [Tower Rotator](../shared/rotator.md)
 - 📦 [General Supplies](../shared/general-supplies.md)
 
-## Station-Specific Equipment
+## Station Setup Notes
 
-TBD - to be documented
+The antenna assembly uses:
+- 3-element Step IR antenna (GOTA-specific)
+- Rohn tower segments (shared)
+- Tilt-up base (GOTA-specific)
+- Rotator for directional control (shared)

@@ -1,6 +1,6 @@
 # Shared Equipment
 
-Common items duplicated across most or all operating stations.
+Common items duplicated across most or all operating stations, plus tower and antenna support equipment.
 
 Items in this folder are used at multiple stations (15m, 20m, 40m, Digital, GOTA, Satellite) at the Bluff site.
 
@@ -20,6 +20,11 @@ Power distribution, cables, surge protection, and network equipment shared acros
 
 **Includes:**
 - [Station Distribution Cables](power-cables.md) — 10/3 AWG power cables from equipment trailer to each station
+
+### Tower & Antenna Support
+
+- [Rohn Tower Segments](rohn-tower.md) — Tapered top Rohn tower sections for antenna mounting
+- [Tower Rotator](rotator.md) — Antenna rotator for directional control
 
 ### [General Supplies](general-supplies.md)
 Common consumables and miscellaneous items needed at multiple stations.
