@@ -40,7 +40,7 @@ Field Day planning.
 ### 3️⃣ Attend Planning Meetings
 **Committee meetings:** 1st and 3rd Wednesdays at 8 PM PT  
 Starting November 6, 2026. Zoom link will be posted to the mailing list.  
-**Open to all club members** — no experience or prior knowledge necessary.
+**Anyone interested in helping out** — club membership or license not required.
 
 ### 4️⃣ Sign Up as a Volunteer
 Volunteer opportunities will be posted to the mailing list and GitHub project board. 
