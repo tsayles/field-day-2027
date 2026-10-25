@@ -1,104 +1,61 @@
-# Field Day 2027 Website Overlay Proposal
+# Field Day 2027 Website Overlay — Content Proposal
 
-## Overview
-This proposal suggests replacing or overlaying the current ARRL2026.png image on https://mikeandkey.org/fday1.php with FD 2027 content that prominently features volunteer recruitment and engagement opportunities.
+**Location:** https://mikeandkey.org/fday1.php (replacing or adjacent to ARRL2026.png)
 
-The overlay would appear at the top of the page (where ARRL2026.png currently appears) and drive early recruitment and planning participation.
-
----
-
-## Proposed Overlay Design
-
-### Visual Layout
-A horizontal banner/card (similar to current image dimensions) containing:
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                   │
-│           Field Day 2027 — 50+ Years Strong!                    │
-│                                                                   │
-│  🎯 We're planning FD 2027 — and we need your help!             │
-│                                                                   │
-│  ☑️  Join our planning meetings (1st & 3rd Wednesdays, 8 PM)    │
-│  ☑️  Sign up to volunteer (operators, setup, equipment)          │
-│  ☑️  Share your ideas on GitHub                                  │
-│  ☑️  Connect on our mailing list                                 │
-│                                                                   │
-│  👉 Get Involved: https://github.com/tsayles/field-day-2027     │
-│  📧 Mailing List: FieldDay@mkarc.groups.io                       │
-│                                                                   │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-### Content Elements to Include
-
-1. **Headline:** "Field Day 2027 — 50+ Years Strong!"
-   - Acknowledges the milestone of 50+ consecutive years at Fort Flagler
-
-2. **Call-to-Action:** "We're planning FD 2027 — and we need your help!"
-   - Creates urgency and inclusivity
-
-3. **Four Key Actions** (with checkboxes for visual interest):
-   - Join our planning meetings (1st & 3rd Wednesdays, 8 PM)
-   - Sign up to volunteer (operators, setup, teardown, equipment)
-   - Share your ideas on GitHub
-   - Connect on our mailing list
-
-4. **Two Primary Links:**
-   - **GitHub Repository:** https://github.com/tsayles/field-day-2027
-   - **Mailing List:** FieldDay@mkarc.groups.io
-
-### Design Considerations
-
-- **Color Scheme:** Use M&K club colors (suggest checking club branding)
-- **Font:** Clean, readable sans-serif for web
-- **Accessibility:** High contrast for visibility; alt-text for any graphics
-- **Mobile Responsive:** Must work well on phones and tablets
-- **Placement:** Above the existing FD description text, replacing or adjacent to ARRL2026.png
+**Goal:** Drive early engagement and volunteer recruitment for FD 2027 planning.
 
 ---
 
-## Why This Works
+## Primary Headline
 
-1. **Early Engagement:** Directs site visitors to planning activities (not just event day info)
-2. **Multiple Entry Points:** Offers mailing list, GitHub, meetings, and volunteering paths
-3. **Inclusive Language:** No membership/license requirement mentioned
-4. **Actionable:** Clear dates, links, and next steps
-5. **Timely:** Promotes November 2026 – January 2027 planning sprint
+**"Field Day 2027 — 50+ Years Strong!"**
+
+Acknowledge the milestone and invite participation.
 
 ---
 
-## Implementation Options
+## Call-to-Action
 
-### Option A: Static Image (Recommended for quick deployment)
-- Create a PNG graphic (same dimensions as ARRL2026.png) with the overlay content
-- Replace or supplement ARRL2026.png on fday1.php
-- Requires minimal website changes
-
-### Option B: HTML Card (More flexible)
-- Add an HTML section to fday1.php with the content
-- Use CSS for styling and responsiveness
-- Allows easier updates without creating new images
-
-### Option C: Both
-- Temporary image overlay for immediate visibility
-- Transition to HTML card for ongoing updates
+**"We're planning FD 2027 — and we need your help!"**
 
 ---
 
-## Next Steps
+## Key Information to Feature
 
-1. **Design Phase:** Create mockup in Figma or similar tool
-2. **Review:** Circulate to M&K board for approval (colors, tone, messaging)
-3. **Production:** Generate web-optimized image or implement HTML
-4. **Deploy:** Add to fday1.php before November planning meetings
-5. **Measure:** Track click-through rates to GitHub and mailing list signup
+### Join Our Planning Meetings
+- **When:** 1st and 3rd Wednesdays at 8 PM PT
+- **Starting:** November 6, 2026
+- **Who:** Anyone interested in amateur radio (club membership and license not required)
+- **Link:** docs/meetings/README.md on GitHub repo for full schedule
+
+### Sign Up as a Volunteer
+- We need operators, setup crew, teardown crew, equipment specialists, and more
+- Early commitment helps us plan better
+- Sign-up system coming soon
+
+### Share Your Ideas
+- Browse 35+ improvement ideas from the FD 2026 After-Action Review
+- Add your own feedback and suggestions
+- Join the conversation on GitHub or mailing list
+
+### Stay Connected
+- **Mailing List:** FieldDay@mkarc.groups.io (primary communication channel)
+- **GitHub:** https://github.com/tsayles/field-day-2027 (tracking issues, planning progress)
 
 ---
 
-## Related Resources
+## Primary Contact Links
 
-- Repository: https://github.com/tsayles/field-day-2027
-- Mailing List: https://mkarc.groups.io/g/FieldDay
-- Planning README: docs/meetings/README.md
-- M&K Website: https://mikeandkey.org/
+- **Subscribe to Mailing List:** mailto:FieldDay+subscribe@mkarc.groups.io
+- **GitHub Repository:** https://github.com/tsayles/field-day-2027
+- **Mailing List Group:** https://mkarc.groups.io/g/FieldDay
+- **General Inquiry:** info@mikeandkey.org
+
+---
+
+## Key Messages
+
+- Open to everyone — no club membership or amateur radio license required
+- Multiple ways to participate: meetings, volunteering, GitHub feedback, mailing list
+- 2027 planning is underway now; best time to get involved
+- We're building on 50+ years of tradition and looking to make 2027 even better
