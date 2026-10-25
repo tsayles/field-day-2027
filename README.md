@@ -24,7 +24,7 @@ meeting updates, volunteer opportunities, and club-wide discussions.
 
 ## How to Get Involved
 
-**You don't need to be a developer to contribute here — just a club member with ideas and interest.**
+**You don't need to be a developer to contribute here — just someone into amateur radio with ideas and interest. (club membership and license not required)**
 
 ### 1️⃣ Join the Mailing List
 [**Subscribe to FieldDay@mkarc.groups.io**](mailto:FieldDay+subscribe@mkarc.groups.io) — This is where all 
