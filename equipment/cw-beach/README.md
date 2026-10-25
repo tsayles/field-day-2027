@@ -17,6 +17,11 @@ The CW Beach station operates independently from the main equipment trailer:
 - **Power:** Dedicated generator (onsite)
 - **Power Distribution:** COTS extension cords
 
+## Facilities
+
+### [portable-facilities.md](portable-facilities.md)
+Rented portable toilets and portable sink for operator and volunteer sanitation facilities.
+
 ## Shared Equipment
 
 This station uses shared equipment from across Field Day operations:
@@ -31,3 +36,4 @@ This station uses shared equipment from across Field Day operations:
 ## Station-Specific Equipment
 
 TBD - to be documented
+
