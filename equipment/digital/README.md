@@ -6,11 +6,23 @@
 
 ## Antenna System
 
-### Crank IR Antenna
-- **Type:** Crank IR (rotatable antenna)
-- **2026 Configuration:** Crank IR antenna with upgrade kit (40m?, TBD to confirm)
-- **Bands:** Multiple bands supported
-- **Controls:** Manual crank control for elevation/direction adjustment
+### SteppIR CrankIR Antenna
+- **Manufacturer:** SteppIR
+- **Model:** CrankIR (80m–2m version with 80m extension)
+- **Frequency Range:** 3.5 MHz – 148 MHz (80m through 2m)
+- **Power Rating:** 1.5 kW key-down
+- **Type:** Portable vertical antenna with manual band switching
+
+### Antenna Features
+- **Tuning:** Manual crank system (no electrical power required)
+- **Portability:** 16 ft fiberglass pole (collapses to 24 inches)
+- **Weight:** ~3.3 lbs (main unit) + 2 lbs (pole)
+- **SWR:** Typically 1.1–1.3:1 across bands (with proper setup)
+- **Radial System:** Optional tunable radial unit available
+
+### Band Coverage
+Continuous frequency coverage across all HF and VHF bands:
+- 80m, 60m, 40m, 30m, 20m, 17m, 15m, 12m, 10m, 6m, 2m
 
 ## Shared Equipment
 
