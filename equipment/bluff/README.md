@@ -16,6 +16,11 @@ Tower trailer and associated equipment.
 ### other/
 Miscellaneous equipment and resources at the Bluff site.
 
+## Bluff-Specific Facilities
+
+### [canopy-refreshment-station.md](canopy-refreshment-station.md)
+Pop-up canopy shelter and refreshment area, typically set up over park-owned picnic tables near the equipment trailer. Includes large igloo-style water jug for volunteer hydration.
+
 ---
 
 See the station-specific equipment folders at the top level:
@@ -25,3 +30,4 @@ See the station-specific equipment folders at the top level:
 - `digital/` — Digital Station
 - `gota/` — GOTA (Get On The Air) Station
 - `satellite/` — Satellite Station
+
