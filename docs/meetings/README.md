@@ -15,7 +15,7 @@ Each sprint typically includes 2–3 committee meetings.
 
 | Sprint | Duration | Key Focus | Meetings |
 |--------|----------|-----------|----------|
-| **Sprint 1** | Nov 6 – Dec 18 | **Issue Triage & Volunteer Recruitment** — Review AAR and FD2026 feedback issues; develop volunteer job descriptions; begin recruiting Field Day 2027 Director and core leadership | Wed Nov 6, Wed Nov 20, Wed Dec 4, Wed Dec 18 |
+| **Sprint 1** | Nov 6 – Dec 18 | **Issue Triage & Volunteer Recruitment** — Review [AAR](../debrief/aar-mk-2026-field-day-discussion.md) and FD2026 feedback [issues](https://github.com/users/tsayles/projects/5); develop volunteer job descriptions; begin recruiting Field Day 2027 Director and core leadership | Wed Nov 6, Wed Nov 20, Wed Dec 4, Wed Dec 18 |
 | **Sprint 2** | Jan 8 – Feb 19 | TBD | Wed Jan 8, Wed Jan 22, Wed Feb 5, Wed Feb 19 |
 | **Sprint 3** | Mar 5 – Apr 16 | TBD | Wed Mar 5, Wed Mar 19, Wed Apr 2, Wed Apr 16 |
 | **Sprint 4** | May 7 – Jun 18 | TBD | Wed May 7, Wed May 21, Wed Jun 4, Wed Jun 18 |
