@@ -1,0 +1,772 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Return-Path: <bounce+72305+96+6843006+15291671@groups.io>
+X-Original-To: TSayles@Soot-n-Smoke.com
+Delivered-To: x24948943@pdx1-sub0-mail-mx202.dreamhost.com
+Received: from postfix-inbound-6.inbound.mailchannels.net (inbound-egress-10.mailchannels.net [23.83.212.2])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by pdx1-sub0-mail-mx202.dreamhost.com (Postfix) with ESMTPS id 4jBz0n3jpMz6Jwt
+	for <TSayles@Soot-n-Smoke.com>; Sat, 24 Oct 2026 17:59:05 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; d=mailchannels.net; s=arc-2022; cv=none;
+	t=1792889941;
+	b=yQeQfJ1Q/N3ZGOcVw7NpFxAHNkyIGemft6Zb0Il9Z6Vqj7Etz60y1ik0pQ9kOS49JdHRNr
+	enUx3DpMWUlOh6yt8rk28T7biOt1hgwLNgCJDjky37QgrJSDTTzQVv1+0mcd1wvx36bCMi
+	GT5xhPvY1qyrL8A82LiPT935Pj/BU6HOVowadNUdWn7ue1o3XPPkXC/tAxvhPXIXl7K8Oy
+	1XYOlsnVhh0sUD4OGcuaNjKPRhVpB4LcEIANveN410Ym+Rv3wg/Ih1WECCgVNMPgc2d2ZU
+	ghJsQfBcgRM+IlSpzS3lz5A7ytZQEj+ClRWfnkEem6Dz/WsHM+0YkS0tKvefGg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=mailchannels.net;
+	s=arc-2022; t=1792889941;
+	h=from:from:sender:sender:reply-to:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:cc:mime-version:mime-version:
+	 content-type:content-type:resent-from:list-id:list-help:
+	 list-unsubscribe:list-unsubscribe-post:list-subscribe:dkim-signature;
+	bh=d6rJ5yNKyOUYYK+Sa/bnJAnH5B0wEVBqU2Vr9gz3dic=;
+	b=GpPtfjQyQJIM/E4DKNxepmUAbI704WgZkKVWTUGjGWCv/R9gO4qd3PHy0dl1gr0OvC5cul
+	GDold1SQYXGbkvD5qPbIwGjk/FobPeO8aLvl86zyVbs+wXdzghyNpIzojjeuTQVBcn/n41
+	XqUvGulh7sJXaZIQjD3vXU5iQnyYoYDPptJKGdCaGh1s0sYvU2eYxlgldjG5PwJCquFniz
+	BkSvMsXcTQFaPPmLvS0tBoaRT/SOpk9LoYs8LgRy2+u5oVsA62UDdEvfzRoYcY3b1pAJhl
+	m1lCliXAYQR44uBTgoy7sfG3jLKeCVtikJYHsz0dT/V5i+4Ez9AmbAbW6HdELA==
+ARC-Authentication-Results: i=1;
+	inbound-rspamd-5c9494dfb-dqbd4;
+	none
+X-Message-ID: NnRgvyyhWDzidffkN8ekN92F
+Received: from web01.groups.io (web01.groups.io [66.175.222.12])
+	(using TLSv1.3 with cipher TLS_AES_128_GCM_SHA256)
+	by 100.96.9.85 (trex/8.0.2);
+	Sun, 25 Oct 2026 00:59:05 +0000
+Authentication-Results: inbound.mailchannels.net;
+ spf=pass smtp.mailfrom=bounce+72305+96+6843006+15291671@groups.io;
+ dkim=pass header.d=groups.io;
+ dmarc=none;
+ arc=none
+Received-SPF: pass (dmarc-service-54c6c7fd75-zmw6p: domain of groups.io
+ designates 66.175.222.12 as permitted sender) client-ip=66.175.222.12;
+ envelope-from=bounce+72305+96+6843006+15291671@groups.io;
+ helo=web01.groups.io;
+DKIM-Signature: a=rsa-sha256; bh=d6rJ5yNKyOUYYK+Sa/bnJAnH5B0wEVBqU2Vr9gz3dic=;
+ c=relaxed/relaxed; d=groups.io;
+ h=From:Subject:Date:Message-ID:To:Cc:In-Reply-To:References:Reply-To:Sender:List-Id:List-Post:List-Subscribe:List-Unsubscribe:List-Help:MIME-Version:Content-Type:Content-Transfer-Encoding;
+ s=groups1; t=1792889940; v=1; x=1793149140;
+ b=YSRH/x/8zwgNt5QYkqYO1xw/Kf0zqlT8K4rWaPD+gDDNJ8YeUmPivQH7pk1LS/dAS9asfsre
+ pmUCEGheV6EDmz3WEwhyNhrKfiducu5rYPrG1kYVID78xJGmgCkpzWc1BZq0czxV+vV+gw6BrQp
+ 0JgAK2cfhiRLERX43zyx8WImgCdXE6ZSmzbxWRamA6dUK2xKS+r/xrdXOLefWEvkMirG9W43hwy
+ bN4OG7s9VHAJ/+qkcILoin6JZFP0yn++WS2noRyjfvqRdHI3l+C2UAOdGNEMa0a4T+3ZJV5MZe7
+ WtpDUO6Fw9Vo9Tq/zdpTmFP27iuJbwvPrpGDslzAhN7xg==
+X-Received: by 127.0.0.2 with SMTP id 8KP3YY6844341xB5HeOr2eWC; Sat, 24 Oct 2026 17:59:00 -0700
+X-Received: from bird.cedar.relay.mailchannels.net (bird.cedar.relay.mailchannels.net [23.83.210.17])
+ by mx.groups.io with SMTP id smtpd.msgproc02-g2.16033.1792889939921858470
+ for <FieldDay@mkarc.groups.io>;
+ Sat, 24 Oct 2026 17:59:00 -0700
+X-Sender-Id: dreamhost|x-authsender|tsayles@soot-n-smoke.com
+X-Received: from relay.mailchannels.net (localhost [127.0.0.1])
+	by relay.mailchannels.net (Postfix) with ESMTP id 2CCCD8C1A18;
+	Sun, 25 Oct 2026 00:58:59 +0000 (UTC)
+X-Received: from pdx1-sub0-mail-a209.dreamhost.com (100-96-13-77.trex-nlb.outbound.svc.cluster.local [100.96.13.77])
+	(Authenticated sender: dreamhost)
+	by relay.mailchannels.net (Postfix) with ESMTPA id DDF4E8C1442;
+	Sun, 25 Oct 2026 00:58:58 +0000 (UTC)
+X-Sender-Id: dreamhost|x-authsender|tsayles@soot-n-smoke.com
+X-MC-Relay: Junk
+X-MC-Copy: stored-urls
+X-MailChannels-SenderId: dreamhost|x-authsender|tsayles@soot-n-smoke.com
+X-MailChannels-Auth-Id: dreamhost
+X-White-Hook: 7c2700904d2ec585_1792889939068_821062615
+X-MC-Loop-Signature: 1792889939068:178114398
+X-MC-Ingress-Time: 1792889939068
+X-Received: from pdx1-sub0-mail-a209.dreamhost.com (pop.dreamhost.com
+ [64.90.62.162])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384)
+	by 100.96.13.77 (trex/8.0.2);
+	Sun, 25 Oct 2026 00:58:59 +0000
+X-Received: from [192.168.254.39] (unknown [50.34.105.21])
+	(using TLSv1.3 with cipher TLS_AES_128_GCM_SHA256 (128/128 bits)
+	 key-exchange X25519 server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	(Authenticated sender: tsayles@soot-n-smoke.com)
+	by pdx1-sub0-mail-a209.dreamhost.com (Postfix) with ESMTPSA id 4jBz0f3pR5zTF;
+	Sat, 24 Oct 2026 17:58:58 -0700 (PDT)
+Message-Id: <18E19FE6D954B8F4.3138935@groups.io>
+Date: Sat, 24 Oct 2026 17:58:58 -0700
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+From: "Tom Sayles, KE4HET" <TSayles@Soot-n-Smoke.com>
+Subject: [FieldDay] 2027 -- Proposed FD Committee Zoom Meetings (Revised: 1st & 3rd Wednesdays)
+To: FieldDay@mkarc.groups.io, MKARC@mkarc.groups.io
+Reply-To: FieldDay@mkarc.groups.io
+Cc: Hal Goodell <n7nw.hal@comcast.net>, Steven Cook <kd7iql@gmail.com>,
+ David Yarbrough <wa7dy@arrl.net>, Scott Gilyeat <kc7sag@gmail.com>,
+ Gregor Harrison <talk.to.gregorh@hotmail.com>,
+ Robert Christian <robertchristianshow@gmail.com>
+Precedence: Bulk
+List-Subscribe: <mailto:FieldDay+subscribe@mkarc.groups.io>
+List-Help: <mailto:FieldDay+help@mkarc.groups.io>
+Sender: FieldDay@mkarc.groups.io
+List-Id: <FieldDay.mkarc.groups.io>
+Mailing-List: list FieldDay@mkarc.groups.io; contact FieldDay+owner@mkarc.groups.io
+Delivered-To: mailing list FieldDay@mkarc.groups.io
+Resent-Date: Sat, 24 Oct 2026 17:59:00 -0700
+Resent-From: TSayles@Soot-n-Smoke.com
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-Orig-Message-Id: <d349dbeb-bff3-4f68-b4f9-63db3a5dc338@soot-n-smoke.com>
+List-Unsubscribe: <https://mkarc.groups.io/g/FieldDay/leave/15291671/6843006/1502949310/plugh>
+X-Gm-Message-State: 84ZePBUd2KcLFAC1A8RbDdY3x6843006AA=
+Content-Type: multipart/alternative;
+ boundary="------------CtA0CCfQ4df236xNR0lGPEtp"
+Content-Language: en-US
+
+--------------CtA0CCfQ4df236xNR0lGPEtp
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+As I said at October's membership meeting, I'm willing to volunteer as=20
+the=C2=A0Mike & Key's Field Day 2027*_/Assistant/_*=C2=A0Director.
+
+Thanks to those who replied to my previous meeting proposal, thank you.=20
+The feedback was clear that *Mondays don't work* for some. I've revised=20
+the proposal, and based on your feedback, I'm proposing we shift to *1st=20
+and 3rd Wednesdays at 8:00 PM*.
+
+*Please provide feedback if 1st and 3rd Wednesdays at 8:00 PM works or=20
+does not work for you. *
+
+It would be great if those interested in Field Day 2027 could attend at=20
+least one of the two Zoom calls each month. But even if you can only=20
+join two or three before Field Day, your help is appreciated. (Slack=20
+will be granted for those connecting late after the 7:30 Tech Net closes.)
+
+With Field Day 2027 on the horizon, it's time to get our planning=20
+committee together on a regular cadence. These monthly Zoom calls will=20
+help us work through the action items coming out of our 2026 debrief:=20
+drafting a field day chairperson, site reservations, organizing=20
+equipment, setting up volunteer sign-up, developing checklists,=20
+scrounging for our wish-list items, etc..
+
+*Proposed meeting dates:*
+
+Date 	Notes
+Wed, Nov 6, 2026 	Kickoff
+Wed, Nov 20, 2026 =09
+Wed, Dec 4, 2026 =09
+Wed, Dec 18, 2026 =09
+Wed, Jan 8, 2027 =09
+Wed, Jan 22, 2027 =09
+Wed, Feb 5, 2027 =09
+Wed, Feb 19, 2027 =09
+Wed, Mar 5, 2027 =09
+Wed, Mar 19, 2027 =09
+Wed, Apr 2, 2027 =09
+Wed, Apr 16, 2027 =09
+Wed, May 7, 2027 =09
+Wed, May 21, 2027 =09
+Wed, Jun 4, 2027 =09
+Wed, Jun 18, 2027 	Final push before Field Day (Jun 26=E2=80=9327)
+Wed, Jul 9, 2027 	After-action review
+Wed, Jul 23, 2027 	Wrap-up
+
+*Key dates for context:*
+
+Date 	Event
+Mon=E2=80=93Thu, Jun 21=E2=80=9324, 2027 	Radio Camp
+Fri, Jun 25, 2027 	Site setup
+Sat=E2=80=93Sun, Jun 26=E2=80=9327, 2027 	*Field Day*
+Sat, Jul 17, 2027 	Club membership meeting =E2=80=94 Field Day presentation
+
+*Proposed time:* 8:00 PM Pacific *
+Zoom=20
+link:*/https://us06web.zoom.us/j/88979763814?pwd=3DO8uFLjTaWqGubb8Z7QcWh6g8=
+A02SaR.1=20
+/
+
+We'll try to keep the meetings to *60 minutes or less*. We'll share=20
+agendas in advance and post notes afterward to the=20
+FieldDay@mkarc.groups.io list so anyone who misses a call can stay in=20
+the loop.
+
+Again please reply to let me know if this schedule works for you, or if=20
+there's a better recurring time slot.
+
+73,
+
+
+-- Tom, KE4HET
+
+
+-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-
+Groups.io Links: You receive all messages sent to this group.
+View/Reply Online (#96): https://mkarc.groups.io/g/FieldDay/message/96
+Mute This Topic: https://groups.io/mt/121922551/6843006
+Group Owner: FieldDay+owner@mkarc.groups.io
+Unsubscribe: https://mkarc.groups.io/g/FieldDay/leave/15291671/6843006/1502=
+949310/xyzzy [TSayles@Soot-n-Smoke.com]
+-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-
+
+
+
+--------------CtA0CCfQ4df236xNR0lGPEtp
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUTF-8=
+">
+  </head>
+  <body>
+    <p
+style=3D"margin-top: 0px; margin-bottom: 16px; color: rgb(31, 35, 40); font=
+-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;Not=
+o Sans&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, =
+&quot;Segoe UI Emoji&quot;; font-size: 16px; font-style: normal; font-varia=
+nt-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-s=
+pacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-trans=
+form: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; w=
+hite-space: normal; text-decoration-thickness: initial; text-decoration-sty=
+le: initial; text-decoration-color: initial;"><span
+style=3D"color: rgb(31, 35, 40); font-family: sans-serif; font-size: 16px; =
+font-style: normal; font-variant-ligatures: normal; font-variant-caps: norm=
+al; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start=
+; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -we=
+bkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255=
+, 255, 255); text-decoration-thickness: initial; text-decoration-style: ini=
+tial; text-decoration-color: initial; display: inline !important; float: no=
+ne;">As
+        I said at October's membership meeting, I'm willing to volunteer
+        as the</span><span
+style=3D"color: rgb(31, 35, 40); font-family: sans-serif; font-size: 16px; =
+font-style: normal; font-variant-ligatures: normal; font-variant-caps: norm=
+al; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start=
+; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -we=
+bkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255=
+, 255, 255); text-decoration-thickness: initial; text-decoration-style: ini=
+tial; text-decoration-color: initial; display: inline !important; float: no=
+ne;">=C2=A0Mike
+        &amp; Key's Field Day 2027</span><span
+style=3D"color: rgb(31, 35, 40); font-family: sans-serif; font-size: 16px; =
+font-style: normal; font-variant-ligatures: normal; font-variant-caps: norm=
+al; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start=
+; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -we=
+bkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255=
+, 255, 255); text-decoration-thickness: initial; text-decoration-style: ini=
+tial; text-decoration-color: initial; display: inline !important; float: no=
+ne;">=C2=A0</span><b
+style=3D"box-sizing: border-box; font-weight: bolder; overflow-wrap: break-=
+word !important; color: rgb(31, 35, 40); font-family: sans-serif; font-size=
+: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-ca=
+ps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-ind=
+ent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-=
+stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255=
+); text-decoration-thickness: initial; text-decoration-style: initial; text=
+-decoration-color: initial;"><u
+style=3D"box-sizing: border-box; overflow-wrap: break-word !important;"><i
+style=3D"box-sizing: border-box; overflow-wrap: break-word !important;">Ass=
+istant</i></u></b><span
+style=3D"color: rgb(31, 35, 40); font-family: sans-serif; font-size: 16px; =
+font-style: normal; font-variant-ligatures: normal; font-variant-caps: norm=
+al; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start=
+; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -we=
+bkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255=
+, 255, 255); text-decoration-thickness: initial; text-decoration-style: ini=
+tial; text-decoration-color: initial; display: inline !important; float: no=
+ne;">=C2=A0Director</span><span
+style=3D"color: rgb(31, 35, 40); font-family: sans-serif; font-size: 16px; =
+font-style: normal; font-variant-ligatures: normal; font-variant-caps: norm=
+al; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start=
+; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -we=
+bkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255=
+, 255, 255); text-decoration-thickness: initial; text-decoration-style: ini=
+tial; text-decoration-color: initial; display: inline !important; float: no=
+ne;">.=C2=A0</span></p>
+    <p
+style=3D"margin-top: 0px; margin-bottom: 16px; color: rgb(31, 35, 40); font=
+-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;Not=
+o Sans&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, =
+&quot;Segoe UI Emoji&quot;; font-size: 16px; font-style: normal; font-varia=
+nt-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-s=
+pacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-trans=
+form: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; w=
+hite-space: normal; text-decoration-thickness: initial; text-decoration-sty=
+le: initial; text-decoration-color: initial;">Thanks
+      to those who replied to my previous meeting proposal, thank you.
+      The feedback was clear that <strong style=3D"font-weight: 600;">Monda=
+ys
+        don't work</strong> for some. I've revised the proposal, and
+      based on your feedback, I'm proposing we shift to <strong
+        style=3D"font-weight: 600;">1st and 3rd Wednesdays at 8:00 PM</stro=
+ng>.=C2=A0</p>
+    <p
+style=3D"margin-top: 0px; margin-bottom: 16px; color: rgb(31, 35, 40); font=
+-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;Not=
+o Sans&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, =
+&quot;Segoe UI Emoji&quot;; font-size: 16px; font-style: normal; font-varia=
+nt-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-s=
+pacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-trans=
+form: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; w=
+hite-space: normal; text-decoration-thickness: initial; text-decoration-sty=
+le: initial; text-decoration-color: initial;"><b>Please
+        provide feedback if 1st and 3rd Wednesdays at 8:00 PM works or
+        does not work for you.=C2=A0</b></p>
+    <p
+style=3D"margin-top: 0px; margin-bottom: 16px; color: rgb(31, 35, 40); font=
+-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;Not=
+o Sans&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, =
+&quot;Segoe UI Emoji&quot;; font-size: 16px; font-style: normal; font-varia=
+nt-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-s=
+pacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-trans=
+form: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; w=
+hite-space: normal; text-decoration-thickness: initial; text-decoration-sty=
+le: initial; text-decoration-color: initial;">It
+      would be great if those interested in Field Day 2027 could attend
+      at least one of the two Zoom calls each month. But even if you can
+      only join two or three before Field Day, your help is appreciated.
+      (Slack will be granted for those connecting late after the 7:30
+      Tech Net closes.)</p>
+    <p
+style=3D"margin-top: 0px; margin-bottom: 16px; color: rgb(31, 35, 40); font=
+-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;Not=
+o Sans&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, =
+&quot;Segoe UI Emoji&quot;; font-size: 16px; font-style: normal; font-varia=
+nt-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-s=
+pacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-trans=
+form: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; w=
+hite-space: normal; text-decoration-thickness: initial; text-decoration-sty=
+le: initial; text-decoration-color: initial;">With
+      Field Day 2027 on the horizon, it's time to get our planning
+      committee together on a regular cadence. These monthly Zoom calls
+      will help us work through the action items coming out of our 2026
+      debrief: drafting a field day chairperson, site reservations,
+      organizing equipment, setting up volunteer sign-up, developing
+      checklists, scrounging for our wish-list items, etc..</p>
+    <p
+style=3D"margin-top: 0px; margin-bottom: 16px; color: rgb(31, 35, 40); font=
+-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;Not=
+o Sans&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, =
+&quot;Segoe UI Emoji&quot;; font-size: 16px; font-style: normal; font-varia=
+nt-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-s=
+pacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-trans=
+form: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; w=
+hite-space: normal; text-decoration-thickness: initial; text-decoration-sty=
+le: initial; text-decoration-color: initial;"><strong
+        style=3D"font-weight: 600;">Proposed meeting dates:</strong></p>
+    <table
+style=3D"border-spacing: 0px; border-collapse: collapse; display: block; wi=
+dth: max-content; max-width: 100%; overflow: auto; margin-top: 0px; margin-=
+bottom: 16px; color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacS=
+ystemFont, &quot;Segoe UI&quot;, &quot;Noto Sans&quot;, Helvetica, Arial, s=
+ans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-=
+size: 16px; font-style: normal; font-variant-ligatures: normal; font-varian=
+t-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-=
+align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-t=
+ext-stroke-width: 0px; white-space: normal; text-decoration-thickness: init=
+ial; text-decoration-style: initial; text-decoration-color: initial;">
+      <thead><tr
+style=3D"background-color: rgb(255, 255, 255); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <th
+style=3D"padding: 6px 13px; font-weight: 600; border: 1px solid rgb(208, 21=
+5, 222);">Date</th>
+          <th
+style=3D"padding: 6px 13px; font-weight: 600; border: 1px solid rgb(208, 21=
+5, 222);">Notes</th>
+        </tr>
+      </thead><tbody>
+        <tr
+style=3D"background-color: rgb(255, 255, 255); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Wed,
+            Nov 6, 2026</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Kickoff<=
+/td>
+        </tr>
+        <tr
+style=3D"background-color: rgb(246, 248, 250); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Wed,
+            Nov 20, 2026</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);"><br>
+          </td>
+        </tr>
+        <tr
+style=3D"background-color: rgb(255, 255, 255); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Wed,
+            Dec 4, 2026</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);"><br>
+          </td>
+        </tr>
+        <tr
+style=3D"background-color: rgb(246, 248, 250); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Wed,
+            Dec 18, 2026</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);"><br>
+          </td>
+        </tr>
+        <tr
+style=3D"background-color: rgb(255, 255, 255); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Wed,
+            Jan 8, 2027</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);"><br>
+          </td>
+        </tr>
+        <tr
+style=3D"background-color: rgb(246, 248, 250); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Wed,
+            Jan 22, 2027</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);"><br>
+          </td>
+        </tr>
+        <tr
+style=3D"background-color: rgb(255, 255, 255); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Wed,
+            Feb 5, 2027</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);"><br>
+          </td>
+        </tr>
+        <tr
+style=3D"background-color: rgb(246, 248, 250); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Wed,
+            Feb 19, 2027</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);"><br>
+          </td>
+        </tr>
+        <tr
+style=3D"background-color: rgb(255, 255, 255); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Wed,
+            Mar 5, 2027</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);"><br>
+          </td>
+        </tr>
+        <tr
+style=3D"background-color: rgb(246, 248, 250); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Wed,
+            Mar 19, 2027</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);"><br>
+          </td>
+        </tr>
+        <tr
+style=3D"background-color: rgb(255, 255, 255); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Wed,
+            Apr 2, 2027</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);"><br>
+          </td>
+        </tr>
+        <tr
+style=3D"background-color: rgb(246, 248, 250); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Wed,
+            Apr 16, 2027</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);"><br>
+          </td>
+        </tr>
+        <tr
+style=3D"background-color: rgb(255, 255, 255); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Wed,
+            May 7, 2027</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);"><br>
+          </td>
+        </tr>
+        <tr
+style=3D"background-color: rgb(246, 248, 250); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Wed,
+            May 21, 2027</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);"><br>
+          </td>
+        </tr>
+        <tr
+style=3D"background-color: rgb(255, 255, 255); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Wed,
+            Jun 4, 2027</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);"><br>
+          </td>
+        </tr>
+        <tr
+style=3D"background-color: rgb(246, 248, 250); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Wed,
+            Jun 18, 2027</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Final
+            push before Field Day (Jun 26=E2=80=9327)</td>
+        </tr>
+        <tr
+style=3D"background-color: rgb(255, 255, 255); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Wed,
+            Jul 9, 2027</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">After-ac=
+tion
+            review</td>
+        </tr>
+        <tr
+style=3D"background-color: rgb(246, 248, 250); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Wed,
+            Jul 23, 2027</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Wrap-up<=
+/td>
+        </tr>
+      </tbody>
+    </table>
+    <p
+style=3D"margin-top: 0px; margin-bottom: 16px; color: rgb(31, 35, 40); font=
+-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;Not=
+o Sans&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, =
+&quot;Segoe UI Emoji&quot;; font-size: 16px; font-style: normal; font-varia=
+nt-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-s=
+pacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-trans=
+form: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; w=
+hite-space: normal; text-decoration-thickness: initial; text-decoration-sty=
+le: initial; text-decoration-color: initial;"><strong
+        style=3D"font-weight: 600;">Key dates for context:</strong></p>
+    <table
+style=3D"border-spacing: 0px; border-collapse: collapse; display: block; wi=
+dth: max-content; max-width: 100%; overflow: auto; margin-top: 0px; margin-=
+bottom: 16px; color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacS=
+ystemFont, &quot;Segoe UI&quot;, &quot;Noto Sans&quot;, Helvetica, Arial, s=
+ans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-=
+size: 16px; font-style: normal; font-variant-ligatures: normal; font-varian=
+t-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-=
+align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-t=
+ext-stroke-width: 0px; white-space: normal; text-decoration-thickness: init=
+ial; text-decoration-style: initial; text-decoration-color: initial;">
+      <thead><tr
+style=3D"background-color: rgb(255, 255, 255); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <th
+style=3D"padding: 6px 13px; font-weight: 600; border: 1px solid rgb(208, 21=
+5, 222);">Date</th>
+          <th
+style=3D"padding: 6px 13px; font-weight: 600; border: 1px solid rgb(208, 21=
+5, 222);">Event</th>
+        </tr>
+      </thead><tbody>
+        <tr
+style=3D"background-color: rgb(255, 255, 255); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Mon=E2=
+=80=93Thu,
+            Jun 21=E2=80=9324, 2027</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Radio
+            Camp</td>
+        </tr>
+        <tr
+style=3D"background-color: rgb(246, 248, 250); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Fri,
+            Jun 25, 2027</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Site
+            setup</td>
+        </tr>
+        <tr
+style=3D"background-color: rgb(255, 255, 255); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Sat=E2=
+=80=93Sun,
+            Jun 26=E2=80=9327, 2027</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);"><strong
+              style=3D"font-weight: 600; margin-bottom: 0px;">Field Day</st=
+rong></td>
+        </tr>
+        <tr
+style=3D"background-color: rgb(246, 248, 250); border-top: 1px solid rgb(21=
+6, 222, 228);">
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Sat,
+            Jul 17, 2027</td>
+          <td
+style=3D"padding: 6px 13px; border: 1px solid rgb(208, 215, 222);">Club
+            membership meeting =E2=80=94 Field Day presentation</td>
+        </tr>
+      </tbody>
+    </table>
+    <p
+style=3D"margin-top: 0px; margin-bottom: 16px; color: rgb(31, 35, 40); font=
+-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;Not=
+o Sans&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, =
+&quot;Segoe UI Emoji&quot;; font-size: 16px; font-style: normal; font-varia=
+nt-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-s=
+pacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-trans=
+form: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; w=
+hite-space: normal; text-decoration-thickness: initial; text-decoration-sty=
+le: initial; text-decoration-color: initial;"><strong
+        style=3D"font-weight: 600;">Proposed time:</strong> 8:00 PM
+      Pacific <strong style=3D"font-weight: 600;"><br>
+        Zoom link:</strong><i>=C2=A0<a moz-do-not-send=3D"true"
+href=3D"https://us06web.zoom.us/j/88979763814?pwd=3DO8uFLjTaWqGubb8Z7QcWh6g=
+8A02SaR.1"
+          class=3D"moz-txt-link-freetext">https://us06web.zoom.us/j/8897976=
+3814?pwd=3DO8uFLjTaWqGubb8Z7QcWh6g8A02SaR.1</a>=C2=A0</i></p>
+    <p
+style=3D"margin-top: 0px; margin-bottom: 16px; color: rgb(31, 35, 40); font=
+-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;Not=
+o Sans&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, =
+&quot;Segoe UI Emoji&quot;; font-size: 16px; font-style: normal; font-varia=
+nt-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-s=
+pacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-trans=
+form: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; w=
+hite-space: normal; text-decoration-thickness: initial; text-decoration-sty=
+le: initial; text-decoration-color: initial;">We'll
+      try to keep the meetings to <strong style=3D"font-weight: 600;">60
+        minutes or less</strong>. We'll share agendas in advance and
+      post notes afterward to the <a class=3D"moz-txt-link-abbreviated" hre=
+f=3D"mailto:FieldDay@mkarc.groups.io">FieldDay@mkarc.groups.io</a> list so
+      anyone who misses a call can stay in the loop.</p>
+    <p
+style=3D"margin-top: 0px; margin-bottom: 16px; color: rgb(31, 35, 40); font=
+-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;Not=
+o Sans&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, =
+&quot;Segoe UI Emoji&quot;; font-size: 16px; font-style: normal; font-varia=
+nt-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-s=
+pacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-trans=
+form: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; w=
+hite-space: normal; text-decoration-thickness: initial; text-decoration-sty=
+le: initial; text-decoration-color: initial;">Again
+      please reply to let me know if this schedule works for you, or if
+      there's a better recurring time slot.</p>
+    <p
+style=3D"margin-top: 0px; margin-bottom: 0px !important; color: rgb(31, 35,=
+ 40); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;,=
+ &quot;Noto Sans&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emo=
+ji&quot;, &quot;Segoe UI Emoji&quot;; font-size: 16px; font-style: normal; =
+font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400=
+; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; =
+text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-wid=
+th: 0px; white-space: normal; text-decoration-thickness: initial; text-deco=
+ration-style: initial; text-decoration-color: initial;">73,
+    </p>
+    <p
+style=3D"margin-top: 0px; margin-bottom: 0px !important; color: rgb(31, 35,=
+ 40); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;,=
+ &quot;Noto Sans&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emo=
+ji&quot;, &quot;Segoe UI Emoji&quot;; font-size: 16px; font-style: normal; =
+font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400=
+; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; =
+text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-wid=
+th: 0px; white-space: normal; text-decoration-thickness: initial; text-deco=
+ration-style: initial; text-decoration-color: initial;"><br>
+    </p>
+    <p
+style=3D"margin-top: 0px; margin-bottom: 0px !important; color: rgb(31, 35,=
+ 40); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;,=
+ &quot;Noto Sans&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emo=
+ji&quot;, &quot;Segoe UI Emoji&quot;; font-size: 16px; font-style: normal; =
+font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400=
+; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; =
+text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-wid=
+th: 0px; white-space: normal; text-decoration-thickness: initial; text-deco=
+ration-style: initial; text-decoration-color: initial;">--
+      Tom, KE4HET</p>
+  </body>
+</html>
+
+
+<div width=3D"1" style=3D"color:white;clear:both">_._,_._,_</div>
+
+<hr>
+
+
+Groups.io Links:<p>
+
+
+ =20
+    You receive all messages sent to this group.
+ =20
+ =20
+
+
+<p>
+<a target=3D"_blank" href=3D"https://mkarc.groups.io/g/FieldDay/message/96"=
+>View/Reply Online (#96)</a> |
+
+
+  <a target=3D"_blank" href=3D"mailto:FieldDay@mkarc.groups.io?subject=3DRe=
+:%20%5BFieldDay%5D%202027%20--%20Proposed%20FD%20Committee%20Zoom%20Meeting=
+s%20%28Revised%3A%201st%20%26%203rd%20Wednesdays%29">Reply to Group</a>
+ =20
+    | <a target=3D"_blank" href=3D"mailto:TSayles@Soot-n-Smoke.com?subject=
+=3DPrivate:%20Re:%20%5BFieldDay%5D%202027%20--%20Proposed%20FD%20Committee%=
+20Zoom%20Meetings%20%28Revised%3A%201st%20%26%203rd%20Wednesdays%29">Reply =
+to Sender</a>
+ =20
+
+|
+
+  <a target=3D"_blank" href=3D"https://groups.io/mt/121922551/6843006">Mute=
+ This Topic</a>
+
+
+| <a href=3D"https://mkarc.groups.io/g/FieldDay/post">New Topic</a>
+
+<br>
+
+
+
+
+<a href=3D"https://mkarc.groups.io/g/FieldDay/editsub/6843006">Your Subscri=
+ption</a> |
+<a href=3D"mailto:FieldDay+owner@mkarc.groups.io">Contact Group Owner</a> |
+
+<a href=3D"https://mkarc.groups.io/g/FieldDay/leave/15291671/6843006/150294=
+9310/xyzzy">Unsubscribe</a>
+
+ [TSayles@Soot-n-Smoke.com]<br>
+<div width=3D"1" style=3D"color:white;clear:both">_._,_._,_</div>
+
+
+--------------CtA0CCfQ4df236xNR0lGPEtp--
+

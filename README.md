@@ -6,37 +6,105 @@ This is the planning hub for M&K's Field Day 2027 operation. It's where we're
 collecting ideas, tracking action items, and building on everything we learned at
 Fort Flagler in June 2026.
 
-**Scope:** This repo covers the full Field Day event week — from **Radio Camp**
-(starting the Monday before Field Day) through setup, the 24-hour operating period,
-and teardown.
+**Scope:** This repo covers the full Field Day 2027 cycle — from **issue triage and
+leadership recruitment** (November 2026) through **Radio Camp** (June 21–24, 2027),
+the 24-hour operating period (June 26–27), and post-event wrap-up (July 2027).
 
-## 👉 [View the Field Day 2027 Project Board](https://github.com/users/tsayles/projects/5)
+---
 
-Browse open issues, see what's in progress, and pick something to work on. Whether
-you operated, helped with setup, visited the site, or just have an idea — **your
-input counts**. Got a GitHub account? [Open an issue](https://github.com/tsayles/field-day-2027/issues/new)
-and tell us what you'd like to see improved.
+## 📬 Join the Conversation
+
+**Primary Communication Channel:**  
+[**FieldDay@mkarc.groups.io**](https://mkarc.groups.io/g/FieldDay) — Subscribe to stay in the loop on announcements, 
+meeting updates, volunteer opportunities, and club-wide discussions.
+
+[➡️ Subscribe Now](mailto:FieldDay+subscribe@mkarc.groups.io)
 
 ---
 
 ## How to Get Involved
 
-You don't need to be a developer to contribute here — just a club member with ideas.
+**You don't need to be a developer to contribute here — just someone into amateur radio with ideas and interest. (club membership and license not required)**
 
-### 🗳️ Share an idea or report an issue
-[Open a new issue](https://github.com/tsayles/field-day-2027/issues/new) — describe
-what worked, what didn't, or what you'd like to see next year. Short or long, all
-ideas welcome.
+### 1️⃣ Join the Mailing List
+[**Subscribe to FieldDay@mkarc.groups.io**](mailto:FieldDay+subscribe@mkarc.groups.io) — This is where all 
+announcements, meeting invites, and discussions happen. This is the primary way the club communicates about 
+Field Day planning.
 
-### 📋 See what's already being worked on
-Check the [project board](https://github.com/users/tsayles/projects/5) or
-[issues list](https://github.com/tsayles/field-day-2027/issues) — there are already
-27 improvement ideas tracked from the FD 2026 debrief.
+### 2️⃣ Follow This Repository
+"Watch" this repo to get updates on new issues, meeting notes, and planning progress. You can:
+- [Star this repo](https://github.com/tsayles/field-day-2027) to show your support
+- [Browse open issues](https://github.com/tsayles/field-day-2027/issues) and add your ideas
+- 👉 [**View the Field Day 2027 Project Board**](https://github.com/users/tsayles/projects/5) — Browse open issues from the FD 2026 After-Action Review (35+ improvement ideas), see what's in progress, and pick something to work on
 
-### 🙋 Sign up to help
-We need operators, setup crew, teardown crew, and everything in between. Watch for
-sign-up links on the [club website](https://mikeandkey.org) as they become available,
-or reach out to your band chair directly (see contacts below).
+### 3️⃣ Attend a Planning Meeting
+**Committee meetings:** 1st and 3rd Wednesdays at 8 PM PT  
+Starting November 6, 2026. Zoom link will be posted to the mailing list.  
+**Anyone interested in helping out** — club membership or license not required.
+
+See [docs/meetings/README.md](docs/meetings/README.md) for the full meeting schedule, agendas, and notes.
+
+### 4️⃣ Sign Up as a Volunteer
+Volunteer opportunities will be posted to the mailing list and GitHub project board. 
+We need operators, setup crew, teardown crew, equipment specialists, and more.  
+**Early commitment helps us plan better!**
+
+**👉 [Sign-up System Coming Soon](#)** — We're building a volunteer registration system to make it easy to commit to roles.
+
+### 5️⃣ Share Ideas & Feedback
+[Open a GitHub issue](https://github.com/tsayles/field-day-2027/issues/new) to describe what worked, 
+what didn't, or what you'd like to see improved. Short or long, all ideas welcome. You can also share 
+feedback directly on the mailing list.
+
+### Key Contacts
+
+**FD 2027 Coordinator:** Tom Sayles, KE4HET (tentative Assistant Director)  
+General club inquiries: [info@mikeandkey.org](mailto:info@mikeandkey.org)
+
+---
+
+## 📋 Planning Process
+
+We're using an **agile sprint model** with 4 main sprints plus post-event review:
+
+- **Sprint 1** (Nov–Dec): Issue triage & volunteer recruitment  
+- **Sprint 2** (Jan–Feb): TBD  
+- **Sprint 3** (Mar–Apr): TBD  
+- **Sprint 4** (May–Jun): TBD  
+- **Post-Event** (Jul): After-action review
+
+See [docs/meetings/README.md](docs/meetings/README.md) for detailed sprint schedule,
+committee meeting dates, and leadership roles.
+
+---
+
+## FD 2027 Leadership
+
+**Critical Roles to Fill:**
+
+| Role | Status |
+|------|--------|
+| Field Day 2027 Director | 🔴 OPEN |
+| Assistant Director | 🟡 TENTATIVE (Tom Sayles) |
+| Safety Officers (×2) | 🔴 OPEN |
+
+**Supporting Roles:**
+
+| Role | 2026 | 2027 |
+|------|------|--------|
+| Wagon Wheel Host | — | 🟡 TBD |
+| Potluck Manager | — | 🟡 TBD |
+| 15m Band Chair | Phil (K7PIA) | 🟡 TBD |
+| 20m Band Chair | Robert (KD7WNV) | 🟡 TBD |
+| 40m Band Chair | Dean (N7XS) | 🟡 TBD |
+| CW Band Chair | Hal (N7NW) | 🟡 TBD |
+| Digital Station Lead | Bruce (KK7MEH), Tom (KE4HET) | 🟡 TBD |
+| GOTA Lead | George (AE7G) | 🟡 TBD |
+| Satellite | Steven (KD7IQL) | 🟡 TBD |
+| Non-Member Volunteer Coordinator | — | 🔴 OPEN |
+
+See [October 17 membership meeting notes](docs/meetings/2026-10-17-membership-meeting-fd-leadership-notes.md)
+for leadership discussion and role descriptions.
 
 ---
 
@@ -53,7 +121,7 @@ nationally**.
 | **Callsign** | K7LED |
 | **Class** | 6A |
 | **Site** | Fort Flagler State Park, Marrowstone Island, WA |
-| **When** | Radio Camp: June 21 (Mon) — Field Day: June 26, 11:00 AM – June 27, 11:00 AM PDT |
+| **When** | Radio Camp: June 21–24 · Field Day: June 26, 11:00 AM – June 27, 11:00 AM PDT |
 | **Website** | [mikeandkey.org](https://mikeandkey.org) · [Field Day page](https://mikeandkey.org/fday1.php) |
 
 ### Sites
@@ -64,33 +132,17 @@ nationally**.
 | **CW Beach** | CW station operations, located below the Bluff ([map](https://maps.app.goo.gl/nfHUSvY7pNe7W8JQ9)) |
 | **Wagon Wheel** | Group campsite; Radio Camp base, Friday potluck ([map](https://maps.app.goo.gl/UbZ4qKZAgaVeCazFA)) |
 
-### 2026 Stations
+### 2026 Stations (Reference)
 
-| Station | Band / Mode | Chair / Lead | Location |
-|---------|-------------|--------------|----------|
-| 1 | 15m — Phone | Phil (K7PIA) | Bluff (Battery Grattan) |
-| 2 | CW Beach — all CW bands | Hal (N7NW) | CW Beach |
-| 3 | 20m — Phone | Robert (KD7WNV) | Bluff (Battery Grattan) |
-| 4 | 40m — Phone | Dean (N7XS) | Bluff (Battery Grattan) |
-| 5 | Digital (any band) | Bruce (KK7MEH), Tom (KE4HET) ¹ | Bluff (Battery Grattan) |
-| 6 | GOTA — Get On The Air | George (AE7G) — open to visitors & new hams | Bluff (Battery Grattan) |
-| 7 | Satellite | Steven (KD7IQL) | Bluff (Battery Grattan) |
-
-¹ No designated Digital band chair in 2026 — operators ran the station without a formal lead.
-
----
-
-## FD 2026 After Action Review
-
-- [📄 AAR Discussion — Transcript, Ideas & Action Items](docs/debrief/aar-mk-2026-field-day-discussion.md)  
-  Summary of the post-FD debrief meeting: what happened with the trailer, rotor
-  failures, GOTA results, staffing challenges, and 9 improvement ideas with linked issues.
-
----
-
-## Key Contacts
-
-2027 leadership and band chair assignments to be announced. General club inquiries: [info@mikeandkey.org](mailto:info@mikeandkey.org)
+| Station | Band / Mode | Location |
+|---------|-------------|----------|
+| 1 | 15m — Phone | Bluff (Battery Grattan) |
+| 2 | CW Beach — all CW bands | CW Beach |
+| 3 | 20m — Phone | Bluff (Battery Grattan) |
+| 4 | 40m — Phone | Bluff (Battery Grattan) |
+| 5 | Digital (any band) | Bluff (Battery Grattan) |
+| 6 | GOTA — Get On The Air | Bluff (Battery Grattan) |
+| 7 | Satellite | Bluff (Battery Grattan) |
 
 ---
 
@@ -111,11 +163,12 @@ nationally**.
 field-day-2027/
 ├── README.md                   # This file
 ├── docs/
-│   ├── reports/
-│   │   ├── open-questions.md   # Questions that need answers before 2027 FD
-│   │   └── 2026-summary.md     # High-level score / outcome summary
+│   ├── announcements/          # Email announcements to the club
+│   │   └── 2026/               # Announcements sent in 2026
+│   ├── meetings/               # Committee meeting agendas & notes
+│   │   └── README.md           # Sprint schedule & planning process
 │   ├── debrief/
-│   │   ├── aar-mk-2026-field-day-discussion.md  # AAR transcript, ideas & action items
+│   │   ├── aar-mk-2026-field-day-discussion.md  # FD 2026 AAR with ideas & issues
 │   │   └── transcripts/        # Raw debrief session transcripts
 │   ├── station-notes/          # Per-station equipment & operating notes
 │   │   ├── 15m/
@@ -125,13 +178,11 @@ field-day-2027/
 │   │   ├── digital/
 │   │   └── gota/
 │   └── site/                   # Ft. Flagler site logistics & maps
-├── todos/
-│   ├── master-todo.md          # Aggregated action-item list
-│   ├── equipment.md            # Gear acquisition / repair items
-│   ├── training.md             # Operator & volunteer training items
-│   ├── logistics.md            # Site, power, shelter, food logistics
-│   └── software.md             # Logging software & digital mode config
-└── templates/
-    ├── debrief-template.md     # Structured template for debrief sessions
-    └── station-report-template.md
+├── templates/
+│   ├── meeting-agenda-template.md     # Committee meeting agenda
+│   ├── meeting-notes-template.md      # Committee meeting notes
+│   └── station-report-template.md
+└── .github/
+    └── ISSUE_TEMPLATE/         # GitHub issue templates
 ```
+
