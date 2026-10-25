@@ -16,4 +16,14 @@ This station uses shared equipment from across Field Day operations:
 
 ## Station-Specific Equipment
 
-TBD - to be documented
+### Antenna System
+TBD - Satellite antenna specifications to be documented
+
+### Radios
+TBD - Radio model(s) and specifications to be documented
+
+### Amplifiers
+TBD - Amplifier model(s) and specifications to be documented
+
+### Laptops
+TBD - Laptop(s) for satellite tracking and logging to be documented
