@@ -9,17 +9,18 @@ Each operating station is supplied power via an individual distribution cable ru
 - **Source End (Trailer):** NEMA 5-20P (male, 20-amp 120V)
 - **Station End:** Quad box with 4× NEMA 5-15R (female, 15-amp 120V)
 
-## Cable Lengths
+## Cable Lengths by Station
 
 | Station | Approx. Length | Notes |
 |---------|----------------|-------|
 | 15m | TBD | To be measured/documented |
 | 20m | TBD | Bunker location — may be shorter run |
 | 40m | TBD | To be measured/documented |
-| CW Beach | TBD | Runs to CW Beach location |
 | Digital | TBD | To be measured/documented |
 | GOTA | TBD | To be measured/documented |
 | Satellite | TBD | To be measured/documented |
+
+*CW Beach: Not applicable — operates with own generator and COTS extension cords*
 
 ## Maintenance & Storage
 
