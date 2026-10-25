@@ -10,9 +10,6 @@ accommodate part-time volunteer schedules. Most work items span multiple sprints
 
 ## Sprint Timeline
 
-Note: Sprints are 4–6 weeks long (not 2 weeks) to accommodate part-time volunteer schedules.
-Each sprint typically includes 2–3 committee meetings.
-
 | Sprint | Duration | Key Focus | Meetings |
 |--------|----------|-----------|----------|
 | **Sprint 1** | Nov 6 – Dec 18 | **Issue Triage & Volunteer Recruitment** — Review [AAR](../debrief/aar-mk-2026-field-day-discussion.md) and FD2026 feedback [issues](https://github.com/users/tsayles/projects/5); develop volunteer job descriptions; begin recruiting Field Day 2027 Director and core leadership | Wed Nov 6, Wed Nov 20, Wed Dec 4, Wed Dec 18 |
