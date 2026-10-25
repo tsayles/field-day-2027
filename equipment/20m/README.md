@@ -10,9 +10,19 @@ The 20m station is located in a bunker between the gun emplacements at Fort Flag
 
 ## Antenna System
 
+### 4-Element Yagi Beam Antenna
+- **Type:** 4-element Yagi beam
+- **Build:** Home-built by M&K club
+- **Driven Element:** Gamma match
+- **Mounting:** On Rohn tower segments
+- **Rotation:** [Tower Rotator](../shared/rotator.md) (shared with 15m station)
+
+**Known Issues & Modifications:**
+- See [Issue #5: Epoxy spacers in place on 20m beam](https://github.com/tsayles/field-day-2027/issues/5) — Spacer modifications/maintenance for antenna structure
+
 ### Rohn Tower
 - **Tower:** [Rohn Tower Segments](../shared/rohn-tower.md) (approximately 4 straight sections, TBD to confirm)
-- **Antenna:** 20m Phone antenna
+- **Full Documentation:** See [Rohn Tower Segments](../shared/rohn-tower.md)
 - **Rotation:** [Tower Rotator](../shared/rotator.md) (shared with 15m station)
 
 ### Guy Lines & Anchors
@@ -37,3 +47,8 @@ This station uses shared equipment from across Field Day operations:
 ## Station-Specific Equipment
 
 TBD - to be documented
+
+## Related Issues
+
+- [#24: Document antenna construction (20m and others)](https://github.com/tsayles/field-day-2027/issues/24) — Antenna build documentation (20m is highest priority)
+- [#23: Early trailer arrival for antenna maintenance workday](https://github.com/tsayles/field-day-2027/issues/23) — Maintenance session includes antenna work

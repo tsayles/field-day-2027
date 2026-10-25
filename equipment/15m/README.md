@@ -6,10 +6,15 @@
 
 ## Antenna System
 
+### 4-Element Yagi Beam Antenna
+- **Type:** 4-element Yagi beam
+- **Build:** Home-built by M&K club
+- **Driven Element:** Gamma match
+- **Mounting:** On crank-up tower (permanently mounted to trailer)
+- **Rotation:** [Tower Rotator](../shared/rotator.md) (shared with 20m station)
+
 ### Crank-Up Tower
 - **Type:** Permanently mounted to tower trailer
-- **Antenna:** 15m Phone antenna
-- **Rotation:** [Tower Rotator](../shared/rotator.md) (shared with 20m station)
 - **Full Documentation:** See [Crank-Up Tower](../bluff/tower-trailer/crank-up-tower.md) in tower trailer folder
 
 ### Guy Lines & Anchors
