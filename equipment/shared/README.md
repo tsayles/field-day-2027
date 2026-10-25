@@ -6,21 +6,21 @@ Items in this folder are used at multiple stations (15m, 20m, 40m, Digital, GOTA
 
 ## Categories
 
-### Tents
-Equipment and documentation for station tents, canopies, and shelter structures.
+### [Tents](tents.md)
+CORE Instant Cabin Tent (14' x 9', 3-room) for shelter at operating stations.
 
-### Tables
-Tables, desks, and work surfaces for stations.
+### [Tables](tables.md)
+Costco-style 6' folding tables for work surfaces and equipment placement.
 
-### Chairs
-Seating for operators and support staff.
+### [Chairs](chairs.md)
+Folding chairs for operator and support staff seating.
 
-### Power & Connectivity
-Power distribution, cables, surge protection, network equipment shared across stations.
+### [Power & Connectivity](power-connectivity.md)
+Power distribution, cables, surge protection, and network equipment shared across stations.
 
-### General Supplies
+### [General Supplies](general-supplies.md)
 Common consumables and miscellaneous items needed at multiple stations.
 
 ---
 
-**Note:** For quantity tracking and setup/teardown checklists, see the individual station READMEs (15m/, 20m/, 40m/, digital/, gota/, satellite/), which should reference the shared items they use.
+**Note:** For quantity tracking and setup/teardown checklists, see the individual station READMEs (15m/, 20m/, 40m/, digital/, gota/, satellite/), which reference the shared items they use.
