@@ -27,6 +27,12 @@ Equipment is organized into folders corresponding to physical locations at Fort 
 | `wagon-wheel/` | Wagon Wheel — Group campsite; Radio Camp base, Friday potluck |
 | `wish-list/` | Wish list — Future equipment and upgrades |
 
+### Shared Resources
+
+| Folder | Description |
+|--------|-------------|
+| `shared/` | Common items duplicated across most or all operating stations (tents, tables, chairs, power, etc.) |
+
 ## Usage
 
 Each location folder contains a README.md with details about:
@@ -34,3 +40,5 @@ Each location folder contains a README.md with details about:
 - Setup and teardown notes
 - Operating procedures
 - Historical notes and lessons learned
+
+Individual station folders should reference shared items they use, with quantities and specific configurations.
