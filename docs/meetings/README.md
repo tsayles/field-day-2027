@@ -23,7 +23,7 @@ Each sprint typically includes 2–3 committee meetings.
 
 ## Critical Roles to Fill
 
-The following roles must be assigned early (Sprint 1–2):
+The following roles should be filled early (Sprint 1–2):
 
 | Role | Purpose | Status |
 |------|---------|--------|
