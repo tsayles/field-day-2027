@@ -37,15 +37,19 @@ Field Day planning.
 - [Browse open issues](https://github.com/tsayles/field-day-2027/issues) and add your ideas
 - 👉 [**View the Field Day 2027 Project Board**](https://github.com/users/tsayles/projects/5) — Browse open issues from the FD 2026 After-Action Review (35+ improvement ideas), see what's in progress, and pick something to work on
 
-### 3️⃣ Attend Planning Meetings
+### 3️⃣ Attend a Planning Meeting
 **Committee meetings:** 1st and 3rd Wednesdays at 8 PM PT  
 Starting November 6, 2026. Zoom link will be posted to the mailing list.  
 **Anyone interested in helping out** — club membership or license not required.
+
+See [docs/meetings/README.md](docs/meetings/README.md) for the full meeting schedule, agendas, and notes.
 
 ### 4️⃣ Sign Up as a Volunteer
 Volunteer opportunities will be posted to the mailing list and GitHub project board. 
 We need operators, setup crew, teardown crew, equipment specialists, and more.  
 **Early commitment helps us plan better!**
+
+**👉 [Sign-up System Coming Soon](#)** — We're building a volunteer registration system to make it easy to commit to roles.
 
 ### 5️⃣ Share Ideas & Feedback
 [Open a GitHub issue](https://github.com/tsayles/field-day-2027/issues/new) to describe what worked, 
