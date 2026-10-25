@@ -4,6 +4,13 @@
 **Band/Mode:** CW Beach — all CW bands  
 **Location:** CW Beach
 
+## Antennas
+
+The CW Beach station operates a collection of vertical antennas:
+- 15m vertical
+- 20m vertical
+- 40m vertical
+
 ## Power & Infrastructure
 
 The CW Beach station operates independently from the main equipment trailer:
