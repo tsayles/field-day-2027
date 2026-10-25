@@ -10,6 +10,50 @@ Fort Flagler in June 2026.
 leadership recruitment** (November 2026) through **Radio Camp** (June 21–24, 2027),
 the 24-hour operating period (June 26–27), and post-event wrap-up (July 2027).
 
+---
+
+## 📬 Join the Conversation
+
+**Primary Communication Channel:**  
+[**FieldDay@mkarc.groups.io**](https://mkarc.groups.io/g/FieldDay) — Subscribe to stay in the loop on announcements, 
+meeting updates, volunteer opportunities, and club-wide discussions.
+
+[➡️ Subscribe Now](mailto:FieldDay+subscribe@mkarc.groups.io)
+
+---
+
+## How to Get Involved
+
+**You don't need to be a developer to contribute here — just a club member with ideas and interest.**
+
+### 1️⃣ Join the Mailing List
+[**Subscribe to FieldDay@mkarc.groups.io**](mailto:FieldDay+subscribe@mkarc.groups.io) — This is where all 
+announcements, meeting invites, and discussions happen. This is the primary way the club communicates about 
+Field Day planning.
+
+### 2️⃣ Follow This Repository
+"Watch" this repo to get updates on new issues, meeting notes, and planning progress. You can:
+- [Star this repo](https://github.com/tsayles/field-day-2027) to show your support
+- [Browse open issues](https://github.com/tsayles/field-day-2027/issues) and add your ideas
+- [View the project board](https://github.com/users/tsayles/projects/5) to see what's being worked on
+
+### 3️⃣ Attend Planning Meetings
+**Committee meetings:** 1st and 3rd Wednesdays at 8 PM PT  
+Starting November 6, 2026. Zoom link will be posted to the mailing list.  
+**Open to all club members** — no experience or prior knowledge necessary.
+
+### 4️⃣ Sign Up as a Volunteer
+Volunteer opportunities will be posted to the mailing list and GitHub project board. 
+We need operators, setup crew, teardown crew, equipment specialists, and more.  
+**Early commitment helps us plan better!**
+
+### 5️⃣ Share Ideas & Feedback
+[Open a GitHub issue](https://github.com/tsayles/field-day-2027/issues/new) to describe what worked, 
+what didn't, or what you'd like to see improved. Short or long, all ideas welcome. You can also share 
+feedback directly on the mailing list.
+
+---
+
 ## 📋 Planning Process
 
 We're using an **agile sprint model** with 4 main sprints plus post-event review:
@@ -25,36 +69,8 @@ committee meeting dates, and leadership roles.
 
 ## 👉 [View the Field Day 2027 Project Board](https://github.com/users/tsayles/projects/5)
 
-Browse open issues from the FD 2026 After-Action Review, see what's in progress, and
-pick something to work on. Whether you operated, helped with setup, visited the site,
-or just have an idea — **your input counts**. Got a GitHub account?
-[Open an issue](https://github.com/tsayles/field-day-2027/issues/new) and tell us
-what you'd like to see improved.
-
----
-
-## How to Get Involved
-
-You don't need to be a developer to contribute here — just a club member with ideas.
-
-### 🗳️ Share an idea or report an issue
-[Open a new issue](https://github.com/tsayles/field-day-2027/issues/new) — describe
-what worked, what didn't, or what you'd like to see next year. Short or long, all
-ideas welcome.
-
-### 📋 See what's already being worked on
-Check the [project board](https://github.com/users/tsayles/projects/5) or
-[issues list](https://github.com/tsayles/field-day-2027/issues) — there are already
-35+ improvement ideas tracked from the FD 2026 debrief and member feedback.
-
-### 📅 Attend planning meetings
-**Committee meetings:** 1st and 3rd Wednesdays at 8 PM PT  
-Starting November 6, 2026. Video conference link TBD.  
-Open to all club members — no experience necessary.
-
-### 🙋 Sign up to help
-We need operators, setup crew, teardown crew, equipment specialists, and more.
-Volunteer sign-ups will launch in Sprint 1. Early commitment helps us plan better!
+Browse open issues from the FD 2026 After-Action Review (35+ improvement ideas), see what's in progress, 
+and pick something to work on.
 
 ---
 
