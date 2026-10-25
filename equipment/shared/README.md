@@ -18,6 +18,9 @@ Folding chairs for operator and support staff seating.
 ### [Power & Connectivity](power-connectivity.md)
 Power distribution, cables, surge protection, and network equipment shared across stations.
 
+**Includes:**
+- [Station Distribution Cables](power-cables.md) — 10/3 AWG power cables from equipment trailer to each station
+
 ### [General Supplies](general-supplies.md)
 Common consumables and miscellaneous items needed at multiple stations.
 
