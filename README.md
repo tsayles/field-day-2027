@@ -35,7 +35,7 @@ Field Day planning.
 "Watch" this repo to get updates on new issues, meeting notes, and planning progress. You can:
 - [Star this repo](https://github.com/tsayles/field-day-2027) to show your support
 - [Browse open issues](https://github.com/tsayles/field-day-2027/issues) and add your ideas
-- [View the project board](https://github.com/users/tsayles/projects/5) to see what's being worked on
+- 👉 [**View the Field Day 2027 Project Board**](https://github.com/users/tsayles/projects/5) — Browse open issues from the FD 2026 After-Action Review (35+ improvement ideas), see what's in progress, and pick something to work on
 
 ### 3️⃣ Attend Planning Meetings
 **Committee meetings:** 1st and 3rd Wednesdays at 8 PM PT  
@@ -66,11 +66,6 @@ We're using an **agile sprint model** with 4 main sprints plus post-event review
 
 See [docs/meetings/README.md](docs/meetings/README.md) for detailed sprint schedule,
 committee meeting dates, and leadership roles.
-
-## 👉 [View the Field Day 2027 Project Board](https://github.com/users/tsayles/projects/5)
-
-Browse open issues from the FD 2026 After-Action Review (35+ improvement ideas), see what's in progress, 
-and pick something to work on.
 
 ---
 
