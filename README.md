@@ -130,15 +130,15 @@ nationally**.
 
 ### 2026 Stations (Reference)
 
-| Station | Band / Mode | Chair / Lead | Location |
-|---------|-------------|--------------|----------|
-| 1 | 15m — Phone | Phil (K7PIA) | Bluff (Battery Grattan) |
-| 2 | CW Beach — all CW bands | Hal (N7NW) | CW Beach |
-| 3 | 20m — Phone | Robert (KD7WNV) | Bluff (Battery Grattan) |
-| 4 | 40m — Phone | Dean (N7XS) | Bluff (Battery Grattan) |
-| 5 | Digital (any band) | Bruce (KK7MEH), Tom (KE4HET) ¹ | Bluff (Battery Grattan) |
-| 6 | GOTA — Get On The Air | George (AE7G) | Bluff (Battery Grattan) |
-| 7 | Satellite | Steven (KD7IQL) | Bluff (Battery Grattan) |
+| Station | Band / Mode | Location |
+|---------|-------------|----------|
+| 1 | 15m — Phone | Bluff (Battery Grattan) |
+| 2 | CW Beach — all CW bands | CW Beach |
+| 3 | 20m — Phone | Bluff (Battery Grattan) |
+| 4 | 40m — Phone | Bluff (Battery Grattan) |
+| 5 | Digital (any band) | Bluff (Battery Grattan) |
+| 6 | GOTA — Get On The Air | Bluff (Battery Grattan) |
+| 7 | Satellite | Bluff (Battery Grattan) |
 
 ---
 
