@@ -25,13 +25,19 @@ The following roles should be filled early (Sprint 1–2):
 | Role | Purpose | Status |
 |------|---------|--------|
 | **Field Day 2027 Director** | Overall FD operation lead; final decision authority | 🔴 OPEN |
-| **Assistant Director** | Support director; assume role if director unavailable | 🔴 OPEN |
-| **Site Lead** | Fort Flagler logistics, setup, teardown | 🟡 TBD |
-| **Equipment Lead** | Inventory, repairs, transport, on-site equipment management | 🟡 TBD |
-| **Logging/IT Lead** | Logging software, network, digital modes, computer systems | 🟡 TBD |
-| **Training Lead** | Operator training, CW practice, Radio Camp | 🟡 TBD |
-| **GOTA Lead** | Get-On-The-Air station operations and staffing | 🟡 TBD |
-| **Digital Station Lead** | FT8, PSK, satellite, and other digital mode coordination | 🟡 TBD |
+| **Assistant Director** | Equipment lead; setup/teardown coordination; backup to director | 🟡 TENTATIVE (Tom Sayles) |
+| **Safety Officer** (×2) | On-site safety authority; can halt unsafe activities | 🔴 OPEN |
+
+## Supporting Roles
+
+The following roles handle specific areas and should be recruited during Sprint 1:
+
+| Role | Purpose | Status |
+|------|---------|--------|
+| **Wagon Wheel Host** | Site check-in; member activities and recreational events | 🟡 TBD |
+| **Potluck Manager** | Friday potluck coordination; lunch and snacks during FD | 🟡 TBD |
+| **Band Chairs** | Recruit operating teams ahead of time; identify volunteer needs | 🟡 TBD |
+| **Non-Member Volunteer Coordinator** | Outreach to STEM groups, scouts, community; manage external volunteers | 🔴 OPEN |
 
 ## Meeting Structure (Scrum Model)
 
