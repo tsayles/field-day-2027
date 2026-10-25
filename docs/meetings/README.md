@@ -1,22 +1,24 @@
 # Field Day 2027 Committee Meetings
 
 This folder tracks sprint planning and scrum sessions for Field Day 2027.
-We use an agile sprint model to organize work into 2-week cycles, with each
+We use an agile sprint model to organize work into 4–6 week cycles, with each
 meeting serving as a scrum standup/sprint review hybrid. Committee meetings
 run 1st and 3rd Wednesdays at 8 PM PT, November 2026 through July 2027.
 
+**Note on Sprints:** Sprints are intentionally 4–6 weeks long (not 2 weeks) to 
+accommodate part-time volunteer schedules. Most work items span multiple sprints.
+
 ## Sprint Timeline
 
-| Sprint | Weeks | Key Focus | Meetings |
-|--------|-------|-----------|----------|
-| **Sprint 1** | Nov 6–20 | **Issue Triage & Volunteer Roles** — Review AAR and FD2026 feedback issues; develop volunteer job descriptions; recruit Field Day 2027 Director | Wed Nov 6, Wed Nov 20 |
-| **Sprint 2** | Dec 4–18 | **Staffing Plan & Site Confirmation** — Finalize director and key roles; confirm site reservation; draft operating schedule | Wed Dec 4, Wed Dec 18 |
-| **Sprint 3** | Jan 8–22 | **Logistics & Equipment** — Inventory equipment, prioritize repairs; develop transport/site setup plan | Wed Jan 8, Wed Jan 22 |
-| **Sprint 4** | Feb 5–19 | **Logging & Network** — Select/configure logging software; plan network infrastructure and digital modes | Wed Feb 5, Wed Feb 19 |
-| **Sprint 5** | Mar 5–19 | **Training & Operations** — Finalize operator training plan and schedule; plan GOTA and bonus stations | Wed Mar 5, Wed Mar 19 |
-| **Sprint 6** | Apr 2–16 | **Volunteer Recruitment & Dry Run Planning** — Complete volunteer signup; finalize roles; plan dry run exercises | Wed Apr 2, Wed Apr 16 |
-| **Sprint 7** | May 7–21 | **Final Dry Run & Logistics Review** — Run full-scale dry run exercise; debrief and final logistics adjustments | Wed May 7, Wed May 21 |
-| **Sprint 8** | Jun 4–18 | **Pre-Event Execution** — Final equipment checks; volunteer confirmation; walkthrough and last-minute adjustments | Wed Jun 4, Wed Jun 18 |
+Note: Sprints are 4–6 weeks long (not 2 weeks) to accommodate part-time volunteer schedules.
+Each sprint typically includes 2–3 committee meetings.
+
+| Sprint | Duration | Key Focus | Meetings |
+|--------|----------|-----------|----------|
+| **Sprint 1** | Nov 6 – Dec 18 | **Issue Triage & Volunteer Recruitment** — Review AAR and FD2026 feedback issues; develop volunteer job descriptions; begin recruiting Field Day 2027 Director and core leadership | Wed Nov 6, Wed Nov 20, Wed Dec 4, Wed Dec 18 |
+| **Sprint 2** | Jan 8 – Feb 19 | **Leadership Confirmed & Planning** — Finalize director and key roles; confirm site reservation; develop master operating plan and schedule | Wed Jan 8, Wed Jan 22, Wed Feb 5, Wed Feb 19 |
+| **Sprint 3** | Mar 5 – Apr 16 | **Equipment & Training** — Inventory equipment, prioritize repairs; finalize operator training plan and schedule; select logging software and train operators | Wed Mar 5, Wed Mar 19, Wed Apr 2, Wed Apr 16 |
+| **Sprint 4** | May 7 – Jun 18 | **Dry Run & Final Preparations** — Run full-scale dry run exercise; debrief and adjustments; final equipment checks; volunteer confirmation; pre-event walkthrough | Wed May 7, Wed May 21, Wed Jun 4, Wed Jun 18 |
 | **Post-Event** | Jul 9, 23 | **After-Action Review & Wrap-up** — Debrief FD2027 performance; capture lessons learned; close out planning | Wed Jul 9, Wed Jul 23 |
 
 ## Critical Roles to Fill
