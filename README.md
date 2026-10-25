@@ -142,18 +142,6 @@ nationally**.
 
 ---
 
-## FD 2026 After Action Review
-
-- [📄 AAR Discussion — Transcript, Ideas & Action Items](docs/debrief/aar-mk-2026-field-day-discussion.md)  
-  Summary of the post-FD debrief meeting: what happened with the trailer, rotor
-  failures, GOTA results, staffing challenges, and 35+ improvement ideas with linked
-  GitHub issues.
-
-- [📹 October 17 Membership Meeting — Leadership Discussion](https://youtu.be/PX_LN5dnzIw?si=VaaV8jE38IqiHGUA)  
-  Club board presents proposed leadership structure and volunteer roles.
-
----
-
 ## Useful Links
 
 - [ARRL Field Day Rules](https://www.arrl.org/field-day)
