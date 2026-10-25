@@ -81,7 +81,7 @@ committee meeting dates, and leadership roles.
 
 **Supporting Roles:**
 
-| Role | 2026 | Status |
+| Role | 2026 | 2027 |
 |------|------|--------|
 | Wagon Wheel Host | — | 🟡 TBD |
 | Potluck Manager | — | 🟡 TBD |
