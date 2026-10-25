@@ -10,10 +10,16 @@
 - **Type:** Permanently mounted to tower trailer
 - **Antenna:** 15m Phone antenna
 - **Rotation:** [Tower Rotator](../shared/rotator.md) (shared with 20m station)
+- **Full Documentation:** See [Crank-Up Tower](../bluff/tower-trailer/crank-up-tower.md) in tower trailer folder
 
 ### Guy Lines & Anchors
 - **Guy Lines:** Cotton and polypropylene blend (shared)
 - **Anchors:** [Water Bag Anchors](../shared/water-bag-anchors.md) (shared with 20m station)
+
+### Critical Setup Notes
+- **15'+ of flat space behind tower trailer** is required for safe antenna mounting/unmounting
+- Tower trailer uses jack-style landing gear with **cribbing requirements**
+- See [Tower Trailer](../bluff/tower-trailer/README.md) documentation for full setup procedures
 
 ## Shared Equipment
 
