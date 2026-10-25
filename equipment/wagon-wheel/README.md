@@ -10,8 +10,8 @@ Group campsite location for Field Day 2027. Wagon Wheel hosts Radio Camp activit
 
 ## Facilities
 
-### [portable-facilities.md](portable-facilities.md)
-Rented portable toilets and portable sink for Radio Camp participants and Field Day volunteers sanitation facilities.
+### [Rented Portable Facilities](../shared/portable-facilities.md)
+Rented portable toilets and portable sink for Radio Camp participants and Field Day volunteers sanitation facilities (shared across Bluff, CW Beach, Wagon Wheel).
 
 ## Related Information
 

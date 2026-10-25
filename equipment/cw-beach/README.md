@@ -19,8 +19,8 @@ The CW Beach station operates independently from the main equipment trailer:
 
 ## Facilities
 
-### [portable-facilities.md](portable-facilities.md)
-Rented portable toilets and portable sink for operator and volunteer sanitation facilities.
+### [Rented Portable Facilities](../shared/portable-facilities.md)
+Rented portable toilets and portable sink for operator and volunteer sanitation facilities (shared across Bluff, CW Beach, Wagon Wheel).
 
 ## Shared Equipment
 
@@ -36,4 +36,5 @@ This station uses shared equipment from across Field Day operations:
 ## Station-Specific Equipment
 
 TBD - to be documented
+
 
