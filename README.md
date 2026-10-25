@@ -52,6 +52,11 @@ We need operators, setup crew, teardown crew, equipment specialists, and more.
 what didn't, or what you'd like to see improved. Short or long, all ideas welcome. You can also share 
 feedback directly on the mailing list.
 
+### Key Contacts
+
+**FD 2027 Coordinator:** Tom Sayles, KE4HET (tentative Assistant Director)  
+General club inquiries: [info@mikeandkey.org](mailto:info@mikeandkey.org)
+
 ---
 
 ## 📋 Planning Process
@@ -146,13 +151,6 @@ nationally**.
 
 - [📹 October 17 Membership Meeting — Leadership Discussion](https://youtu.be/PX_LN5dnzIw?si=VaaV8jE38IqiHGUA)  
   Club board presents proposed leadership structure and volunteer roles.
-
----
-
-## Key Contacts
-
-**FD 2027 Coordinator:** Tom Sayles, KE4HET (tentative Assistant Director)  
-General club inquiries: [info@mikeandkey.org](mailto:info@mikeandkey.org)
 
 ---
 
