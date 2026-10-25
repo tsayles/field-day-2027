@@ -1,20 +1,21 @@
 # Rohn Tower Segments
 
-Tapered top sections of Rohn tower used for antenna support across Field Day operations.
+Tapered top sections of Rohn tower used for antenna support at the 20m station.
 
 ## Tower Specifications
 
 **Manufacturer:** Rohn  
 **Type:** Tapered top sections  
+**Sections:** Approximately 4 straight sections (to be confirmed)
 **Height:** TBD - to be confirmed  
-**Sections:** Multiple straight sections plus tapered top
 
-### Configuration
+### Configuration at 20m Station
 
 Used with:
-- Tilt-up base (station-specific)
-- Rotator (see [rotator.md](rotator.md))
-- Antenna-specific mounting hardware
+- 20m Phone antenna
+- [Tower Rotator](rotator.md) (shared with 15m station)
+- [Water Bag Anchors](water-bag-anchors.md) (shared)
+- [Guy Lines](guy-lines.md) (shared, cotton and polypropylene)
 
 ## Maintenance & Storage
 
@@ -30,4 +31,4 @@ Used with:
 
 ---
 
-**Status:** Tower segment details (exact height, configuration) need to be confirmed and documented. Contributions welcome!
+**Status:** Tower segment details (exact height, number of sections) need to be confirmed and documented. Contributions welcome!

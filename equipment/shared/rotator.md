@@ -1,6 +1,6 @@
 # Tower Rotator
 
-Antenna rotator used to rotate antennas for directional control.
+Antenna rotator used for directional control at multiple stations.
 
 ## Rotator Specifications
 
@@ -12,8 +12,14 @@ Antenna rotator used to rotate antennas for directional control.
 ### Features
 
 - Multi-band antenna rotation support
-- Used with Rohn tower segments (see [rohn-tower.md](rohn-tower.md))
+- Used with tower systems (see [Rohn Tower Segments](rohn-tower.md) and 15m Crank-Up Tower)
 - Controller and cabling included
+
+## Shared Usage
+
+The rotator is shared by:
+- **15m Phone Station** — 15m Phone antenna on crank-up tower
+- **20m Phone Station** — 20m antenna on Rohn tower segments
 
 ## Installation & Maintenance
 

@@ -23,8 +23,10 @@ Power distribution, cables, surge protection, and network equipment shared acros
 
 ### Tower & Antenna Support
 
-- [Rohn Tower Segments](rohn-tower.md) — Tapered top Rohn tower sections for antenna mounting
-- [Tower Rotator](rotator.md) — Antenna rotator for directional control
+- [Rohn Tower Segments](rohn-tower.md) — Tapered top Rohn tower sections for 20m station antenna mounting
+- [Tower Rotator](rotator.md) — Antenna rotator shared by 15m and 20m stations
+- [Guy Lines](guy-lines.md) — Cotton and polypropylene support cables (15m, 20m, GOTA)
+- [Water Bag Anchors](water-bag-anchors.md) — Ground anchors for guy lines (15m and 20m stations)
 
 ### [General Supplies](general-supplies.md)
 Common consumables and miscellaneous items needed at multiple stations.

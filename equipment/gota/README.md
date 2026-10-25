@@ -13,6 +13,10 @@ Tri-band antenna with 3 elements, mounted on Rohn tower for multi-band operation
 ### Tilt-Up Base
 Tilt-up base system for the antenna/tower assembly, allowing for efficient setup and takedown.
 
+### Guy Line Anchors
+- **Anchor Type:** Tree trunks (unique to GOTA station)
+- **Guy Lines:** Cotton and polypropylene blend (shared)
+
 ## Shared Equipment
 
 This station uses shared equipment from across Field Day operations:
@@ -23,6 +27,7 @@ This station uses shared equipment from across Field Day operations:
 - ⚡ [Power & Connectivity](../shared/power-connectivity.md)
 - 🗼 [Rohn Tower Segments](../shared/rohn-tower.md)
 - 🔄 [Tower Rotator](../shared/rotator.md)
+- 📏 [Guy Lines](../shared/guy-lines.md)
 - 📦 [General Supplies](../shared/general-supplies.md)
 
 ## Station Setup Notes
@@ -32,3 +37,5 @@ The antenna assembly uses:
 - Rohn tower segments (shared)
 - Tilt-up base (GOTA-specific)
 - Rotator for directional control (shared)
+- Cotton/polypropylene guy lines (shared)
+- Tree trunk anchors for guy lines (GOTA-specific)
