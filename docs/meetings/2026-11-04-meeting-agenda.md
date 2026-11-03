@@ -91,8 +91,8 @@ Confirm who's doing what and next steps.
 
 ## Links
 
-- **2026 AAR:** docs/debrief/aar-mk-2026-field-day-discussion.md
-- **Oct 17 Membership Meeting Notes:** docs/meetings/2026-10-17-membership-meeting-fd-leadership-notes.md
+- **2026 AAR:** [aar-mk-2026-field-day-discussion.md](../debrief/aar-mk-2026-field-day-discussion.md)
+- **Oct 17 Membership Meeting Notes:** [2026-10-17-membership-meeting-fd-leadership-notes.md](2026-10-17-membership-meeting-fd-leadership-notes.md)
 - **Project Board:** https://github.com/users/tsayles/projects/5
 - **GitHub Issues:** https://github.com/tsayles/field-day-2027/issues
 - **Meeting Notes Folder:** docs/meetings/
