@@ -4,6 +4,14 @@
 
 ---
 
+## Critical Leadership Roles
+
+- [ ] **Field Day 2027 Director** — Overall FD operation lead; final decision authority
+- [ ] **Safety Officer #1** — On-site safety authority; can halt unsafe activities
+- [ ] **Safety Officer #2** — On-site safety authority; can halt unsafe activities
+
+---
+
 ## Coordination Roles (Leadership)
 
 - [ ] **Friday Potluck Coordinator** — Organize Friday evening potluck at Wagon Wheel Campground
