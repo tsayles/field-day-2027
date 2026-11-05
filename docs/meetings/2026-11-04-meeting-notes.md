@@ -13,7 +13,7 @@
 ## Attendees
 
 - Tom Sayles (KE4HET)
-- Ross (W7ROV)
+- Ross Van Deen (W7ROV)
 - Scott (KC7SAG)
 - Phil Pia (K7PIA)
 - Robert (KD7WNV)
