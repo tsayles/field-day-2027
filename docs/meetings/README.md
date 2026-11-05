@@ -12,16 +12,17 @@ accommodate part-time volunteer schedules. Most work items span multiple sprints
 
 - **[July 2026 Debrief](../debrief/aar-mk-2026-field-day-discussion.md)** — After-Action Review from Field Day 2026 at Fort Flagler; identifies 35+ improvement ideas and feedback items to guide 2027 planning
 - **[October 17, 2026 Membership Meeting Notes](2026-10-17-membership-meeting-fd-leadership-notes.md)** — Mike & Key leadership discussion on Field Day 2027 organizational structure, roles, and recruitment strategy
+- **[November 4, 2026 Committee Meeting Notes](2026-11-04-meeting-notes.md)** — Sprint 1 kickoff notes covering volunteer staffing, leadership recruitment, safety roles, and near-term action items
 
 ## Sprint Timeline
 
 | Sprint | Duration | Key Focus | Meetings |
 |--------|----------|-----------|----------|
-| **Sprint 1** | Nov 6 – Dec 18 | **Issue Triage & Volunteer Recruitment** — Review [AAR](../debrief/aar-mk-2026-field-day-discussion.md) and FD2026 feedback [issues](https://github.com/users/tsayles/projects/5); develop volunteer job descriptions; begin recruiting Field Day 2027 Director and core leadership | Wed Nov 6, Wed Nov 20, Wed Dec 4, Wed Dec 18 |
-| **Sprint 2** | Jan 8 – Feb 19 | TBD | Wed Jan 8, Wed Jan 22, Wed Feb 5, Wed Feb 19 |
-| **Sprint 3** | Mar 5 – Apr 16 | TBD | Wed Mar 5, Wed Mar 19, Wed Apr 2, Wed Apr 16 |
-| **Sprint 4** | May 7 – Jun 18 | TBD | Wed May 7, Wed May 21, Wed Jun 4, Wed Jun 18 |
-| **Post-Event** | Jul 9, 23 | **After-Action Review & Wrap-up** — Debrief FD2027 performance; capture lessons learned; close out planning | Wed Jul 9, Wed Jul 23 |
+| **Sprint 1** | Nov 4 – Dec 16 | **Issue Triage & Volunteer Recruitment** — Review [AAR](../debrief/aar-mk-2026-field-day-discussion.md) and FD2026 feedback [issues](https://github.com/users/tsayles/projects/5); develop volunteer job descriptions; begin recruiting Field Day 2027 Director and core leadership | Wed Nov 4, Wed Nov 18, Wed Dec 2, Wed Dec 16 |
+| **Sprint 2** | Jan 6 – Feb 17 | TBD | Wed Jan 6, Wed Jan 20, Wed Feb 3, Wed Feb 17 |
+| **Sprint 3** | Mar 3 – Apr 21 | TBD | Wed Mar 3, Wed Mar 17, Wed Apr 7, Wed Apr 21 |
+| **Sprint 4** | May 5 – Jun 16 | TBD | Wed May 5, Wed May 19, Wed Jun 2, Wed Jun 16 |
+| **Post-Event** | Jul 7, 21 | **After-Action Review & Wrap-up** — Debrief FD2027 performance; capture lessons learned; close out planning | Wed Jul 7, Wed Jul 21 |
 
 ## Critical Roles to Fill
 
@@ -51,7 +52,7 @@ Each meeting follows a standard scrum format:
 1. **Sprint Review** (10 min) — Review completed tasks from previous sprint
 2. **Backlog Grooming** (20 min) — Discuss upcoming sprint work, refine issues
 3. **Sprint Planning** (15 min) — Assign work, set sprint goals
-4. **Open Discussion** (15 min) — Questions, blockers, dependencies
+4. **Open Discussion** (10 min) — Questions, blockers, dependencies
 5. **Decisions & Commitments** (5 min) — Confirm who's doing what, next steps
 
 **Target meeting duration: 60 minutes**
