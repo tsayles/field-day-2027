@@ -7,8 +7,9 @@
 ## Critical Leadership Roles
 
 - [ ] **Field Day 2027 Director** — Overall FD operation lead; final decision authority
-- [ ] **Safety Officer #1** — On-site safety authority; can halt unsafe activities
-- [ ] **Safety Officer #2** — On-site safety authority; can halt unsafe activities
+- [ ] **Assistant Director / Field Day Assistant** — Supports the director, keeps staffing and task visibility, and serves as backup leadership as needed
+- [ ] **Safety Officer #1** — On-site safety authority; performs safety checks, enforces site safety rules, and can halt unsafe activities
+- [ ] **Safety Officer #2** — On-site safety authority; performs safety checks, enforces site safety rules, and can halt unsafe activities
 
 ---
 
@@ -29,11 +30,11 @@
 ## Setup & Logistics
 
 ### Radio Camp Prep (Starting Monday of Radio Camp)
-- [ ] Assist with Wagon Wheel Campground coordination
+- [ ] Assist with Wagon Wheel Campground coordination and site prep
 
 ### Friday Setup (Pre-Field Day)
-- [ ] Assist with less physical setup activities (staging equipment, running cables, setting up tents)
-- [ ] Tower setup ground crew (more physical work)
+- [ ] General setup crew — assist with staging equipment, running cables, setting up tents, and other site prep tasks
+- [ ] Tower setup ground crew — more physical work, including tower and antenna setup/grounding tasks
 
 ---
 
