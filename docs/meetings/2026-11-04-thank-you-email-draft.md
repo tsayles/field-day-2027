@@ -1,0 +1,3 @@
+# Thank You — Field Day 2027 Committee Meeting (Nov 4, 2026)
+
+Hi all, thank you to everyone who attended tonight’s planning call — Tom (KE4HET), Ross (W7ROV), Scott (KC7SAG), Phil (K7PIA), and Robert (KD7WNV) — and for the practical discussion on volunteer staffing, leadership roles, safety coverage, and pre-event equipment readiness; in short, we aligned on the biggest near-term risks (manpower and role clarity), confirmed immediate follow-up actions, and set direction for improving signup visibility and technical prep before Radio Camp and Field Day. Meeting notes: [INSERT RELEASED NOTES LINK HERE]. Zoom info for next call: Link [INSERT ZOOM LINK], ID [INSERT ZOOM MEETING ID], Passcode [INSERT ZOOM PASSCODE].
