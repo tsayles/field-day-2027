@@ -10,8 +10,7 @@ Tom Sayles is inviting you to a scheduled Zoom meeting.
 
 ## Calendar Import (.ics)
 
-- **Weekly:**  
-  https://us06web.zoom.us/meeting/tZ0rdO6qqjoqH9NnDKXSJoGw2MWhJeYjoMph/ics?icsToken=DNw-F-xJcw2OUi8tvQAALAAAAHD11cg1c1OHeySajhK4E3qJFMIE6Y-pdyDiyywFROhLzxyDKqVOVkuDgSmMZzyRmKZ-YGIEeD1X1q1hAjAwMDAwMg&meetingMasterEventId=7-kmO18_Rx6vcKI38yggsA
+- Use custom schedule file: `fd-2027-planning-committee-1st-3rd-wed.ics`
 
 ## Join Zoom Meeting
 
