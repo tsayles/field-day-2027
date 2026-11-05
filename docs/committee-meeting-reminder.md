@@ -1,35 +1,34 @@
 # MKARC Field Day 2027 Committee Call Reminder
 
-**Subject:** Reminder: MKARC Field Day 2027 Committee Call - Wed, Nov 4 @ 8:00 PM
+**Subject:** Reminder: MKARC Field Day 2027 Committee Call - Wed, Nov 18 @ 8:00 PM PT
 
 ---
 
 Hi everyone,
 
-I apologize for the date errors in my previous email—I had the day correct (Wednesdays), but got some of the specific dates wrong. Here are the **corrected dates** for all meetings.
+Thanks again to everyone who joined our Nov 4 kickoff call. Here is a reminder for our next planning meeting.
 
 Just a quick reminder about our Field Day 2027 planning committee call **THIS WEDNESDAY**:
 
 ## Meeting Details
 
-| When | Wednesday, November 4, 2026 at 8:00 PM Pacific |
+| When | Wednesday, November 18, 2026 at 8:00 PM Pacific |
 |------|---|
-| Where | [Zoom](https://us06web.zoom.us/j/88979763814?pwd=7Z7QcWh6g8A02SaR.1) — https://us06web.zoom.us/j/88979763814?pwd=7Z7QcWh6g8A02SaR.1 |
-
-This is our **KICKOFF** call—we'll get started on organizing for Field Day 2027 (June 26–27).
+| Where | [Zoom](https://us06web.zoom.us/j/89637241057?pwd=xU87LKT7eCb2ZSBzAkMlfWbLLwwA4L.1) — https://us06web.zoom.us/j/89637241057?pwd=xU87LKT7eCb2ZSBzAkMlfWbLLwwA4L.1 |
+| Meeting ID | 896 3724 1057 |
+| Passcode | 146.82 |
 
 ## Agenda
 
-- Establishing our planning timeline
-- Assigning roles and responsibilities
-- Reviewing action items from 2026 Field Day debrief
-- Site reservations, equipment, volunteer coordination, and more
+- Sprint review: progress since Nov 4 kickoff
+- Backlog grooming: staffing, leadership, and setup priorities
+- Sprint planning: owners and due dates through Dec 2
+- Open question: should raw meeting transcripts be posted publicly on GitHub?
 
 ## Upcoming Meetings
 
 **1st & 3rd Wednesdays of each month:**
 
-- Wed, Nov 4, 2026 — Kickoff
 - Wed, Nov 18, 2026
 - Wed, Dec 2, 2026
 - Wed, Dec 16, 2026
@@ -47,6 +46,8 @@ This is our **KICKOFF** call—we'll get started on organizing for Field Day 202
 - Wed, Jun 16, 2027 — Final push before Field Day (Jun 26–27)
 - Wed, Jul 7, 2027 — After-action review
 - Wed, Jul 21, 2027 — Wrap-up
+
+Recurring schedule reference: [fd-2027-zoom-recurring-meeting.md](meetings/fd-2027-zoom-recurring-meeting.md)
 
 We'll aim to keep calls to **60 minutes or less**. Agendas and notes will be posted to the FieldDay@mkarc.groups.io list.
 
