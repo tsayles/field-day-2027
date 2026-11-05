@@ -74,7 +74,7 @@ Build reliable volunteer recruitment and assignment flow for Field Day 2027, whi
 |------|-------|-----|
 | Publish/maintain sign-up spreadsheet visibility on club site; keep role list updated | Scott (KC7SAG) | Before next meeting |
 | Include full Zoom link + meeting ID + passcode in all future agenda/reminder emails | Tom (KE4HET) | Before next meeting |
-| Research free volunteer sign-up alternatives and send options | Tom (KE4HET) | Before next meeting |
+| Research free volunteer sign-up alternatives and send options ([#42](https://github.com/tsayles/field-day-2027/issues/42)) | Tom (KE4HET) | Before next meeting |
 | Draft expanded Field Day task/role list using band-chair and prior-chair input | Tom (KE4HET) | In progress |
 | Prepare rotator/cable connector improvement proposal and spare-cable prep plan | Tom (KE4HET) | By next 1–2 committee meetings |
 | Create visitor-table QR-code solution for Field Day page | Scott (KC7SAG) | In progress |
