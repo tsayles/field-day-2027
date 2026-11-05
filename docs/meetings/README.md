@@ -12,6 +12,7 @@ accommodate part-time volunteer schedules. Most work items span multiple sprints
 
 - **[July 2026 Debrief](../debrief/aar-mk-2026-field-day-discussion.md)** — After-Action Review from Field Day 2026 at Fort Flagler; identifies 35+ improvement ideas and feedback items to guide 2027 planning
 - **[October 17, 2026 Membership Meeting Notes](2026-10-17-membership-meeting-fd-leadership-notes.md)** — Mike & Key leadership discussion on Field Day 2027 organizational structure, roles, and recruitment strategy
+- **[November 4, 2026 Committee Meeting Notes](2026-11-04-meeting-notes.md)** — Sprint 1 kickoff notes covering volunteer staffing, leadership recruitment, safety roles, and near-term action items
 
 ## Sprint Timeline
 
