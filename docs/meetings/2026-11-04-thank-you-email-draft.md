@@ -10,7 +10,7 @@ Hi all, thank you to everyone who attended tonight’s planning call and for the
 - Robert (KD7WNV)
 
 **Meeting notes**
-- [INSERT RELEASED NOTES LINK HERE]
+- [2026-11-04 Meeting Notes](https://github.com/tsayles/field-day-2027/blob/main/docs/meetings/2026-11-04-meeting-notes.md)
 
 **Up-next issues**
 - [#45 Reserve Wagon Wheel at Fort Flagler for Radio Camp 2027](https://github.com/tsayles/field-day-2027/issues/45)
