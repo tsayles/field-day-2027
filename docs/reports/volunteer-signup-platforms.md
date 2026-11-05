@@ -85,7 +85,8 @@ Recommended setup:
 - Use a second coordinator-only sheet or protected tab for private contact fields
 - Keep a public summary tab with names, callsigns, and role assignments only if needed
 - Export to CSV at the end of each sign-up window for offline planning
-- Maintain a coordinator worksheet with columns for role title, date/time, skill level, required crew count, current volunteers, and assignment status
+- Maintain a coordinator worksheet with columns for role title, date/time, skill level, maximum capacity, assigned count, current volunteers, and assignment status
+- Add a simple rule that each role closes when the assigned count reaches the role's maximum capacity
 
 Best-for fit:
 
@@ -214,6 +215,20 @@ Adopt a two-stage setup:
 2. Coordinator-only spreadsheet in Google Sheets for role assignment and scheduling visibility
 
 This gives the club a lightweight but durable volunteer workflow without a software procurement decision or recurring fee.
+
+### Capacity control and duplicate-signup handling
+
+The key limitation of a Google Form is that it does not automatically enforce "one person per slot" logic. To prevent multiple volunteers from claiming the same job, the workflow should include a coordinator-managed capacity sheet that tracks each role's maximum seats and current count.
+
+Recommended practice:
+
+- Create one role row per job slot, with columns for `role_title`, `date_time`, `skill_level`, `max_capacity`, `assigned_count`, and `status`
+- Use a formula such as `=COUNTIF(role_range, A2)` to calculate the number of signups already assigned to each role
+- Close a role when `assigned_count >= max_capacity`
+- Keep the form public, but keep final assignment and slot locking in the coordinator-only sheet
+- If the committee wants stricter automated capacity checks, Airtable is the next-best option because it supports role/slot tracking more naturally
+
+This keeps the process low-cost while still controlling duplicate signups.
 
 ---
 
