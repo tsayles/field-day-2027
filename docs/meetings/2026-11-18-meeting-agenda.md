@@ -43,6 +43,7 @@ Review completed tasks since 2026-11-04.
 Refine issue scope and priorities from Nov 4 follow-up.
 
 **Items to review:**
+- Review roles listed in [/README.md](../../README.md) for gaps, ownership, and recruiting status
 - [#45 Reserve Wagon Wheel at Fort Flagler for Radio Camp 2027](https://github.com/tsayles/field-day-2027/issues/45)
 - [#22 online setup jobs](https://github.com/tsayles/field-day-2027/issues/22)
 - [#27 leadership structure and band captain responsibilities](https://github.com/tsayles/field-day-2027/issues/27)
@@ -88,4 +89,3 @@ Confirm who is doing what before next meeting.
 
 **Date:** Wednesday, 2026-12-02 at 8:00 PM PT  
 **Sprint:** Sprint 1 (continued)
-
