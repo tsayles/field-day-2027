@@ -25,6 +25,8 @@ Hi all, thank you to everyone who attended tonight’s planning call and for the
 - [#44 Low-manpower fallback operating plan (prioritized stations + alternate antennas)](https://github.com/tsayles/field-day-2027/issues/44)
 
 **Zoom info for next call**
-- Link: [INSERT ZOOM LINK]
-- ID: [INSERT ZOOM MEETING ID]
-- Passcode: [INSERT ZOOM PASSCODE]
+- Date/Time: Wed, Nov 18, 2026 at 8:00 PM PT
+- Link: https://us06web.zoom.us/j/89637241057?pwd=xU87LKT7eCb2ZSBzAkMlfWbLLwwA4L.1
+- Join and take notes: https://us06web.zoom.us/j/89637241057?pwd=xU87LKT7eCb2ZSBzAkMlfWbLLwwA4L.1&mynotes=on
+- ID: 896 3724 1057
+- Passcode: 146.82
