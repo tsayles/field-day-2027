@@ -13,6 +13,11 @@ accommodate part-time volunteer schedules. Most work items span multiple sprints
 - **[July 2026 Debrief](../debrief/aar-mk-2026-field-day-discussion.md)** — After-Action Review from Field Day 2026 at Fort Flagler; identifies 35+ improvement ideas and feedback items to guide 2027 planning
 - **[October 17, 2026 Membership Meeting Notes](2026-10-17-membership-meeting-fd-leadership-notes.md)** — Mike & Key leadership discussion on Field Day 2027 organizational structure, roles, and recruitment strategy
 - **[November 4, 2026 Committee Meeting Notes](2026-11-04-meeting-notes.md)** — Sprint 1 kickoff notes covering volunteer staffing, leadership recruitment, safety roles, and near-term action items
+- **[November 18, 2026 Committee Meeting Summary](2026-11-18-meeting-notes.md)** — Volunteer signup demonstration plans, Wagon Wheel coordination, QR signage, and equipment proposals for board review
+
+## Membership Meeting Presentations
+
+- **November 21, 2026 Field Day update:** [Editable Impress deck with speaker notes (.odp)](presentations/2026-11-21-membership-field-day-update.odp?raw=true) | [PDF](presentations/2026-11-21-membership-field-day-update.pdf) - Six slides with speaker notes covering planning progress and volunteer recruitment, followed by three calls to action: Scott's signup demo, mailing-list subscription, and Zoom participation (with a full-series calendar import through July 2027). Each action slide has a logo-centered QR code with alternating placement and a distinct colored border. Uses the [M&K club template](../../templates/club-presentation/README.md).
 
 ## Sprint Timeline
 
