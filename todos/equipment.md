@@ -7,6 +7,7 @@
 | EQ-03 | Document the antenna plan for each band (type, height, orientation) | | Medium | ⬜ Open |
 | EQ-04 | Identify/resolve any RFI issues from 2026 station co-location | | Medium | ⬜ Open |
 | EQ-05 | Confirm backup radio availability for each operating position | | Low | ⬜ Open |
+| EQ-06 | Complete off-season rotator rehabilitation and pre-transport checkout ([program](../docs/equipment/rotator-rehab-program.md)) | Tom (KE4HET) | High | ⬜ Open |
 
 ## Wish List
 
