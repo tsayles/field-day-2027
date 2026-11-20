@@ -15,6 +15,10 @@ accommodate part-time volunteer schedules. Most work items span multiple sprints
 - **[November 4, 2026 Committee Meeting Notes](2026-11-04-meeting-notes.md)** — Sprint 1 kickoff notes covering volunteer staffing, leadership recruitment, safety roles, and near-term action items
 - **[November 18, 2026 Committee Meeting Summary](2026-11-18-meeting-notes.md)** — Volunteer signup demonstration plans, Wagon Wheel coordination, QR signage, and equipment proposals for board review
 
+## Membership Meeting Presentations
+
+- **November 21, 2026 Field Day update:** [Editable Impress deck (.odp)](presentations/2026-11-21-membership-field-day-update.odp?raw=true) | [PDF](presentations/2026-11-21-membership-field-day-update.pdf) - Five slides covering planning progress, director and volunteer recruitment, Scott's signup demonstration, the mailing list, and planning calls. Uses the [M&K club template](../../templates/club-presentation/README.md).
+
 ## Sprint Timeline
 
 | Sprint | Duration | Key Focus | Meetings |
