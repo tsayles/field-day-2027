@@ -61,6 +61,17 @@ The initial estimate was approximately $300 for six anchor setups. Less expensiv
 
 Tom recommended reducing the cost and/or finding sponsorship. Robert noted that the club has a capital-equipment budget; donations were also discussed. The committee needs a summarized proposal for board consideration. Ross posted product links in chat, and Tom asked him to send his presentation for inclusion in the notes.
 
+**Presentation received after the meeting:** [Ross's original water-anchor enhancement presentation (OpenDocument, .odp)](presentations/2026-11-18-ross-water-anchor-proposal.odp).
+
+Ross's proposed products are linked below. Thumbnails are taken from his presentation; prices are the amounts shown in those slides, not current quotes.
+
+| Proposed product | Thumbnail (opens listing) | Price shown in Ross's slides |
+|------------------|---------------------------|-----------------------------|
+| [Racewill 2" x 4' V-bridle strap](https://a.co/d/08oVnx8j) | [![Ross's green V-bridle strap](assets/2026-11-18-water-anchors/ross-bridle-strap.png)](https://a.co/d/08oVnx8j) | $29.99 each |
+| [AMBULL snatch block / shackle with pulley, two-pack](https://a.co/d/0drtcCe3) | [![Ross's two red snatch-block shackles with pulleys](assets/2026-11-18-water-anchors/ross-snatch-blocks.png)](https://a.co/d/0drtcCe3) | $36.54 per two-pack |
+
+**Post-meeting scope clarification (November 19):** Two towers, with three independent guy-line anchor points per tower and six existing water bags per anchor point: six anchor assemblies and 36 bags total. At the prices in Ross's slides, six bridles plus three two-packs of blocks total $289.56 before tax and shipping. This is purchasing arithmetic, not equipment approval or a load-capacity assessment.
+
 ### Rotator Rehabilitation and Cabling (30:10-34:06; 48:30-50:19)
 
 Tom showed aviation-style connectors obtained for the rotator cable rebuild. Following discussion with Daniel, the proposed arrangement uses a panel connector in a box mounted on the tower section below the rotator, allowing easier one-handed connection and tightening.
@@ -91,7 +102,7 @@ Timing is recorded only where stated or tied to a specific meeting; other deadli
 
 ## Open Follow-Ups
 
-- Refine the water-anchor parts list, cost, and funding approach before board consideration; Ross remains the research lead. His presentation was requested but was not included with the transcript/chat supplied for this summary.
+- Refine the water-anchor parts list, cost, and funding approach before board consideration; Ross remains the research lead. His original presentation is now linked above.
 - Assign responsibility for printing and protecting the visitor-table QR sign.
 - Follow up on Tom's proposed former-chair interviews for the playbook; no interview dates were set.
 - Confirm trailer-arrival timing against available volunteers.
@@ -107,7 +118,8 @@ Timing is recorded only where stated or tied to a specific meeting; other deadli
 - [Project board](https://github.com/users/tsayles/projects/5)
 - [Volunteer signup form shared in chat](https://docs.google.com/forms/d/e/1FAIpQLSdNkSygRRDbv0HmI0SfuBtOZ7w1RTAnQGbve2HpOGIMs1-4OA/viewform)
 - [Field Day mailing list](https://mkarc.groups.io/g/FieldDay)
-- [Recovery hardware example shared by Ross](https://www.amazon.com/dp/B0982VQ5W4)
-- [Bridle strap example shared by Ross](https://www.amazon.com/dp/B0CDBLNL5T)
+- [Ross's original water-anchor presentation (.odp)](presentations/2026-11-18-ross-water-anchor-proposal.odp)
+- [Ross's proposed snatch block / pulley two-pack](https://a.co/d/0drtcCe3)
+- [Ross's proposed V-bridle strap](https://a.co/d/08oVnx8j)
 
 Source files: `GMT20261119-035752_Recording.transcript.vtt` and `GMT20261119-035752_RecordingnewChat.txt` in the local November 16 weekly working folder. The raw transcript and unrelated personal conversation are not included here.
