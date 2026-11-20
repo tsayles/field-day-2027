@@ -1,0 +1,385 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title description">
+  <title id="title">Concept illustration: rotator connection box mounted to a Rohn 25G tower leg</title>
+  <desc id="description">A weather-resistant enclosure mounted on a steel plate, held to one tower leg by two vertically spaced U-bolts. The box has illustrative sealed multi-pin bulkhead connectors. Product dimensions, connector count, pinout, ratings, and mounting dimensions must be verified before fabrication.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#e6edf3"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#e9eef2"/>
+      <stop offset="0.35" stop-color="#aab7c2"/>
+      <stop offset="0.62" stop-color="#778894"/>
+      <stop offset="1" stop-color="#d0d9df"/>
+    </linearGradient>
+    <linearGradient id="steelDark" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#647583"/>
+      <stop offset="0.5" stop-color="#d0d9df"/>
+      <stop offset="1" stop-color="#758693"/>
+    </linearGradient>
+    <linearGradient id="towerLeg" x1="0" y1="0" x2="1" y2="0.2">
+      <stop offset="0" stop-color="#596b78"/>
+      <stop offset="0.22" stop-color="#b6c1c9"/>
+      <stop offset="0.48" stop-color="#e2e8ec"/>
+      <stop offset="0.7" stop-color="#9aa8b2"/>
+      <stop offset="1" stop-color="#536571"/>
+    </linearGradient>
+    <linearGradient id="enclosureTop" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#d8e0e5"/>
+      <stop offset="1" stop-color="#aab7c0"/>
+    </linearGradient>
+    <linearGradient id="enclosureFace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c5d0d7"/>
+      <stop offset="1" stop-color="#8f9ea8"/>
+    </linearGradient>
+    <linearGradient id="enclosureSide" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7f909b"/>
+      <stop offset="1" stop-color="#aab7c0"/>
+    </linearGradient>
+    <linearGradient id="lid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2f5f7"/>
+      <stop offset="1" stop-color="#c2cdd4"/>
+    </linearGradient>
+    <linearGradient id="blackPolymer" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#3c4a53"/>
+      <stop offset="0.45" stop-color="#17232b"/>
+      <stop offset="1" stop-color="#52616a"/>
+    </linearGradient>
+    <linearGradient id="connectorMetal" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#fff3cd"/>
+      <stop offset="0.3" stop-color="#d8b86d"/>
+      <stop offset="0.55" stop-color="#80652c"/>
+      <stop offset="0.8" stop-color="#e1c77f"/>
+      <stop offset="1" stop-color="#725a29"/>
+    </linearGradient>
+    <radialGradient id="connectorFace" cx="0.35" cy="0.25" r="0.9">
+      <stop offset="0" stop-color="#d6e0e4"/>
+      <stop offset="0.55" stop-color="#8798a1"/>
+      <stop offset="1" stop-color="#38464e"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="12"/>
+      <feOffset dx="0" dy="12" result="offset"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.22"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+      <feOffset dx="0" dy="3" result="offset"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.2"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="metalGrain" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(20)">
+      <path d="M0 2H14 M0 9H14" stroke="#fff" stroke-opacity=".14" stroke-width="1"/>
+    </pattern>
+    <pattern id="towerTexture" width="18" height="18" patternUnits="userSpaceOnUse">
+      <path d="M3 0V18 M12 0V18" stroke="#fff" stroke-opacity=".08" stroke-width="2"/>
+    </pattern>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#334b5c"/>
+    </marker>
+    <marker id="arrowSmall" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto">
+      <path d="M0 0L8 4L0 8Z" fill="#617785"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #183143; }
+      .eyebrow { font-size: 15px; font-weight: 700; letter-spacing: 2.2px; fill: #537182; }
+      .heading { font-size: 36px; font-weight: 700; }
+      .subtitle { font-size: 17px; fill: #536b79; }
+      .labelTitle { font-size: 16px; font-weight: 700; }
+      .labelCopy { font-size: 13px; fill: #58707d; }
+      .tiny { font-size: 11px; fill: #617785; }
+      .callout { fill: none; stroke: #334b5c; stroke-width: 1.8; }
+      .calloutDot { fill: #fff; stroke: #334b5c; stroke-width: 2; }
+      .panel { fill: #fff; stroke: #d3dee5; stroke-width: 1.2; }
+      .boltEdge { fill: #7e8b94; stroke: #f4f6f7; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#background)"/>
+  <path d="M0 158H1600" stroke="#d3dee5" stroke-width="2"/>
+  <path d="M0 160H1600" stroke="#fff" stroke-width="1"/>
+  <text x="64" y="52" class="eyebrow">FIELD DAY 2027 · ROTATOR REHAB</text>
+  <text x="64" y="100" class="heading">Tower-mounted connection box</text>
+  <text x="66" y="132" class="subtitle">Concept assembly · enclosure on a steel mounting plate, clamped to a Rohn 25G tower leg</text>
+  <g transform="translate(1372 56)">
+    <rect width="164" height="34" rx="17" fill="#e1ecf1" stroke="#b8cbd5"/>
+    <circle cx="18" cy="17" r="5" fill="#da9c27"/>
+    <text x="32" y="22" font-size="12" font-weight="700" fill="#455f6e">NOT TO SCALE</text>
+  </g>
+
+  <!-- Ground plane -->
+  <ellipse cx="705" cy="828" rx="430" ry="38" fill="#8fa0ab" opacity=".14"/>
+
+  <!-- Rohn 25G tower section behind the mount -->
+  <g opacity=".95">
+    <!-- rear legs -->
+    <path d="M856 251L1142 797" fill="none" stroke="#536570" stroke-width="21" stroke-linecap="round"/>
+    <path d="M856 251L1142 797" fill="none" stroke="url(#towerLeg)" stroke-width="14" stroke-linecap="round"/>
+    <path d="M856 251L1142 797" fill="none" stroke="url(#towerTexture)" stroke-width="14" stroke-linecap="round"/>
+    <path d="M445 249L146 799" fill="none" stroke="#536570" stroke-width="22" stroke-linecap="round"/>
+    <path d="M445 249L146 799" fill="none" stroke="url(#towerLeg)" stroke-width="15" stroke-linecap="round"/>
+    <!-- far-side face and horizontals -->
+    <g fill="none" stroke="#7d8c96" stroke-width="9" stroke-linejoin="round" opacity=".8">
+      <path d="M445 249L856 251L1142 797L146 799Z"/>
+      <path d="M363 404L937 406 M281 558L1018 560 M197 712L1097 714"/>
+      <path d="M445 249L1018 560L146 799 M856 251L281 558L1142 797"/>
+      <path d="M363 404L1097 714L197 712 M937 406L197 712L1018 560"/>
+    </g>
+    <!-- prominent mounting leg -->
+    <path d="M445 249L146 799" fill="none" stroke="#455965" stroke-width="25" stroke-linecap="round"/>
+    <path d="M445 249L146 799" fill="none" stroke="url(#towerLeg)" stroke-width="17" stroke-linecap="round"/>
+    <path d="M445 249L146 799" fill="none" stroke="url(#towerTexture)" stroke-width="17" stroke-linecap="round"/>
+    <path d="M437 270L158 782" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="2"/>
+    <!-- near cross-braces -->
+    <g fill="none" stroke="#647681" stroke-width="11" stroke-linejoin="round">
+      <path d="M409 316L1010 560L198 713"/>
+      <path d="M326 470L1090 714L279 559"/>
+      <path d="M245 621L937 406L363 404"/>
+    </g>
+    <g fill="none" stroke="#bac4ca" stroke-width="4" opacity=".8">
+      <path d="M409 316L1010 560L198 713"/>
+      <path d="M326 470L1090 714L279 559"/>
+      <path d="M245 621L937 406L363 404"/>
+    </g>
+    <!-- brace intersections and bolted gussets -->
+    <g fill="#788994" stroke="#d6dde1" stroke-width="1.5">
+      <path d="M398 310l17-4 9 18-18 7z"/>
+      <path d="M317 464l17-4 9 18-18 7z"/>
+      <path d="M235 615l17-4 9 18-18 7z"/>
+      <path d="M991 550l19-3 10 18-18 8z"/>
+      <path d="M1071 704l19-3 10 18-18 8z"/>
+      <path d="M925 397l18-3 9 17-17 8z"/>
+    </g>
+    <g fill="#e7edf0">
+      <circle cx="405" cy="318" r="2.7"/><circle cx="413" cy="316" r="2.7"/>
+      <circle cx="324" cy="471" r="2.7"/><circle cx="332" cy="469" r="2.7"/>
+      <circle cx="242" cy="623" r="2.7"/><circle cx="250" cy="621" r="2.7"/>
+      <circle cx="1000" cy="560" r="2.7"/><circle cx="1007" cy="559" r="2.7"/>
+      <circle cx="1080" cy="714" r="2.7"/><circle cx="1087" cy="713" r="2.7"/>
+    </g>
+  </g>
+  <g transform="translate(90 751)">
+    <rect width="242" height="46" rx="8" fill="#f7fafb" stroke="#d0dce2"/>
+    <circle cx="20" cy="23" r="5" fill="#768995"/>
+    <text x="36" y="20" class="labelTitle" font-size="13">ROHN 25G TOWER SECTION</text>
+    <text x="36" y="36" class="tiny">Triangular lattice shown schematically</text>
+  </g>
+
+  <!-- Mounting plate, floating slightly proud of one leg -->
+  <g filter="url(#softShadow)">
+    <path d="M492 330L775 380L630 706L348 656Z" fill="#667a87" opacity=".24" transform="translate(12 13)"/>
+    <path d="M492 330L775 380L630 706L348 656Z" fill="url(#steel)" stroke="#586b77" stroke-width="3"/>
+    <path d="M492 330L775 380L630 706L348 656Z" fill="url(#metalGrain)" opacity=".45"/>
+    <path d="M505 347L758 392L622 689L366 644Z" fill="none" stroke="#f8fafb" stroke-opacity=".75" stroke-width="2"/>
+    <!-- four plate holes -->
+    <g fill="#52636e" stroke="#edf1f3" stroke-width="2">
+      <ellipse cx="514" cy="365" rx="9" ry="5" transform="rotate(10 514 365)"/>
+      <ellipse cx="744" cy="405" rx="9" ry="5" transform="rotate(10 744 405)"/>
+      <ellipse cx="383" cy="625" rx="9" ry="5" transform="rotate(10 383 625)"/>
+      <ellipse cx="618" cy="669" rx="9" ry="5" transform="rotate(10 618 669)"/>
+    </g>
+  </g>
+
+  <!-- Two U-bolt clamp loops around the tower leg -->
+  <g fill="none" stroke="#4c5d67" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M466 405C435 402 415 419 407 443L386 489C379 505 392 520 409 523"/>
+    <path d="M466 405C495 410 508 429 497 454L477 501C470 518 452 522 435 516"/>
+    <path d="M385 586C354 582 334 599 326 622L305 668C298 684 311 699 328 702"/>
+    <path d="M385 586C414 591 427 610 416 635L396 681C389 698 371 702 354 696"/>
+  </g>
+  <g fill="none" stroke="#d8e0e4" stroke-width="3" stroke-linecap="round">
+    <path d="M464 402C437 401 420 418 413 442L392 488"/>
+    <path d="M383 583C356 582 339 598 332 621L311 667"/>
+  </g>
+  <!-- Visible U-bolt threaded legs / washers / nuts on plate -->
+  <g>
+    <g stroke="#62717a" stroke-width="4">
+      <path d="M409 523L403 535 M435 516L429 529 M328 702L322 714 M354 696L348 708"/>
+      <path d="M403 531L399 547 M429 525L425 541 M322 710L318 726 M348 704L344 720"/>
+    </g>
+    <g fill="#dbe2e6" stroke="#53646e" stroke-width="2">
+      <ellipse cx="403" cy="535" rx="11" ry="6" transform="rotate(10 403 535)"/>
+      <ellipse cx="429" cy="529" rx="11" ry="6" transform="rotate(10 429 529)"/>
+      <ellipse cx="322" cy="714" rx="11" ry="6" transform="rotate(10 322 714)"/>
+      <ellipse cx="348" cy="708" rx="11" ry="6" transform="rotate(10 348 708)"/>
+    </g>
+    <g fill="url(#steelDark)" stroke="#52636d" stroke-width="1.5">
+      <path d="M395 541l9-5 9 6-1 10-10 4-8-6z"/>
+      <path d="M421 535l9-5 9 6-1 10-10 4-8-6z"/>
+      <path d="M314 720l9-5 9 6-1 10-10 4-8-6z"/>
+      <path d="M340 714l9-5 9 6-1 10-10 4-8-6z"/>
+    </g>
+    <g fill="#eef2f4">
+      <circle cx="403" cy="544" r="2.2"/><circle cx="429" cy="538" r="2.2"/>
+      <circle cx="322" cy="723" r="2.2"/><circle cx="348" cy="717" r="2.2"/>
+    </g>
+  </g>
+
+  <!-- Enclosure body -->
+  <g filter="url(#shadow)">
+    <!-- shell side -->
+    <path d="M521 420L768 463L768 686L521 643Z" fill="url(#enclosureSide)" stroke="#475a66" stroke-width="3"/>
+    <!-- lower/front face -->
+    <path d="M333 482L521 420L521 643L333 704Z" fill="url(#enclosureFace)" stroke="#475a66" stroke-width="3"/>
+    <path d="M342 492L512 436L512 634L342 689Z" fill="#adbac2" opacity=".38"/>
+    <!-- lid overhang / top -->
+    <path d="M320 459L519 392L786 438L580 509Z" fill="url(#enclosureTop)" stroke="#536671" stroke-width="3"/>
+    <path d="M331 455L520 397L771 440L578 496Z" fill="url(#lid)" stroke="#71838e" stroke-width="2"/>
+    <path d="M344 455L520 405L753 442L578 489Z" fill="none" stroke="#fff" stroke-opacity=".8" stroke-width="2"/>
+    <!-- gasket line / body seam -->
+    <path d="M329 470L520 407L779 451" fill="none" stroke="#41545f" stroke-width="5"/>
+    <path d="M333 478L520 416L768 458" fill="none" stroke="#e9eef1" stroke-width="2"/>
+    <!-- lid screws -->
+    <g fill="#778891" stroke="#f2f5f6" stroke-width="1.6">
+      <ellipse cx="341" cy="456" rx="7" ry="4.3" transform="rotate(-18 341 456)"/>
+      <ellipse cx="519" cy="400" rx="7" ry="4.3" transform="rotate(-18 519 400)"/>
+      <ellipse cx="762" cy="441" rx="7" ry="4.3" transform="rotate(10 762 441)"/>
+      <ellipse cx="578" cy="493" rx="7" ry="4.3" transform="rotate(10 578 493)"/>
+    </g>
+    <g stroke="#f5f7f8" stroke-width="1.3">
+      <path d="M337 456l8 0 M515 400l8 0 M758 441l8 0 M574 493l8 0"/>
+    </g>
+    <!-- molded enclosure ribs and corner bosses -->
+    <g fill="none" stroke="#687b86" stroke-width="3" opacity=".68">
+      <path d="M349 510L349 670 M358 507L358 667 M367 504L367 664"/>
+      <path d="M501 457L501 627 M510 454L510 624"/>
+      <path d="M538 443L538 645 M746 478L746 671"/>
+    </g>
+    <g fill="#667984" stroke="#e4eaed" stroke-width="1.4">
+      <ellipse cx="353" cy="489" rx="7" ry="4"/>
+      <ellipse cx="500" cy="441" rx="7" ry="4"/>
+      <ellipse cx="746" cy="470" rx="7" ry="4"/>
+      <ellipse cx="548" cy="511" rx="7" ry="4"/>
+    </g>
+  </g>
+
+  <!-- Illustrative sealed bulkhead connector assemblies on lower enclosure wall -->
+  <g filter="url(#softShadow)">
+    <!-- connector A neck and locknut -->
+    <path d="M420 677L420 717L445 724L445 668Z" fill="url(#blackPolymer)" stroke="#24333c" stroke-width="2"/>
+    <path d="M410 685L449 672L460 679L421 693Z" fill="url(#connectorMetal)" stroke="#76602f" stroke-width="2"/>
+    <path d="M408 693L447 680L457 687L418 701Z" fill="url(#blackPolymer)" stroke="#23323a" stroke-width="2"/>
+    <path d="M417 702L455 689L455 709L417 722Z" fill="url(#connectorMetal)" stroke="#705a2b" stroke-width="2"/>
+    <path d="M422 705L450 695L450 706L422 716Z" fill="url(#connectorFace)" stroke="#26353e" stroke-width="2"/>
+    <ellipse cx="436" cy="705" rx="12" ry="6" fill="none" stroke="#ced6da" stroke-width="2"/>
+    <g fill="#e5c773" stroke="#6b5524" stroke-width=".8">
+      <ellipse cx="430" cy="703" rx="2.4" ry="1.5"/>
+      <ellipse cx="437" cy="701" rx="2.4" ry="1.5"/>
+      <ellipse cx="443" cy="704" rx="2.4" ry="1.5"/>
+      <ellipse cx="437" cy="708" rx="2.4" ry="1.5"/>
+    </g>
+    <!-- connector B -->
+    <path d="M489 654L489 696L514 703L514 646Z" fill="url(#blackPolymer)" stroke="#24333c" stroke-width="2"/>
+    <path d="M479 662L518 649L529 656L490 670Z" fill="url(#connectorMetal)" stroke="#76602f" stroke-width="2"/>
+    <path d="M477 670L516 657L526 664L487 678Z" fill="url(#blackPolymer)" stroke="#23323a" stroke-width="2"/>
+    <path d="M486 679L524 666L524 686L486 699Z" fill="url(#connectorMetal)" stroke="#705a2b" stroke-width="2"/>
+    <path d="M491 682L519 672L519 683L491 693Z" fill="url(#connectorFace)" stroke="#26353e" stroke-width="2"/>
+    <ellipse cx="505" cy="682" rx="12" ry="6" fill="none" stroke="#ced6da" stroke-width="2"/>
+    <g fill="#e5c773" stroke="#6b5524" stroke-width=".8">
+      <ellipse cx="499" cy="680" rx="2.4" ry="1.5"/>
+      <ellipse cx="506" cy="678" rx="2.4" ry="1.5"/>
+      <ellipse cx="512" cy="681" rx="2.4" ry="1.5"/>
+      <ellipse cx="506" cy="685" rx="2.4" ry="1.5"/>
+    </g>
+  </g>
+  <!-- Weather boots / cable strain reliefs and hanging leads -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M431 721C431 753 425 773 407 795" stroke="#27343b" stroke-width="13"/>
+    <path d="M431 724C431 753 425 772 408 791" stroke="#66747c" stroke-width="3"/>
+    <path d="M500 699C500 733 510 756 534 777" stroke="#27343b" stroke-width="13"/>
+    <path d="M500 702C501 732 511 754 532 773" stroke="#66747c" stroke-width="3"/>
+  </g>
+  <g fill="url(#blackPolymer)" stroke="#18262e" stroke-width="1.5">
+    <path d="M421 716l20-7 9 15-21 8z"/>
+    <path d="M490 695l20-7 9 15-21 8z"/>
+  </g>
+
+  <!-- Callout leaders and numbered markers -->
+  <g class="callout">
+    <path d="M659 377L826 302L950 302" marker-end="url(#arrow)"/>
+    <path d="M476 580L825 538L950 538" marker-end="url(#arrow)"/>
+    <path d="M530 696L820 757L950 757" marker-end="url(#arrow)"/>
+    <path d="M346 653L200 564L110 564" marker-end="url(#arrowSmall)" stroke="#617785"/>
+  </g>
+  <g>
+    <circle cx="660" cy="377" r="13" class="calloutDot"/><text x="660" y="382" text-anchor="middle" font-size="12" font-weight="700">1</text>
+    <circle cx="476" cy="580" r="13" class="calloutDot"/><text x="476" y="585" text-anchor="middle" font-size="12" font-weight="700">2</text>
+    <circle cx="530" cy="696" r="13" class="calloutDot"/><text x="530" y="701" text-anchor="middle" font-size="12" font-weight="700">3</text>
+  </g>
+
+  <!-- Detail notes -->
+  <g transform="translate(972 240)">
+    <rect width="552" height="143" rx="12" class="panel"/>
+    <circle cx="31" cy="31" r="16" fill="#e8eff3" stroke="#b8cbd5"/>
+    <text x="31" y="36" text-anchor="middle" font-size="13" font-weight="700">1</text>
+    <text x="61" y="34" class="labelTitle">Mounting plate + two U-bolt clamps</text>
+    <text x="61" y="62" class="labelCopy">
+      <tspan x="61" dy="0">Plate is shown against one tower leg; two spaced clamps</tspan>
+      <tspan x="61" dy="19">wrap the leg, with threaded ends, washers, and nuts securing</tspan>
+      <tspan x="61" dy="19">the plate. Verify leg diameter, U-bolt fit, plate thickness,</tspan>
+      <tspan x="61" dy="19">clearance, and wind-load adequacy before fabrication.</tspan>
+    </text>
+  </g>
+  <g transform="translate(972 468)">
+    <rect width="552" height="143" rx="12" class="panel"/>
+    <circle cx="31" cy="31" r="16" fill="#e8eff3" stroke="#b8cbd5"/>
+    <text x="31" y="36" text-anchor="middle" font-size="13" font-weight="700">2</text>
+    <text x="61" y="34" class="labelTitle">Outdoor enclosure (candidate)</text>
+    <text x="61" y="62" class="labelCopy">
+      <tspan x="61" dy="0">Closed lid with perimeter seam and fasteners; stainless</tspan>
+      <tspan x="61" dy="19">hardware and a compatible gasket are illustrated. Confirm</tspan>
+      <tspan x="61" dy="19">the enclosure material, dimensions, UV resistance, sealing,</tspan>
+      <tspan x="61" dy="19">and mounting provisions from the selected product.</tspan>
+    </text>
+  </g>
+  <g transform="translate(972 696)">
+    <rect width="552" height="143" rx="12" class="panel"/>
+    <circle cx="31" cy="31" r="16" fill="#e8eff3" stroke="#b8cbd5"/>
+    <text x="31" y="36" text-anchor="middle" font-size="13" font-weight="700">3</text>
+    <text x="61" y="34" class="labelTitle">Sealed bulkhead connector concept</text>
+    <text x="61" y="62" class="labelCopy">
+      <tspan x="61" dy="0">Contact face, count, series, pinout, and ratings are symbolic</tspan>
+      <tspan x="61" dy="19">mating gender, seals, and cable range are TBD. Confirm the</tspan>
+      <tspan x="61" dy="19">exact connector variant and installation instructions; fit</tspan>
+      <tspan x="61" dy="19">strain relief and drip loops on exterior cables.</tspan>
+    </text>
+  </g>
+
+  <!-- Plate clamp mini-detail -->
+  <g transform="translate(66 460)">
+    <rect width="258" height="139" rx="10" fill="#f9fbfc" stroke="#ccd9e0"/>
+    <text x="16" y="24" class="eyebrow" font-size="10">CLAMP DETAIL · SCHEMATIC</text>
+    <rect x="34" y="42" width="29" height="73" rx="14" fill="url(#towerLeg)" stroke="#586b77" stroke-width="2"/>
+    <path d="M65 49C100 49 103 59 103 77C103 96 100 106 65 106" fill="none" stroke="#657782" stroke-width="7" stroke-linecap="round"/>
+    <rect x="105" y="42" width="10" height="73" rx="2" fill="url(#steel)" stroke="#586b77" stroke-width="1.5"/>
+    <path d="M103 60H133M103 95H133" stroke="#687984" stroke-width="4"/>
+    <g fill="url(#steelDark)" stroke="#4c5c66" stroke-width="1">
+      <path d="M128 54l8 4v8l-8 4-7-4v-8z"/>
+      <path d="M128 89l8 4v8l-8 4-7-4v-8z"/>
+    </g>
+    <path d="M28 124H73" stroke="#6c8190" stroke-width="1.5" marker-end="url(#arrowSmall)"/>
+    <text x="78" y="128" class="tiny">tower leg · U-bolt · plate</text>
+  </g>
+
+  <!-- Footer -->
+  <path d="M64 888H1536" stroke="#cbd7de"/>
+  <text x="64" y="920" class="eyebrow" font-size="11">DESIGN INTENT</text>
+  <text x="64" y="947" font-size="13" fill="#465f6e">Serviceable exterior cable connection · replaceable cable assemblies · protected, strain-relieved entries</text>
+  <g transform="translate(1110 903)">
+    <text x="0" y="0" font-size="12" font-weight="700" fill="#895d14">CONCEPT ONLY — VERIFY BEFORE BUILD</text>
+    <text x="0" y="22" class="tiny">No dimensions or electrical ratings are represented as verified.</text>
+  </g>
+  <text x="64" y="980" class="tiny">Candidate connector: aliexpress.us/item/3256812218251499.html</text>
+  <text x="480" y="980" class="tiny">Candidate enclosure: aliexpress.us/item/3256806093937992.html</text>
+</svg>

@@ -83,6 +83,17 @@ issue #39 record after confirming ratings and fit. If one family cannot safely
 serve all systems, document the exception rather than undersizing or forcing
 compatibility.
 
+### Proposed connection-box assembly
+
+![Concept illustration of the rotator connection box, mounting plate, U-bolts, and Rohn 25G tower leg](rotator-connection-box-assembly.svg)
+
+The current product candidates are a [sealed multi-pin connector](https://www.aliexpress.us/item/3256812218251499.html)
+and an [outdoor enclosure](https://www.aliexpress.us/item/3256806093937992.html).
+Their exact variants, materials, dimensions, sealing, pinouts, electrical
+ratings, and mounting provisions have not been independently verified. Treat
+the drawing as a concept, not a fabrication or wiring drawing; confirm fit and
+manufacturer specifications before purchasing or building.
+
 For screw-clamp OEM terminals, use correctly sized, properly crimped ferrules
 only where permitted by the terminal manufacturer. Use the specified lug or
 terminal on other connection types; do not leave bare, unsupported strands.
