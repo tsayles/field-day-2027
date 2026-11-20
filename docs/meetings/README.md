@@ -17,7 +17,7 @@ accommodate part-time volunteer schedules. Most work items span multiple sprints
 
 ## Membership Meeting Presentations
 
-- **November 21, 2026 Field Day update:** [Editable Impress deck (.odp)](presentations/2026-11-21-membership-field-day-update.odp?raw=true) | [PDF](presentations/2026-11-21-membership-field-day-update.pdf) - Five slides covering planning progress, director and volunteer recruitment, Scott's signup demonstration, the mailing list, and planning calls. Uses the [M&K club template](../../templates/club-presentation/README.md).
+- **November 21, 2026 Field Day update:** [Editable Impress deck with speaker notes (.odp)](presentations/2026-11-21-membership-field-day-update.odp?raw=true) | [PDF](presentations/2026-11-21-membership-field-day-update.pdf) - Six slides with speaker notes covering planning progress and volunteer recruitment, followed by three calls to action: Scott's signup demo, mailing-list subscription, and Zoom participation. Each action slide has a logo-centered QR code with alternating placement and a distinct colored border. Uses the [M&K club template](../../templates/club-presentation/README.md).
 
 ## Sprint Timeline
 

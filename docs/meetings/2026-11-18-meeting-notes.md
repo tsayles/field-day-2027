@@ -115,7 +115,7 @@ Timing is recorded only where stated or tied to a specific meeting; other deadli
 - [Meeting agenda](2026-11-18-meeting-agenda.md)
 - [Previous meeting notes](2026-11-04-meeting-notes.md)
 - [Meeting schedule](README.md)
-- **November 21 membership update:** [Editable Impress slides (.odp)](presentations/2026-11-21-membership-field-day-update.odp?raw=true) | [PDF](presentations/2026-11-21-membership-field-day-update.pdf)
+- **November 21 membership update:** [Editable Impress deck with speaker notes (.odp)](presentations/2026-11-21-membership-field-day-update.odp?raw=true) | [PDF](presentations/2026-11-21-membership-field-day-update.pdf)
 - [Project board](https://github.com/users/tsayles/projects/5)
 - [Volunteer signup form shared in chat](https://docs.google.com/forms/d/e/1FAIpQLSdNkSygRRDbv0HmI0SfuBtOZ7w1RTAnQGbve2HpOGIMs1-4OA/viewform)
 - [Field Day mailing list](https://mkarc.groups.io/g/FieldDay)
