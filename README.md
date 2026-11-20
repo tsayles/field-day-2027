@@ -148,6 +148,7 @@ nationally**.
 
 ## Useful Links
 
+- [Club presentation template and example](templates/club-presentation/README.md)
 - [ARRL Field Day Rules](https://www.arrl.org/field-day)
 - [ARRL Field Day Locator](http://www.arrl.org/field-day-locator)
 - [Fort Flagler State Park](https://parks.wa.gov/find-parks/state-parks/fort-flagler-historical-state-park)
